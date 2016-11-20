@@ -1,0 +1,3 @@
+MODULE stoplatch_SCH
+	SUBMODULE stop_latch
+		INSTANCE XLXI_1

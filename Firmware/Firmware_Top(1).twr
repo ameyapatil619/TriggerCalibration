@@ -1,0 +1,218 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml Firmware_Top.twx Firmware_Top.ncd -o Firmware_Top.twr
+Firmware_Top.pcf -ucf Firmware_Top.ucf
+
+Design file:              Firmware_Top.ncd
+Physical constraint file: Firmware_Top.pcf
+Device,package,speed:     xc3s50an,tqg144,-4 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock SPI_SCLK
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+di_ch0      |   -2.248(R)|    4.075(R)|clk_test_mem      |   0.000|
+di_ch1      |   -1.953(R)|    3.909(R)|clk_test_mem      |   0.000|
+di_ch2      |   -2.400(R)|    4.196(R)|clk_test_mem      |   0.000|
+di_ch3      |   -2.644(R)|    4.461(R)|clk_test_mem      |   0.000|
+stop_data_in|   -1.818(R)|    3.344(R)|clk_test_stop     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock clk
+------------------+------------+------------+------------------+--------+
+                  |Max Setup to|Max Hold to |                  | Clock  |
+Source            | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------------+------------+------------+------------------+--------+
+and_or_sel_M      |   10.593(R)|   -4.175(R)|XLXN_442          |   0.000|
+diff_select_M     |   11.043(R)|   -3.846(R)|XLXN_442          |   0.000|
+enable_thermal_tri|    6.549(R)|   -1.516(R)|XLXN_442          |   0.000|
+ex_tri            |    5.204(R)|   -2.242(R)|XLXN_442          |   0.000|
+force_tri         |    4.339(R)|   -1.550(R)|XLXN_442          |   0.000|
+mbed_sel0         |    4.595(R)|   -0.928(R)|clk_80M           |   0.000|
+mbed_sel1         |    3.607(R)|   -0.655(R)|clk_80M           |   0.000|
+trig_0H           |    8.246(R)|   -3.347(R)|XLXN_442          |   0.000|
+trig_0L           |    8.386(R)|   -3.459(R)|XLXN_442          |   0.000|
+trig_1H           |    8.746(R)|   -3.642(R)|XLXN_442          |   0.000|
+trig_1L           |    8.626(R)|   -3.546(R)|XLXN_442          |   0.000|
+trig_2H           |    9.032(R)|   -4.049(R)|XLXN_442          |   0.000|
+trig_2L           |    8.854(R)|   -3.539(R)|XLXN_442          |   0.000|
+trig_3H           |    8.613(R)|   -3.005(R)|XLXN_442          |   0.000|
+trig_3L           |    8.496(R)|   -3.148(R)|XLXN_442          |   0.000|
+------------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock re
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+di_ch0      |   -2.318(R)|    4.163(R)|clk_test_mem      |   0.000|
+di_ch1      |   -2.023(R)|    3.997(R)|clk_test_mem      |   0.000|
+di_ch2      |   -2.470(R)|    4.284(R)|clk_test_mem      |   0.000|
+di_ch3      |   -2.714(R)|    4.549(R)|clk_test_mem      |   0.000|
+stop_data_in|   -2.106(R)|    3.705(R)|clk_test_stop     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock rst
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+di_ch0      |   -2.548(R)|    4.387(R)|clk_test_mem      |   0.000|
+di_ch1      |   -2.253(R)|    4.221(R)|clk_test_mem      |   0.000|
+di_ch2      |   -2.700(R)|    4.508(R)|clk_test_mem      |   0.000|
+di_ch3      |   -2.944(R)|    4.773(R)|clk_test_mem      |   0.000|
+stop_data_in|   -2.833(R)|    4.514(R)|clk_test_stop     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock SPI_SCLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+SPI_MISO    |   16.725(R)|clk_test_mem      |   0.000|
+            |   15.499(R)|clk_test_stop     |   0.000|
+            |   13.290(F)|clk_test_stop     |   0.000|
+done_stop   |   11.356(F)|clk_test_stop     |   0.000|
+full        |   13.914(F)|clk_test_mem      |   0.000|
+            |   13.677(F)|clk_test_stop     |   0.000|
+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+ADC_clk     |    9.434(F)|clk_80M           |   0.000|
+stop_SST    |   10.456(R)|clk_80M           |   0.000|
+            |   10.384(F)|clk_80M           |   0.000|
+------------+------------+------------------+--------+
+
+Clock re to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+SPI_MISO    |   15.860(R)|clk_test_stop     |   0.000|
+            |   13.651(F)|clk_test_stop     |   0.000|
+            |   16.813(R)|clk_test_mem      |   0.000|
+done_stop   |   11.717(F)|clk_test_stop     |   0.000|
+full        |   14.002(F)|clk_test_mem      |   0.000|
+            |   14.038(F)|clk_test_stop     |   0.000|
+------------+------------+------------------+--------+
+
+Clock rst to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+SPI_MISO    |   16.669(R)|clk_test_stop     |   0.000|
+            |   14.460(F)|clk_test_stop     |   0.000|
+            |   17.037(R)|clk_test_mem      |   0.000|
+done_stop   |   12.526(F)|clk_test_stop     |   0.000|
+full        |   14.226(F)|clk_test_mem      |   0.000|
+            |   14.847(F)|clk_test_stop     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock SPI_SCLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SPI_SCLK       |         |    5.676|         |    7.704|
+clk            |         |         |    3.870|    3.798|
+re             |    0.786|    5.676|   -0.213|    7.704|
+rst            |         |    5.676|    3.745|    7.704|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.942|         |    3.245|    3.245|
+rst            |    3.690|    3.690|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock re
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SPI_SCLK       |         |    5.676|         |    7.704|
+clk            |         |         |    3.870|    3.798|
+re             |    0.716|    5.676|   -0.283|    7.704|
+rst            |         |    5.676|    3.675|    7.704|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock rst
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SPI_SCLK       |         |    5.676|         |    7.704|
+clk            |         |         |    3.870|    3.798|
+re             |    0.486|    5.676|   -0.513|    7.704|
+rst            |         |    5.676|    3.445|    7.704|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+and_or_sel_M   |and_or_sel_SST |    8.228|
+diff_select_M  |diff_select_SST|    8.754|
+in_heartbeat   |out_heartbeat  |   13.647|
+re             |SPI_MISO       |    7.924|
+rst            |ADC_clk        |   10.352|
+rst            |CS_n           |   10.151|
+rst            |SST_read_clk   |   10.413|
+rst            |reset_SST      |    8.559|
+rst            |stop_SST       |   10.031|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct 09 19:01:33 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 195 MB
+
+
+

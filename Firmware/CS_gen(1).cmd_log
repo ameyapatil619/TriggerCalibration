@@ -1,0 +1,10 @@
+vhdtdtfi -lib work CS_gen.vhd -prj Firmware -o CS_gen.spl -module CS_gen -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w CS_gen.spl {C:/Xilinx Projects/Firmware/CS_gen.sym} 
+vhdtdtfi -lib work CS_gen.vhd -prj Firmware -o CS_gen.spl -module CS_gen -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w CS_gen.spl {C:/Xilinx Projects/Firmware/CS_gen.sym} 
+vhdtdtfi -lib work CS_gen.vhd -prj Firmware -o CS_gen.spl -module CS_gen -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w CS_gen.spl {C:/Xilinx Projects/Firmware/CS_gen.sym} 
+vhdtdtfi -lib work CS_gen.vhd -prj Firmware -o CS_gen.spl -module CS_gen -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w CS_gen.spl {C:/Xilinx Projects/Firmware/CS_gen.sym} 
+vhdtdtfi -lib work CS_gen.vhd -prj Firmware -o CS_gen.spl -module CS_gen -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w CS_gen.spl {C:/Xilinx Projects/Firmware/CS_gen.sym} 

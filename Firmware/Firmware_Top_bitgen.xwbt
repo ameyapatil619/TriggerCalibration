@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx Projects\Firmware\Firmware_Top.ncd
+OUTFILE=C:\Xilinx Projects\Firmware\Firmware_Top.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50an-4tqg144
+WORKINGDIR=C:\Xilinx Projects\Firmware
+LICENSE=WebPack
+USER_INFO=210792712_0_0_723

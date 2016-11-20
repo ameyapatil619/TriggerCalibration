@@ -1,0 +1,1100 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: Firmware_Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Firmware_Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Firmware_Top"
+Output Format                      : NGC
+Target Device                      : xc3s50an-4-tqg144
+
+---- Source Options
+Top Module Name                    : Firmware_Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Block
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : YES
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : YES
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx Projects/Firmware/demux.vhd" in Library work.
+Entity <demux> compiled.
+Entity <demux> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/stop_latch.vhd" in Library work.
+Entity <stop_latch> compiled.
+Entity <stop_latch> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/mem_control_gen.vhd" in Library work.
+Entity <mem_control_gen> compiled.
+Entity <mem_control_gen> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/ram_fifo_1ch.vhd" in Library work.
+Entity <ram_fifo_1ch> compiled.
+Entity <ram_fifo_1ch> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/stop_mem_control_gen.vhd" in Library work.
+Entity <STOP_mem_control_gen> compiled.
+Entity <STOP_mem_control_gen> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/stop_ram_fifo_1ch.vhd" in Library work.
+Entity <stop_ram_fifo_1ch> compiled.
+Entity <stop_ram_fifo_1ch> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/dcm_clkgen.vhd" in Library work.
+Entity <dcm_clkgen> compiled.
+Entity <dcm_clkgen> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/clkgen_1M.vhd" in Library work.
+Entity <clkgen_1M> compiled.
+Entity <clkgen_1M> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/CS_gen.vhd" in Library work.
+Entity <CS_gen> compiled.
+Entity <CS_gen> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" in Library work.
+Entity <OR6_HXILINX_Firmware_Top> compiled.
+Entity <OR6_HXILINX_Firmware_Top> (Architecture <OR6_HXILINX_Firmware_Top_V>) compiled.
+Entity <M2_1_HXILINX_Firmware_Top> compiled.
+Entity <M2_1_HXILINX_Firmware_Top> (Architecture <M2_1_HXILINX_Firmware_Top_V>) compiled.
+Entity <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> compiled.
+Entity <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Entity <stoplatch_SCH_MUSER_Firmware_Top> compiled.
+Entity <stoplatch_SCH_MUSER_Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Entity <majority_logic_MUSER_Firmware_Top> compiled.
+Entity <majority_logic_MUSER_Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Entity <trigger_ch_MUSER_Firmware_Top> compiled.
+Entity <trigger_ch_MUSER_Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Entity <majority_sys_MUSER_Firmware_Top> compiled.
+Entity <majority_sys_MUSER_Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Entity <stop_gen_block_MUSER_Firmware_Top> compiled.
+Entity <stop_gen_block_MUSER_Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Entity <Sync_MUSER_Firmware_Top> compiled.
+Entity <Sync_MUSER_Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Entity <Firmware_Top> compiled.
+Entity <Firmware_Top> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/MEMORY_BLOCK_NEW.vhf" in Library work.
+Entity <MEMORY_BLOCK_NEW> compiled.
+Entity <MEMORY_BLOCK_NEW> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/stop_gen_block.vhf" in Library work.
+Entity <OR6_HXILINX_stop_gen_block> compiled.
+Entity <OR6_HXILINX_stop_gen_block> (Architecture <OR6_HXILINX_stop_gen_block_V>) compiled.
+Entity <stoplatch_SCH_MUSER_stop_gen_block> compiled.
+Entity <stoplatch_SCH_MUSER_stop_gen_block> (Architecture <BEHAVIORAL>) compiled.
+Entity <majority_logic_MUSER_stop_gen_block> compiled.
+Entity <majority_logic_MUSER_stop_gen_block> (Architecture <BEHAVIORAL>) compiled.
+Entity <trigger_ch_MUSER_stop_gen_block> compiled.
+Entity <trigger_ch_MUSER_stop_gen_block> (Architecture <BEHAVIORAL>) compiled.
+Entity <majority_sys_MUSER_stop_gen_block> compiled.
+Entity <majority_sys_MUSER_stop_gen_block> (Architecture <BEHAVIORAL>) compiled.
+Entity <stop_gen_block> compiled.
+Entity <stop_gen_block> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/Sync.vhf" in Library work.
+Entity <Sync> compiled.
+Entity <Sync> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/majority_sys.vhf" in Library work.
+Entity <OR6_HXILINX_majority_sys> compiled.
+Entity <OR6_HXILINX_majority_sys> (Architecture <OR6_HXILINX_majority_sys_V>) compiled.
+Entity <majority_logic_MUSER_majority_sys> compiled.
+Entity <majority_logic_MUSER_majority_sys> (Architecture <BEHAVIORAL>) compiled.
+Entity <trigger_ch_MUSER_majority_sys> compiled.
+Entity <trigger_ch_MUSER_majority_sys> (Architecture <BEHAVIORAL>) compiled.
+Entity <majority_sys> compiled.
+Entity <majority_sys> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/stoplatch_SCH.vhf" in Library work.
+Entity <stoplatch_SCH> compiled.
+Entity <stoplatch_SCH> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/majority_logic.vhf" in Library work.
+Entity <OR6_HXILINX_majority_logic> compiled.
+Entity <OR6_HXILINX_majority_logic> (Architecture <OR6_HXILINX_majority_logic_V>) compiled.
+Entity <majority_logic> compiled.
+Entity <majority_logic> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Xilinx Projects/Firmware/trigger_ch.vhf" in Library work.
+Entity <trigger_ch> compiled.
+Entity <trigger_ch> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <dcm_clkgen> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <clkgen_1M> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CS_gen> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <M2_1_HXILINX_Firmware_Top> in library <work> (architecture <M2_1_HXILINX_Firmware_Top_V>).
+
+Analyzing hierarchy for entity <Sync_MUSER_Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <stop_gen_block_MUSER_Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <mem_control_gen> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ram_fifo_1ch> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <STOP_mem_control_gen> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <stop_ram_fifo_1ch> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <majority_sys_MUSER_Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <stoplatch_SCH_MUSER_Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <majority_logic_MUSER_Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <trigger_ch_MUSER_Firmware_Top> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <stop_latch> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <OR6_HXILINX_Firmware_Top> in library <work> (architecture <OR6_HXILINX_Firmware_Top_V>).
+
+Analyzing hierarchy for entity <demux> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1409: Unconnected output port 'STATUS_OUT' of component 'dcm_clkgen'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1409: Unconnected output port 'LOCKED_OUT' of component 'dcm_clkgen'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1409: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm_clkgen'.
+    Set user-defined property "HU_SET =  XLXI_11_9" for instance <XLXI_11> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_12_8" for instance <XLXI_12> in unit <Firmware_Top>.
+WARNING:Xst:754 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected inout port 'start_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected inout port 'start_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected inout port 'start_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected inout port 'start_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected inout port 'stop_start' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'address_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'done_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'full_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'wait_sig_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'address_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'address_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'address_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'done_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'full_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'wait_sig_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'done_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'full_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'wait_sig_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'done_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'wait_sig_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'stop_address' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "C:/Xilinx Projects/Firmware/Firmware_Top.vhf" line 1451: Unconnected output port 'stop_wait' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+    Set user-defined property "DRIVE =  12" for instance <XLXI_31> in unit <Firmware_Top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_31> in unit <Firmware_Top>.
+    Set user-defined property "SLEW =  SLOW" for instance <XLXI_31> in unit <Firmware_Top>.
+Entity <Firmware_Top> analyzed. Unit <Firmware_Top> generated.
+
+Analyzing Entity <dcm_clkgen> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <dcm_clkgen>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <dcm_clkgen>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <dcm_clkgen>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <dcm_clkgen>.
+    Set user-defined property "CLKDV_DIVIDE =  4.0000000000000000" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "CLKIN_PERIOD =  12.5000000000000000" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <dcm_clkgen>.
+Entity <dcm_clkgen> analyzed. Unit <dcm_clkgen> generated.
+
+Analyzing Entity <clkgen_1M> in library <work> (Architecture <Behavioral>).
+Entity <clkgen_1M> analyzed. Unit <clkgen_1M> generated.
+
+Analyzing Entity <CS_gen> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "C:/Xilinx Projects/Firmware/CS_gen.vhd" line 76: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <clk_1M>, <clk_20M>
+WARNING:Xst:819 - "C:/Xilinx Projects/Firmware/CS_gen.vhd" line 94: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <clk_1M>
+Entity <CS_gen> analyzed. Unit <CS_gen> generated.
+
+Analyzing Entity <M2_1_HXILINX_Firmware_Top> in library <work> (Architecture <M2_1_HXILINX_Firmware_Top_V>).
+Entity <M2_1_HXILINX_Firmware_Top> analyzed. Unit <M2_1_HXILINX_Firmware_Top> generated.
+
+Analyzing Entity <Sync_MUSER_Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "INIT =  0" for instance <XLXI_8> in unit <Sync_MUSER_Firmware_Top>.
+    Set user-defined property "INIT =  0" for instance <XLXI_11> in unit <Sync_MUSER_Firmware_Top>.
+    Set user-defined property "INIT =  0" for instance <XLXI_18> in unit <Sync_MUSER_Firmware_Top>.
+    Set user-defined property "INIT =  0" for instance <XLXI_19> in unit <Sync_MUSER_Firmware_Top>.
+Entity <Sync_MUSER_Firmware_Top> analyzed. Unit <Sync_MUSER_Firmware_Top> generated.
+
+Analyzing Entity <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+Entity <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> analyzed. Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> generated.
+
+Analyzing Entity <mem_control_gen> in library <work> (Architecture <Behavioral>).
+Entity <mem_control_gen> analyzed. Unit <mem_control_gen> generated.
+
+Analyzing Entity <ram_fifo_1ch> in library <work> (Architecture <Behavioral>).
+    Set property "ram_style = block" for signal <RAM>.
+Entity <ram_fifo_1ch> analyzed. Unit <ram_fifo_1ch> generated.
+
+Analyzing Entity <STOP_mem_control_gen> in library <work> (Architecture <Behavioral>).
+INFO:Xst:1561 - "C:/Xilinx Projects/Firmware/stop_mem_control_gen.vhd" line 81: Mux is complete : default of case is discarded
+Entity <STOP_mem_control_gen> analyzed. Unit <STOP_mem_control_gen> generated.
+
+Analyzing Entity <stop_ram_fifo_1ch> in library <work> (Architecture <Behavioral>).
+    Set property "ram_style = block" for signal <RAM>.
+Entity <stop_ram_fifo_1ch> analyzed. Unit <stop_ram_fifo_1ch> generated.
+
+Analyzing Entity <stop_gen_block_MUSER_Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "INIT =  0000" for instance <XLXI_6> in unit <stop_gen_block_MUSER_Firmware_Top>.
+    Set user-defined property "INIT =  0000" for instance <XLXI_7> in unit <stop_gen_block_MUSER_Firmware_Top>.
+Entity <stop_gen_block_MUSER_Firmware_Top> analyzed. Unit <stop_gen_block_MUSER_Firmware_Top> generated.
+
+Analyzing Entity <majority_sys_MUSER_Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+Entity <majority_sys_MUSER_Firmware_Top> analyzed. Unit <majority_sys_MUSER_Firmware_Top> generated.
+
+Analyzing Entity <majority_logic_MUSER_Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  XLXI_13_6" for instance <XLXI_13> in unit <majority_logic_MUSER_Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_26_7" for instance <XLXI_26> in unit <majority_logic_MUSER_Firmware_Top>.
+Entity <majority_logic_MUSER_Firmware_Top> analyzed. Unit <majority_logic_MUSER_Firmware_Top> generated.
+
+Analyzing Entity <OR6_HXILINX_Firmware_Top> in library <work> (Architecture <OR6_HXILINX_Firmware_Top_V>).
+Entity <OR6_HXILINX_Firmware_Top> analyzed. Unit <OR6_HXILINX_Firmware_Top> generated.
+
+Analyzing Entity <demux> in library <work> (Architecture <Behavioral>).
+Entity <demux> analyzed. Unit <demux> generated.
+
+Analyzing Entity <trigger_ch_MUSER_Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+Entity <trigger_ch_MUSER_Firmware_Top> analyzed. Unit <trigger_ch_MUSER_Firmware_Top> generated.
+
+Analyzing Entity <stoplatch_SCH_MUSER_Firmware_Top> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "INIT =  0" for instance <XLXI_32> in unit <stoplatch_SCH_MUSER_Firmware_Top>.
+    Set user-defined property "INIT =  0" for instance <XLXI_33> in unit <stoplatch_SCH_MUSER_Firmware_Top>.
+    Set user-defined property "INIT =  0" for instance <XLXI_49> in unit <stoplatch_SCH_MUSER_Firmware_Top>.
+Entity <stoplatch_SCH_MUSER_Firmware_Top> analyzed. Unit <stoplatch_SCH_MUSER_Firmware_Top> generated.
+
+Analyzing Entity <stop_latch> in library <work> (Architecture <Behavioral>).
+Entity <stop_latch> analyzed. Unit <stop_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clkgen_1M>.
+    Related source file is "C:/Xilinx Projects/Firmware/clkgen_1M.vhd".
+    Found 4-bit up counter for signal <counter>.
+    Found 1-bit register for signal <temporal>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clkgen_1M> synthesized.
+
+
+Synthesizing Unit <CS_gen>.
+    Related source file is "C:/Xilinx Projects/Firmware/CS_gen.vhd".
+    Found 1-bit register for signal <enable1>.
+    Found 1-bit register for signal <enable2>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <CS_gen> synthesized.
+
+
+Synthesizing Unit <M2_1_HXILINX_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <M2_1_HXILINX_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <mem_control_gen>.
+    Related source file is "C:/Xilinx Projects/Firmware/mem_control_gen.vhd".
+    Found 12-bit register for signal <addr>.
+    Found 12-bit adder for signal <addr$addsub0000> created at line 65.
+    Found 1-bit register for signal <done_f>.
+    Found 1-bit register for signal <full_f>.
+    Found 12-bit comparator less for signal <full_f$cmp_lt0000> created at line 64.
+    Found 1-bit register for signal <wait_f>.
+    Summary:
+	inferred  15 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <mem_control_gen> synthesized.
+
+
+Synthesizing Unit <ram_fifo_1ch>.
+    Related source file is "C:/Xilinx Projects/Firmware/ram_fifo_1ch.vhd".
+    Found 4096x1-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Found 1-bit register for signal <do>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 D-type flip-flop(s).
+Unit <ram_fifo_1ch> synthesized.
+
+
+Synthesizing Unit <STOP_mem_control_gen>.
+    Related source file is "C:/Xilinx Projects/Firmware/stop_mem_control_gen.vhd".
+    Found 8-bit register for signal <addr>.
+    Found 8-bit adder for signal <addr$addsub0000> created at line 65.
+    Found 1-bit register for signal <done_f>.
+    Found 1-bit register for signal <full_f>.
+    Found 8-bit comparator less for signal <full_f$cmp_lt0000> created at line 64.
+    Found 1-bit register for signal <wait_f>.
+    Summary:
+	inferred  11 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <STOP_mem_control_gen> synthesized.
+
+
+Synthesizing Unit <stop_ram_fifo_1ch>.
+    Related source file is "C:/Xilinx Projects/Firmware/stop_ram_fifo_1ch.vhd".
+    Found 256x1-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Found 1-bit register for signal <do>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 D-type flip-flop(s).
+Unit <stop_ram_fifo_1ch> synthesized.
+
+
+Synthesizing Unit <OR6_HXILINX_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <OR6_HXILINX_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <demux>.
+    Related source file is "C:/Xilinx Projects/Firmware/demux.vhd".
+    Found 1-bit register for signal <cout0>.
+    Found 1-bit register for signal <cout1>.
+    Found 1-bit register for signal <cout2>.
+    Found 1-bit register for signal <cout3>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <demux> synthesized.
+
+
+Synthesizing Unit <stop_latch>.
+    Related source file is "C:/Xilinx Projects/Firmware/stop_latch.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <enable_stop>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <stop_latch> synthesized.
+
+
+Synthesizing Unit <dcm_clkgen>.
+    Related source file is "C:/Xilinx Projects/Firmware/dcm_clkgen.vhd".
+Unit <dcm_clkgen> synthesized.
+
+
+Synthesizing Unit <Sync_MUSER_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <Sync_MUSER_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <stoplatch_SCH_MUSER_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <stoplatch_SCH_MUSER_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <majority_logic_MUSER_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <majority_logic_MUSER_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <trigger_ch_MUSER_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <trigger_ch_MUSER_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <majority_sys_MUSER_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <majority_sys_MUSER_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <stop_gen_block_MUSER_Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <stop_gen_block_MUSER_Firmware_Top> synthesized.
+
+
+Synthesizing Unit <Firmware_Top>.
+    Related source file is "C:/Xilinx Projects/Firmware/Firmware_Top.vhf".
+Unit <Firmware_Top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 256x1-bit single-port RAM                             : 1
+ 4096x1-bit single-port RAM                            : 4
+# Adders/Subtractors                                   : 5
+ 12-bit adder                                          : 4
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 33
+ 1-bit register                                        : 28
+ 12-bit register                                       : 4
+ 8-bit register                                        : 1
+# Comparators                                          : 5
+ 12-bit comparator less                                : 4
+ 8-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <ram_fifo_1ch>.
+INFO:Xst:3226 - The RAM <Mram_RAM> will be implemented as a BLOCK RAM, absorbing the following register(s): <do>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4096-word x 1-bit                   |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we_0>          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <di>            |          |
+    |     doA            | connected to signal <do>            |          |
+    |     dorstA         | connected to signal <en>            | low      |
+    | reset value        | 0                                              |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <ram_fifo_1ch> synthesized (advanced).
+
+Synthesizing (advanced) Unit <stop_ram_fifo_1ch>.
+INFO:Xst:3226 - The RAM <Mram_RAM> will be implemented as a BLOCK RAM, absorbing the following register(s): <do>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 1-bit                    |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we_0>          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <di>            |          |
+    |     doA            | connected to signal <do>            |          |
+    |     dorstA         | connected to signal <en>            | low      |
+    | reset value        | 0                                              |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <stop_ram_fifo_1ch> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 256x1-bit single-port block RAM                       : 1
+ 4096x1-bit single-port block RAM                      : 4
+# Adders/Subtractors                                   : 5
+ 12-bit adder                                          : 4
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 86
+ Flip-Flops                                            : 86
+# Comparators                                          : 5
+ 12-bit comparator less                                : 4
+ 8-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2697 - Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> : the RAMs <XLXI_2/Mram_RAM>, <XLXI_11/Mram_RAM> are packed into the single block RAM <XLXI_2/Mram_RAM1>
+INFO:Xst:2697 - Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> : the RAMs <XLXI_14/Mram_RAM>, <XLXI_23/Mram_RAM> are packed into the single block RAM <XLXI_14/Mram_RAM1>
+
+Optimizing unit <Firmware_Top> ...
+
+Optimizing unit <M2_1_HXILINX_Firmware_Top> ...
+
+Optimizing unit <OR6_HXILINX_Firmware_Top> ...
+
+Optimizing unit <mem_control_gen> ...
+
+Optimizing unit <STOP_mem_control_gen> ...
+
+Optimizing unit <trigger_ch_MUSER_Firmware_Top> ...
+
+Optimizing unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> ...
+
+Optimizing unit <majority_logic_MUSER_Firmware_Top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Firmware_Top, actual ratio is 15.
+
+Final Macro Processing ...
+
+Processing Unit <Firmware_Top> :
+	Found 3-bit shift register for signal <XLXI_18/XLXI_19>.
+Unit <Firmware_Top> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 87
+ Flip-Flops                                            : 87
+# Shift Registers                                      : 1
+ 3-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Firmware_Top.ngr
+Top Level Output File Name         : Firmware_Top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 37
+
+Cell Usage :
+# BELS                             : 306
+#      AND2                        : 1
+#      AND3                        : 4
+#      AND4                        : 1
+#      BUF                         : 3
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 44
+#      LUT2                        : 13
+#      LUT3                        : 62
+#      LUT3_L                      : 1
+#      LUT4                        : 50
+#      LUT4_D                      : 2
+#      MUXCY                       : 56
+#      MUXF5                       : 8
+#      OR4                         : 1
+#      OR5                         : 2
+#      VCC                         : 1
+#      XORCY                       : 48
+# FlipFlops/Latches                : 88
+#      FD                          : 2
+#      FD_1                        : 3
+#      FDC                         : 3
+#      FDCE_1                      : 71
+#      FDE                         : 1
+#      FDR                         : 8
+# RAMS                             : 3
+#      RAMB16BWE                   : 3
+# Shift Registers                  : 3
+#      SRL16                       : 2
+#      SRL16_1                     : 1
+# Clock Buffers                    : 7
+#      BUFG                        : 7
+# IO Buffers                       : 37
+#      IBUF                        : 22
+#      IBUFG                       : 3
+#      OBUF                        : 11
+#      OBUFT                       : 1
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50antqg144-4 
+
+ Number of Slices:                      106  out of    704    15%  
+ Number of Slice Flip Flops:             88  out of   1408     6%  
+ Number of 4 input LUTs:                183  out of   1408    12%  
+    Number used as logic:               180
+    Number used as Shift registers:       3
+ Number of IOs:                          37
+ Number of bonded IOBs:                  37  out of    108    34%  
+ Number of BRAMs:                         3  out of      3   100%  
+ Number of GCLKs:                         7  out of     24    29%  
+ Number of DCMs:                          1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                   | Load  |
+-----------------------------------+-----------------------------------------+-------+
+clk                                | XLXI_2/DCM_SP_INST:CLKDV                | 5     |
+clk                                | XLXI_2/DCM_SP_INST:CLK0                 | 8     |
+XLXI_38/XLXN_121                   | NONE(XLXI_38/XLXI_27/XLXI_1/enable_stop)| 1     |
+clk                                | XLXI_2/DCM_SP_INST:CLK2X                | 2     |
+XLXI_18/XLXI_19                    | NONE(XLXI_5/enable2)                    | 2     |
+XLXI_12/O(XLXI_12/O1:O)            | NONE(*)(XLXI_21/XLXI_25/wait_f)         | 12    |
+XLXI_11/O1(XLXI_11/O1:O)           | BUFG(*)(XLXI_21/XLXI_1/wait_f)          | 62    |
+XLXI_18/XLXI_8                     | NONE(XLXI_18/Mshreg_XLXI_19)            | 2     |
+-----------------------------------+-----------------------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------------+-----------------------------------------+-------+
+Control Signal                                    | Buffer(FF name)                         | Load  |
+--------------------------------------------------+-----------------------------------------+-------+
+rst                                               | IBUFG+BUFG                              | 71    |
+XLXI_38/XLXI_27/XLXI_49(XLXI_38/XLXI_27/XLXI_49:Q)| NONE(XLXI_38/XLXI_27/XLXI_1/enable_stop)| 1     |
+XLXI_5/enable1_or0000(XLXI_5/enable1_or00001:O)   | NONE(XLXI_5/enable1)                    | 1     |
+XLXI_5/enable2_or0000(XLXI_5/enable2_or00001:O)   | NONE(XLXI_5/enable2)                    | 1     |
+--------------------------------------------------+-----------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.442ns (Maximum Frequency: 118.455MHz)
+   Minimum input arrival time before clock: 8.357ns
+   Maximum output required time after clock: 8.497ns
+   Maximum combinational path delay: 9.433ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.058ns (frequency: 141.683MHz)
+  Total number of paths / destination ports: 38 / 14
+-------------------------------------------------------------------------
+Delay:               3.529ns (Levels of Logic = 0)
+  Source:            XLXI_38/XLXI_6 (FF)
+  Destination:       XLXI_38/XLXI_7 (FF)
+  Source Clock:      clk rising 2.0X
+  Destination Clock: clk rising 2.0X
+
+  Data Path: XLXI_38/XLXI_6 to XLXI_38/XLXI_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.529   0.000  XLXI_38/XLXI_6 (XLXI_38/XLXN_51)
+     SRL16:D                  -0.064          XLXI_38/XLXI_7
+    ----------------------------------------
+    Total                      3.529ns (3.529ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_12/O'
+  Clock period: 7.562ns (frequency: 132.240MHz)
+  Total number of paths / destination ports: 87 / 25
+-------------------------------------------------------------------------
+Delay:               3.781ns (Levels of Logic = 1)
+  Source:            XLXI_21/XLXI_25/wait_f (FF)
+  Destination:       XLXI_21/XLXI_26/Mram_RAM (RAM)
+  Source Clock:      XLXI_12/O falling
+  Destination Clock: XLXI_12/O rising
+
+  Data Path: XLXI_21/XLXI_25/wait_f to XLXI_21/XLXI_26/Mram_RAM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q          13   0.591   1.063  XLXI_21/XLXI_25/wait_f (XLXI_21/XLXI_25/wait_f)
+     LUT2:I1->O            4   0.643   0.587  XLXI_21/XLXI_26/we1 (XLXI_21/XLXI_26/we_0)
+     RAMB16BWE:WEA0            0.897          XLXI_21/XLXI_26/Mram_RAM
+    ----------------------------------------
+    Total                      3.781ns (2.131ns logic, 1.650ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_11/O1'
+  Clock period: 8.442ns (frequency: 118.455MHz)
+  Total number of paths / destination ports: 1193 / 132
+-------------------------------------------------------------------------
+Delay:               4.221ns (Levels of Logic = 1)
+  Source:            XLXI_21/XLXI_22/wait_f (FF)
+  Destination:       XLXI_21/XLXI_14/Mram_RAM1 (RAM)
+  Source Clock:      XLXI_11/O1 falling
+  Destination Clock: XLXI_11/O1 rising
+
+  Data Path: XLXI_21/XLXI_22/wait_f to XLXI_21/XLXI_14/Mram_RAM1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q          18   0.591   1.148  XLXI_21/XLXI_22/wait_f (XLXI_21/XLXI_22/wait_f)
+     LUT2:I1->O            4   0.643   0.587  XLXI_21/XLXI_23/we1 (XLXI_21/XLXI_23/we_0)
+     RAMB16BWE:WEB0            1.252          XLXI_21/XLXI_14/Mram_RAM1
+    ----------------------------------------
+    Total                      4.221ns (2.486ns logic, 1.735ns route)
+                                       (58.9% logic, 41.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_18/XLXI_8'
+  Clock period: 3.781ns (frequency: 264.480MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               3.781ns (Levels of Logic = 0)
+  Source:            XLXI_18/Mshreg_XLXI_19 (FF)
+  Destination:       XLXI_18/XLXI_19 (FF)
+  Source Clock:      XLXI_18/XLXI_8 falling
+  Destination Clock: XLXI_18/XLXI_8 falling
+
+  Data Path: XLXI_18/Mshreg_XLXI_19 to XLXI_18/XLXI_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16_1:CLK->Q        1   3.529   0.000  XLXI_18/Mshreg_XLXI_19 (XLXI_18/Mshreg_XLXI_19)
+     FD_1:D                    0.252          XLXI_18/XLXI_19
+    ----------------------------------------
+    Total                      3.781ns (3.781ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 121 / 10
+-------------------------------------------------------------------------
+Offset:              8.357ns (Levels of Logic = 9)
+  Source:            diff_select_M (PAD)
+  Destination:       XLXI_38/XLXI_6 (FF)
+  Destination Clock: clk rising 2.0X
+
+  Data Path: diff_select_M to XLXI_38/XLXI_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            13   0.849   0.986  diff_select_M_IBUF (diff_select_M_IBUF)
+     LUT4:I3->O            5   0.648   0.665  XLXI_38/XLXI_2/XLXI_3/XLXI_94 (XLXI_38/XLXI_2/XLXN_20)
+     LUT4:I2->O            1   0.648   0.563  XLXI_38/XLXI_2/XLXI_2/XLXI_4 (XLXI_38/XLXI_2/XLXI_2/XLXN_10)
+     begin scope: 'XLXI_38/XLXI_2/XLXI_2/XLXI_13'
+     LUT3:I0->O            1   0.648   0.423  O_SW0 (N01)
+     LUT4:I3->O            1   0.648   0.420  O (O)
+     end scope: 'XLXI_38/XLXI_2/XLXI_2/XLXI_13'
+     AND3:I2->O            1   0.648   0.563  XLXI_38/XLXI_2/XLXI_2/XLXI_28 (XLXI_38/XLXI_2/XLXI_2/XLXN_66)
+     begin scope: 'XLXI_38/XLXI_2/XLXI_2/XLXI_26'
+     LUT4:I0->O            1   0.648   0.000  O (O)
+     end scope: 'XLXI_38/XLXI_2/XLXI_2/XLXI_26'
+     SRL16:D                  -0.064          XLXI_38/XLXI_6
+    ----------------------------------------
+    Total                      8.357ns (4.737ns logic, 3.620ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_12/O'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              7.468ns (Levels of Logic = 5)
+  Source:            rst (PAD)
+  Destination:       XLXI_21/XLXI_25/done_f (FF)
+  Destination Clock: XLXI_12/O falling
+
+  Data Path: rst to XLXI_21/XLXI_25/done_f
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            1   1.070   0.420  rst_IBUFG (rst_IBUFG)
+     BUFG:I->O            80   0.221   1.277  XLXI_37 (XLXN_441)
+     OR5:I4->O            77   0.648   1.308  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
+     LUT4_D:I2->O          1   0.648   0.500  XLXI_21/XLXI_25/done_f_not000111 (XLXI_21/XLXI_25/N13)
+     LUT2:I1->O            1   0.643   0.420  XLXI_21/XLXI_25/done_f_not00012 (XLXI_21/XLXI_25/done_f_not0001)
+     FDCE_1:CE                 0.312          XLXI_21/XLXI_25/done_f
+    ----------------------------------------
+    Total                      7.468ns (3.542ns logic, 3.926ns route)
+                                       (47.4% logic, 52.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_11/O1'
+  Total number of paths / destination ports: 75 / 72
+-------------------------------------------------------------------------
+Offset:              6.368ns (Levels of Logic = 4)
+  Source:            rst (PAD)
+  Destination:       XLXI_21/XLXI_1/full_f (FF)
+  Destination Clock: XLXI_11/O1 falling
+
+  Data Path: rst to XLXI_21/XLXI_1/full_f
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            1   1.070   0.420  rst_IBUFG (rst_IBUFG)
+     BUFG:I->O            80   0.221   1.277  XLXI_37 (XLXN_441)
+     OR5:I4->O            77   0.648   1.356  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
+     LUT4:I1->O            1   0.643   0.420  XLXI_21/XLXI_22/full_f_not00011 (XLXI_21/XLXI_22/full_f_not0001)
+     FDCE_1:CE                 0.312          XLXI_21/XLXI_22/full_f
+    ----------------------------------------
+    Total                      6.368ns (2.894ns logic, 3.474ns route)
+                                       (45.4% logic, 54.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_12/O'
+  Total number of paths / destination ports: 4 / 3
+-------------------------------------------------------------------------
+Offset:              8.497ns (Levels of Logic = 2)
+  Source:            XLXI_21/XLXI_26/Mram_RAM (RAM)
+  Destination:       SPI_MISO (PAD)
+  Source Clock:      XLXI_12/O rising
+
+  Data Path: XLXI_21/XLXI_26/Mram_RAM to SPI_MISO
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWE:CLKA->DOA0    1   2.489   0.420  XLXI_21/XLXI_26/Mram_RAM (stop_data)
+     OR5:I0->O             1   0.648   0.420  XLXI_23 (or_data)
+     OBUFT:I->O                4.520          XLXI_31 (SPI_MISO)
+    ----------------------------------------
+    Total                      8.497ns (7.657ns logic, 0.840ns route)
+                                       (90.1% logic, 9.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_11/O1'
+  Total number of paths / destination ports: 5 / 2
+-------------------------------------------------------------------------
+Offset:              8.497ns (Levels of Logic = 2)
+  Source:            XLXI_21/XLXI_14/Mram_RAM1 (RAM)
+  Destination:       SPI_MISO (PAD)
+  Source Clock:      XLXI_11/O1 rising
+
+  Data Path: XLXI_21/XLXI_14/Mram_RAM1 to SPI_MISO
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWE:CLKA->DOA0    1   2.489   0.420  XLXI_21/XLXI_14/Mram_RAM1 (data_2)
+     OR5:I2->O             1   0.648   0.420  XLXI_23 (or_data)
+     OBUFT:I->O                4.520          XLXI_31 (SPI_MISO)
+    ----------------------------------------
+    Total                      8.497ns (7.657ns logic, 0.840ns route)
+                                       (90.1% logic, 9.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_18/XLXI_8'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              6.982ns (Levels of Logic = 2)
+  Source:            XLXI_18/XLXI_19 (FF)
+  Destination:       CS_n (PAD)
+  Source Clock:      XLXI_18/XLXI_8 falling
+
+  Data Path: XLXI_18/XLXI_19 to CS_n
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             5   0.591   0.776  XLXI_18/XLXI_19 (XLXI_18/XLXI_19)
+     LUT3:I0->O            2   0.648   0.447  XLXI_5/SST_rck1 (CS_n_OBUF)
+     OBUF:I->O                 4.520          CS_n_OBUF (CS_n)
+    ----------------------------------------
+    Total                      6.982ns (5.759ns logic, 1.223ns route)
+                                       (82.5% logic, 17.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_18/XLXI_19'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              6.841ns (Levels of Logic = 2)
+  Source:            XLXI_5/enable1 (FF)
+  Destination:       ADC_clk (PAD)
+  Source Clock:      XLXI_18/XLXI_19 rising
+
+  Data Path: XLXI_5/enable1 to ADC_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.667  XLXI_5/enable1 (XLXI_5/enable1)
+     LUT3:I1->O            1   0.643   0.420  XLXI_5/ADC_clk1 (ADC_clk_OBUF)
+     OBUF:I->O                 4.520          ADC_clk_OBUF (ADC_clk)
+    ----------------------------------------
+    Total                      6.841ns (5.754ns logic, 1.087ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_38/XLXN_121'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.455ns (Levels of Logic = 2)
+  Source:            XLXI_38/XLXI_27/XLXI_1/enable_stop (FF)
+  Destination:       stop_SST (PAD)
+  Source Clock:      XLXI_38/XLXN_121 rising
+
+  Data Path: XLXI_38/XLXI_27/XLXI_1/enable_stop to stop_SST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.591   0.420  XLXI_38/XLXI_27/XLXI_1/enable_stop (XLXI_38/XLXI_27/XLXI_1/enable_stop)
+     OR5:I0->O            77   0.648   1.276  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
+     OBUF:I->O                 4.520          stop_SST_OBUF (stop_SST)
+    ----------------------------------------
+    Total                      7.455ns (5.759ns logic, 1.696ns route)
+                                       (77.2% logic, 22.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              7.482ns (Levels of Logic = 2)
+  Source:            XLXI_38/XLXI_27/XLXI_49 (FF)
+  Destination:       stop_SST (PAD)
+  Source Clock:      clk falling
+
+  Data Path: XLXI_38/XLXI_27/XLXI_49 to stop_SST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             2   0.591   0.447  XLXI_38/XLXI_27/XLXI_49 (XLXI_38/XLXI_27/XLXI_49)
+     OR5:I1->O            77   0.648   1.276  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
+     OBUF:I->O                 4.520          stop_SST_OBUF (stop_SST)
+    ----------------------------------------
+    Total                      7.482ns (5.759ns logic, 1.723ns route)
+                                       (77.0% logic, 23.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 10 / 9
+-------------------------------------------------------------------------
+Delay:               9.433ns (Levels of Logic = 4)
+  Source:            rst (PAD)
+  Destination:       stop_SST (PAD)
+
+  Data Path: rst to stop_SST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            1   1.070   0.420  rst_IBUFG (rst_IBUFG)
+     BUFG:I->O            80   0.221   1.277  XLXI_37 (XLXN_441)
+     OR5:I4->O            77   0.648   1.276  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
+     OBUF:I->O                 4.520          stop_SST_OBUF (stop_SST)
+    ----------------------------------------
+    Total                      9.433ns (6.459ns logic, 2.974ns route)
+                                       (68.5% logic, 31.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.22 secs
+ 
+--> 
+
+Total memory usage is 320184 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   28 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

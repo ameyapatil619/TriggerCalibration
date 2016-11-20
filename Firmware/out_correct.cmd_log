@@ -1,0 +1,4 @@
+vhdtdtfi -lib work out_correct.vhd -prj test_setup -o out_correct.spl -module out_correct -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w out_correct.spl {C:/Xilinx Projects/test_setup/out_correct.sym} 
+vhdtdtfi -lib work out_correct.vhd -prj test_setup -o out_correct.spl -module out_correct -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w out_correct.spl {C:/Xilinx Projects/test_setup/out_correct.sym} 

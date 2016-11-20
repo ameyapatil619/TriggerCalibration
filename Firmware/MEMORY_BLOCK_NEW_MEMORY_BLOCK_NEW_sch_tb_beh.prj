@@ -1,0 +1,7 @@
+vhdl work "tristate_out.vhd"
+vhdl work "stop_ram_fifo_1ch.vhd"
+vhdl work "stop_mem_control_gen.vhd"
+vhdl work "ram_fifo_1ch.vhd"
+vhdl work "mem_control_gen.vhd"
+vhdl work "MEMORY_BLOCK_NEW.vhf"
+vhdl work "test_MEMORY_BLOCK_NEW.vhd"

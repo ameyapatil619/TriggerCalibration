@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3a -w -refsym MEMORY_BLOCK_NEW {C:/Xilinx Projects/Firmware/MEMORY_BLOCK_NEW.sch} {C:/Xilinx Projects/Firmware/MEMORY_BLOCK_NEW.sym} 
+sch2sym -intstyle ise -family spartan3a -w -refsym MEMORY_BLOCK_NEW {C:/Xilinx Projects/Firmware/MEMORY_BLOCK_NEW.sch} {C:/Xilinx Projects/Firmware/MEMORY_BLOCK_NEW.sym} 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work address_gen.vhd -prj Firmware -o address_gen.spl -module address_gen -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a address_gen.spl {C:/Xilinx Projects/Firmware/address_gen.sym} 

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3a -w -refsym Sync {C:/Xilinx Projects/Firmware/Sync.sch} {C:/Xilinx Projects/Firmware/Sync.sym} 

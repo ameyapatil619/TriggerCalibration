@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan3a" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="clk_80M" />
+        <signal name="XLXN_4" />
+        <signal name="XLXN_6" />
+        <signal name="clk_20" />
+        <signal name="clk_1" />
+        <signal name="clk_1M" />
+        <signal name="clk_20M" />
+        <port polarity="Input" name="clk_80M" />
+        <port polarity="Input" name="clk_20" />
+        <port polarity="Input" name="clk_1" />
+        <port polarity="Output" name="clk_1M" />
+        <port polarity="Output" name="clk_20M" />
+        <blockdef name="fd">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <rect width="256" x="64" y="-320" height="256" />
+            <line x2="64" y1="-128" y2="-128" x1="0" />
+            <line x2="64" y1="-256" y2="-256" x1="0" />
+            <line x2="320" y1="-256" y2="-256" x1="384" />
+            <line x2="64" y1="-128" y2="-144" x1="80" />
+            <line x2="80" y1="-112" y2="-128" x1="64" />
+        </blockdef>
+        <block symbolname="fd" name="XLXI_2">
+            <blockpin signalname="clk_80M" name="C" />
+            <blockpin signalname="clk_20" name="D" />
+            <blockpin signalname="XLXN_4" name="Q" />
+        </block>
+        <block symbolname="fd" name="XLXI_4">
+            <blockpin signalname="clk_80M" name="C" />
+            <blockpin signalname="XLXN_4" name="D" />
+            <blockpin signalname="clk_20M" name="Q" />
+        </block>
+        <block symbolname="fd" name="XLXI_5">
+            <blockpin signalname="clk_20M" name="C" />
+            <blockpin signalname="clk_1" name="D" />
+            <blockpin signalname="XLXN_6" name="Q" />
+        </block>
+        <block symbolname="fd" name="XLXI_6">
+            <blockpin signalname="clk_20M" name="C" />
+            <blockpin signalname="XLXN_6" name="D" />
+            <blockpin signalname="clk_1M" name="Q" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="3520" height="2720">
+        <instance x="768" y="2352" name="XLXI_2" orien="R0" />
+        <instance x="1280" y="2352" name="XLXI_4" orien="R0" />
+        <branch name="XLXN_4">
+            <wire x2="1280" y1="2096" y2="2096" x1="1152" />
+        </branch>
+        <instance x="1792" y="1936" name="XLXI_5" orien="R0" />
+        <instance x="2304" y="1936" name="XLXI_6" orien="R0" />
+        <branch name="XLXN_6">
+            <wire x2="2304" y1="1680" y2="1680" x1="2176" />
+        </branch>
+        <branch name="clk_20M">
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="2896" y="2096" type="branch" />
+            <wire x2="1728" y1="2096" y2="2096" x1="1664" />
+            <wire x2="2224" y1="2096" y2="2096" x1="1728" />
+            <wire x2="2896" y1="2096" y2="2096" x1="2224" />
+            <wire x2="3040" y1="2096" y2="2096" x1="2896" />
+            <wire x2="1728" y1="1808" y2="2096" x1="1728" />
+            <wire x2="1792" y1="1808" y2="1808" x1="1728" />
+            <wire x2="2224" y1="1808" y2="2096" x1="2224" />
+            <wire x2="2304" y1="1808" y2="1808" x1="2224" />
+        </branch>
+        <branch name="clk_1M">
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="2896" y="1680" type="branch" />
+            <wire x2="2880" y1="1680" y2="1680" x1="2688" />
+            <wire x2="2896" y1="1680" y2="1680" x1="2880" />
+            <wire x2="3040" y1="1680" y2="1680" x1="2896" />
+        </branch>
+        <iomarker fontsize="28" x="400" y="2528" name="clk_80M" orien="R180" />
+        <branch name="clk_20">
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="576" y="2096" type="branch" />
+            <wire x2="576" y1="2096" y2="2096" x1="384" />
+            <wire x2="768" y1="2096" y2="2096" x1="576" />
+        </branch>
+        <branch name="clk_1">
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="576" y="1680" type="branch" />
+            <wire x2="576" y1="1680" y2="1680" x1="384" />
+            <wire x2="1792" y1="1680" y2="1680" x1="576" />
+        </branch>
+        <iomarker fontsize="28" x="384" y="1680" name="clk_1" orien="R180" />
+        <iomarker fontsize="28" x="384" y="2096" name="clk_20" orien="R180" />
+        <iomarker fontsize="28" x="3040" y="2096" name="clk_20M" orien="R0" />
+        <iomarker fontsize="28" x="3040" y="1680" name="clk_1M" orien="R0" />
+        <branch name="clk_80M">
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="496" y="2528" type="branch" />
+            <wire x2="496" y1="2528" y2="2528" x1="400" />
+            <wire x2="656" y1="2528" y2="2528" x1="496" />
+            <wire x2="1200" y1="2528" y2="2528" x1="656" />
+            <wire x2="768" y1="2224" y2="2224" x1="656" />
+            <wire x2="656" y1="2224" y2="2528" x1="656" />
+            <wire x2="1280" y1="2224" y2="2224" x1="1200" />
+            <wire x2="1200" y1="2224" y2="2528" x1="1200" />
+        </branch>
+    </sheet>
+</drawing>

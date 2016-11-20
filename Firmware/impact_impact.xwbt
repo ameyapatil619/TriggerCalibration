@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Xilinx Projects\Firmware\impact.xsl
+OUTFILE=C:\Xilinx Projects\Firmware\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Xilinx Projects\Firmware
+LICENSE=iMPACT
+USER_INFO=iMPACT

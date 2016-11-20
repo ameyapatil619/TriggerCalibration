@@ -1,0 +1,5 @@
+set -tmpdir "/home/ameya/Desktop/Indi_Research/Firmware/xst/projnav.tmp"
+set -xsthdpdir "/home/ameya/Desktop/Indi_Research/Firmware/xst"
+elaborate
+-ifn psi_trigg.prj
+-ifmt mixed

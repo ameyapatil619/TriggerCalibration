@@ -1,0 +1,10 @@
+[Inputs]
+rst
+clk
+enable
+ser_strt
+=parallel_in[31:0]=
+[Outputs]
+eoc
+ser_out
+[BiDir]

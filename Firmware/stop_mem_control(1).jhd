@@ -1,0 +1,7 @@
+MODULE stop_mem_control
+	SUBMODULE stop_address_gen
+		INSTANCE XLXI_8
+	SUBMODULE wait_logic
+		INSTANCE XLXI_3
+	SUBMODULE wait_done_gen
+		INSTANCE XLXI_4

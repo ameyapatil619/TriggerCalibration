@@ -1,0 +1,3 @@
+vhdl work "trigg_comp.vhd"
+vhdl work "cntr_trigg.vhd"
+vhdl work "cntr_trigg_comp.vhd"

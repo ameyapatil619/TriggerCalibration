@@ -1,0 +1,5 @@
+set -tmpdir "C:/Xilinx Projects/test_setup/xst/projnav.tmp"
+set -xsthdpdir "C:/Xilinx Projects/test_setup/xst"
+elaborate
+-ifn STOP_mem_control_gen.prj
+-ifmt mixed

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="trigger_ch">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-5-1T23:37:31</timestamp>
+    <pin polarity="Input" x="0" y="-304" name="Trigger_1L" />
+    <pin polarity="Input" x="0" y="-496" name="Trigger_0H" />
+    <pin polarity="Input" x="0" y="-432" name="Trigger_0L" />
+    <pin polarity="Input" x="0" y="-240" name="Trigger_2H" />
+    <pin polarity="Input" x="0" y="-176" name="Trigger_2L" />
+    <pin polarity="Input" x="0" y="-112" name="Trigger_3H" />
+    <pin polarity="Input" x="0" y="-48" name="Trigger_3L" />
+    <pin polarity="Input" x="0" y="-624" name="and_or_sel" />
+    <pin polarity="Input" x="0" y="-560" name="diff_select" />
+    <pin polarity="Input" x="0" y="-368" name="Trigger_1H" />
+    <pin polarity="Output" x="432" y="-624" name="Channel_0" />
+    <pin polarity="Output" x="432" y="-560" name="Channel_1" />
+    <pin polarity="Output" x="432" y="-496" name="Channel_2" />
+    <pin polarity="Output" x="432" y="-432" name="Channel_3" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-668" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-304" type="pin Trigger_1L" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-496" type="pin Trigger_0H" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-432" type="pin Trigger_0L" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-240" type="pin Trigger_2H" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-176" type="pin Trigger_2L" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-112" type="pin Trigger_3H" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-48" type="pin Trigger_3L" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-624" type="pin and_or_sel" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-560" type="pin diff_select" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-368" type="pin Trigger_1H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-624" type="pin Channel_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-560" type="pin Channel_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-496" type="pin Channel_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-432" type="pin Channel_3" />
+        <rect width="304" x="64" y="-656" height="656" />
+        <line x2="0" y1="-240" y2="-240" x1="64" />
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <line x2="0" y1="-48" y2="-48" x1="64" />
+        <line x2="0" y1="-304" y2="-304" x1="64" />
+        <line x2="0" y1="-368" y2="-368" x1="64" />
+        <line x2="0" y1="-496" y2="-496" x1="64" />
+        <line x2="0" y1="-432" y2="-432" x1="64" />
+        <line x2="0" y1="-624" y2="-624" x1="64" />
+        <line x2="0" y1="-560" y2="-560" x1="64" />
+        <line x2="432" y1="-624" y2="-624" x1="368" />
+        <line x2="432" y1="-560" y2="-560" x1="368" />
+        <line x2="432" y1="-496" y2="-496" x1="368" />
+        <line x2="432" y1="-432" y2="-432" x1="368" />
+    </graph>
+</symbol>

@@ -1,0 +1,83 @@
+NET "ADC_clk" LOC = P58;
+NET "and_or_sel_M" LOC = P12;
+NET "and_or_sel_SST" LOC = P72;
+NET "clk" LOC = P55;
+NET "CS_n" LOC = P57;
+NET "di_ch0" LOC = P44;
+NET "di_ch1" LOC = P46;
+NET "di_ch2" LOC = P48;
+NET "di_ch3" LOC = P50;
+NET "diff_select_M" LOC = P10;
+NET "diff_select_SST" LOC = P71;
+NET "enable_thermal_tri" LOC = P13;
+NET "ex_tri" LOC = P35;
+NET "force_tri" LOC = P11;
+NET "full" LOC = P18;
+NET "in_heartbeat" LOC = P28;
+NET "mbed_sel0" LOC = P30;
+NET "mbed_sel1" LOC = P32;
+NET "out_heartbeat" LOC = P6;
+NET "re" LOC = P33;
+NET "reset_SST" LOC = P63;
+NET "rst" LOC = P15;
+NET "SPI_MISO" LOC = P4;
+NET "SPI_SCLK" LOC = P5;
+NET "SST_read_clk" LOC = P70;
+NET "stop_data_in" LOC = P69;
+NET "stop_SST" LOC = P64;
+NET "trig_0H" LOC = P85;
+NET "trig_0L" LOC = P84;
+NET "trig_1H" LOC = P83;
+NET "trig_1L" LOC = P82;
+NET "trig_2H" LOC = P78;
+NET "trig_2L" LOC = P77;
+NET "trig_3H" LOC = P76;
+NET "trig_3L" LOC = P75;
+NET "HSCLK_Ctrl" LOC = P54;
+
+# Test signals - instantiate or make sure in design first
+#NET "RAM_sync" LOC = P96;
+#NET "clk_test_mem" LOC = P98;
+#NET "clk_test_stop" LOC = P99;
+#NET "full_0" LOC = P101;
+#NET "full_1" LOC = P102;
+#NET "full_2" LOC = P103;
+#NET "full_3" LOC = P104;
+#NET "wait_0" LOC = P110;
+#NET "wait_1" LOC = P111;
+#NET "wait_2" LOC = P112;
+#NET "wait_3" LOC = P113;
+#NET "done_0" LOC = P114;
+#NET "done_1" LOC = P115;
+#NET "done_2" LOC = P116;
+#NET "done_3" LOC = P117;
+#NET "data_0" LOC = P124;
+#NET "data_1" LOC = P125;
+#NET "data_2" LOC = P126;
+#NET "data_3" LOC = P127;
+#NET "done_stop" LOC = P120;
+#NET "stop_data" LOC = P121;
+#NET "tri_ctrl" LOC = P134;
+#NET "or_data" LOC = P135;
+
+# nets needed to dissociate from clk routing
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "in_heartbeat" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "XLXI_2/DCM_SP_INST.CLKIN" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+#LVCMOS33 standard on the mbed side (bank 3) since mbed I/O runs at 3.3V
+NET "and_or_sel_M" IOSTANDARD = LVCMOS33;
+NET "diff_select_M" IOSTANDARD = LVCMOS33;
+NET "enable_thermal_tri" IOSTANDARD = LVCMOS33;
+NET "ex_tri" IOSTANDARD = LVCMOS33;
+NET "force_tri" IOSTANDARD = LVCMOS33;
+NET "full" IOSTANDARD = LVCMOS33;
+NET "in_heartbeat" IOSTANDARD = LVCMOS33;
+NET "mbed_sel0" IOSTANDARD = LVCMOS33;
+NET "mbed_sel1" IOSTANDARD = LVCMOS33;
+NET "out_heartbeat" IOSTANDARD = LVCMOS33;
+NET "re" IOSTANDARD = LVCMOS33;
+NET "rst" IOSTANDARD = LVCMOS33;
+NET "SPI_MISO" IOSTANDARD = LVCMOS33;
+NET "SPI_SCLK" IOSTANDARD = LVCMOS33;

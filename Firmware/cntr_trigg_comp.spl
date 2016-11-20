@@ -1,0 +1,9 @@
+[Inputs]
+clk
+rst
+enable
+trigg
+[Outputs]
+=trigg_ct[31:0]=
+=dac_flag[1:0]=
+[BiDir]

@@ -1,0 +1,7 @@
+MODULE stop_block
+	SUBMODULE stop_ram_fifo_1ch
+		INSTANCE XLXI_2
+	SUBMODULE tristate_out
+		INSTANCE XLXI_3
+	SUBMODULE STOP_mem_control_gen
+		INSTANCE XLXI_4

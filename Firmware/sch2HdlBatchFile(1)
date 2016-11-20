@@ -1,0 +1,8 @@
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/stoplatch_SCH.vhf,-w,C:/Xilinx Projects/Firmware/stoplatch_SCH.sch
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/stop_gen_block.vhf,-w,C:/Xilinx Projects/Firmware/stop_gen_block.sch
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/trigger_ch.vhf,-w,C:/Xilinx Projects/Firmware/trigger_ch.sch
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/majority_sys.vhf,-w,C:/Xilinx Projects/Firmware/majority_sys.sch
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/majority_logic.vhf,-w,C:/Xilinx Projects/Firmware/majority_logic.sch
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/MEMORY_BLOCK_NEW.vhf,-w,C:/Xilinx Projects/Firmware/MEMORY_BLOCK_NEW.sch
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/Firmware_Top.vhf,-w,C:/Xilinx Projects/Firmware/Firmware_Top.sch
+sch2hdl,-intstyle,ise,-family,spartan3a,-flat,-suppress,-vhdl,C:/Xilinx Projects/Firmware/Sync.vhf,-w,C:/Xilinx Projects/Firmware/Sync.sch

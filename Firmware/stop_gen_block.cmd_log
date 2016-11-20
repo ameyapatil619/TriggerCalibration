@@ -1,0 +1,10 @@
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/test_setup/stop_gen_block.sch} {C:/Xilinx Projects/test_setup/stop_gen_block.sym} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/test_setup/stop_gen_block.sch} {C:/Xilinx Projects/test_setup/stop_gen_block.sym} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/test_setup/stop_gen_block.sch} {C:/Xilinx Projects/test_setup/stop_gen_block.sym} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/test_setup/stop_gen_block.sch} {C:/Xilinx Projects/test_setup/stop_gen_block.sym} 
+sch2sym -intstyle ise -family spartan3a -refsym stop_gen_block {C:/Xilinx Projects/Firmware/stop_gen_block.sch} {C:/Xilinx Projects/Firmware/stop_gen_block.sym} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/Firmware/stop_gen_block.sch} {C:/Xilinx Projects/Firmware/stop_gen_block.sym} 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl stop_gen_block_drc.vhf -w {C:/Xilinx Projects/Firmware/stop_gen_block.sch} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/Firmware/stop_gen_block.sch} {C:/Xilinx Projects/Firmware/stop_gen_block.sym} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/Firmware/stop_gen_block.sch} {C:/Xilinx Projects/Firmware/stop_gen_block.sym} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stop_gen_block {C:/Xilinx Projects/Firmware/stop_gen_block.sch} {C:/Xilinx Projects/Firmware/stop_gen_block.sym} 

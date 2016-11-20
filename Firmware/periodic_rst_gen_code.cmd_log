@@ -1,0 +1,6 @@
+vhdtdtfi -lib work periodic_rst_gen_code.vhd -prj Firmware -o periodic_rst_gen_code.spl -module periodic_rst_gen_code -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w periodic_rst_gen_code.spl {C:/Xilinx Projects/Firmware/periodic_rst_gen_code.sym} 
+vhdtdtfi -lib work periodic_rst_gen_code.vhd -prj Firmware -o periodic_rst_gen_code.spl -module periodic_rst_gen_code -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w periodic_rst_gen_code.spl {C:/Xilinx Projects/Firmware/periodic_rst_gen_code.sym} 
+vhdtdtfi -lib work periodic_rst_gen_code.vhd -prj Firmware -o periodic_rst_gen_code.spl -module periodic_rst_gen_code -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w periodic_rst_gen_code.spl {C:/Xilinx Projects/Firmware/periodic_rst_gen_code.sym} 

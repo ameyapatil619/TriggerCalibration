@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3a -w -refsym stoplatch_SCH {C:/Xilinx Projects/Firmware/stoplatch_SCH.sch} {C:/Xilinx Projects/Firmware/stoplatch_SCH.sym} 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl stoplatch_SCH_drc.vhf -w {C:/Xilinx Projects/Firmware/stoplatch_SCH.sch} 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl stoplatch_SCH_drc.vhf -w {C:/Xilinx Projects/Firmware/stoplatch_SCH.sch} 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl stoplatch_SCH_drc.vhf -w {C:/Xilinx Projects/Firmware/stoplatch_SCH.sch} 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl stoplatch_SCH_drc.vhf -w {C:/Xilinx Projects/Firmware/stoplatch_SCH.sch} 
+sch2sym -intstyle ise -family spartan3a -w -refsym stoplatch_SCH {C:/Xilinx Projects/Firmware/stoplatch_SCH.sch} {C:/Xilinx Projects/Firmware/stoplatch_SCH.sym} 

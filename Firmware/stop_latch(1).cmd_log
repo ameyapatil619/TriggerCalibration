@@ -1,0 +1,6 @@
+vhdtdtfi -lib work stop_latch.vhd -prj test_setup -o stop_latch.spl -module stop_latch -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w stop_latch.spl {C:/Xilinx Projects/test_setup/stop_latch.sym} 
+vhdtdtfi -lib work stop_latch.vhd -prj test_setup -o stop_latch.spl -module stop_latch -template D:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w stop_latch.spl {C:/Xilinx Projects/test_setup/stop_latch.sym} 
+vhdtdtfi -lib work stop_latch.vhd -prj Firmware -o stop_latch.spl -module stop_latch -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w stop_latch.spl {C:/Xilinx Projects/Firmware/stop_latch.sym} 

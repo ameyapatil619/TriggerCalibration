@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx Projects/Firmware/TEST_rst_gen_code_isim_beh.exe" -prj "C:/Xilinx Projects/Firmware/TEST_rst_gen_code_beh.prj" "work.TEST_rst_gen_code" 

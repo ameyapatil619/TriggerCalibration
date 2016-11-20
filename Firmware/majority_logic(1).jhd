@@ -1,0 +1,3 @@
+MODULE majority_logic
+	SUBMODULE demux
+		INSTANCE XLXI_21

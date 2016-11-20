@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Xilinx Projects/Firmware/Firmware_Top.xst" -ofn "C:/Xilinx Projects/Firmware/Firmware_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Firmware_Top.ucf -p xc3s50an-tqg144-4 "Firmware_Top.ngc" Firmware_Top.ngd  
+map -intstyle ise -p xc3s50an-tqg144-4 -cm area -ir off -pr off -c 100 -o Firmware_Top_map.ncd Firmware_Top.ngd Firmware_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Firmware_Top_map.ncd Firmware_Top.ncd Firmware_Top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Firmware_Top.twx Firmware_Top.ncd -o Firmware_Top.twr Firmware_Top.pcf -ucf Firmware_Top.ucf 
+bitgen -intstyle ise -f Firmware_Top.ut Firmware_Top.ncd 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+netgen -intstyle ise -ar Structure -tm Firmware_Top -w -dir netgen/synthesis -ofmt vhdl -sim Firmware_Top.ngc Firmware_Top_synthesis.vhd 

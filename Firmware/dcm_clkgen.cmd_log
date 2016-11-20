@@ -1,0 +1,2 @@
+xaw2spl {-intstyle ise} {C:/Xilinx Projects/Firmware/ipcore_dir/dcm_clkgen.xaw} 
+spl2sym -intstyle ise -family spartan3a -w dcm_clkgen.spl {C:/Xilinx Projects/Firmware/dcm_clkgen.sym} 

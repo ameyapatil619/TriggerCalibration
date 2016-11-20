@@ -1,0 +1,5 @@
+MODULE majority_sys
+	SUBMODULE majority_logic
+		INSTANCE XLXI_2
+	SUBMODULE trigger_ch
+		INSTANCE XLXI_3
