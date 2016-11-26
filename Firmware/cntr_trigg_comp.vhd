@@ -77,9 +77,10 @@ end component;
 begin
 
 counter: cntr_trigg port map( rst => rst, clk => clk, trigger => trigg, enable => enable, q => trigg_ct_x);
+trigg_ct <= trigg_ct_x;
 comp: trigg_comp port map(trigg_ct => trigg_ct_x, enable => enable, rst => rst, flag => dac_flag);
 
-trigg_ct <= trigg_ct_x;
+
 
 end Behavioral;
 

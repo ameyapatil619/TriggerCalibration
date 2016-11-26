@@ -7,14 +7,12 @@
     </attr>
     <netlist>
         <signal name="clk_80M" />
-        <signal name="XLXN_4" />
         <signal name="clk_20" />
         <signal name="clk_1" />
         <signal name="XLXN_7" />
         <signal name="XLXN_8" />
         <signal name="clk_20M" />
         <signal name="clk_1M" />
-        <signal name="XLXN_10" />
         <port polarity="Input" name="clk_80M" />
         <port polarity="Input" name="clk_20" />
         <port polarity="Input" name="clk_1" />

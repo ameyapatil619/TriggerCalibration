@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : xaw2vhdl
 --  /   /         Filename : dcm_clkgen.vhd
--- /___/   /\     Timestamp : 11/20/2016 00:23:46
+-- /___/   /\     Timestamp : 11/25/2016 20:13:16
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

@@ -59,11 +59,11 @@ architecture Behavioural of cntr_trigg is
 --signal counter_local: STD_LOGIC_VECTOR (N-1 downto 0):= (others => '0');
 signal count_trigg: STD_LOGIC_VECTOR (N-1 downto 0):= (others => '0');
 signal flag: STD_LOGIC:= '0';
-signal count_local: integer range 0 to 80e6;
+signal count_local: integer range 0 to 80e6:=0;
 
 begin
 
-process(clk,rst,enable,count_local)
+cntr_trigg: process(clk,rst,enable,trigger)
 
 --variable count : integer := 0;
 
@@ -71,9 +71,9 @@ begin
 
 if rst = '1' then
 
-	q<= (others => '0');
+	q (N-1 downto 0)<= (others => '0');
 	
-	count_trigg <= (others => '0');
+	count_trigg(N-1 downto 0) <= (others => '0');
 	
 	--ovrflw <= '0';
 	
@@ -105,7 +105,7 @@ elsif enable = '1' and clk'event and clk = '1' and rst /= '1' then
 		--if( count_trigg(N-1) = '1') then
 		--ovrflw <= '1';
 		--end if;
-		count_trigg <= (others => '0');
+		count_trigg (N-1 downto 0) <= (others => '0');
 	
 	
 		end if;

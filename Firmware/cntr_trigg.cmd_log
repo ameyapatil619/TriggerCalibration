@@ -1,0 +1,3 @@
+vhdtdtfi -lib work cntr_trigg.vhd -prj Firmware -o cntr_trigg.spl -module cntr_trigg -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w cntr_trigg.spl /home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.sym 
+vhdtdtfi -prj Firmware -o /home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhi -module cntr_trigg -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work cntr_trigg.vhd 

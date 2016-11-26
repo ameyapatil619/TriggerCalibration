@@ -38,8 +38,8 @@ NET "HSCLK_Ctrl" LOC = P54;
 NET "trigg_rst" LOC = P142;
 NET "trigg_enable" LOC = P139;
 #NET "trigg_target" LOC = P140;
-NET "trigg_cmp_flag<1>" LOC = P68;
-NET "trigg_cmp_flag<0>" LOC = P69;
+#NET "trigg_cmp_flag<1>" LOC = P68;
+#NET "trigg_cmp_flag<0>" LOC = P69;
 
 # Test signals - instantiate or make sure in design first
 #NET "RAM_sync" LOC = P96;

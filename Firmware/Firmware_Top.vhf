@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Firmware_Top.vhf
--- /___/   /\     Timestamp : 11/20/2016 01:26:09
+-- /___/   /\     Timestamp : 11/25/2016 20:17:08
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -68,6 +68,104 @@ begin
     end case;
     end process; 
 end M2_1_HXILINX_Firmware_Top_V;
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
+entity top_trigg_MUSER_Firmware_Top is
+   port ( clk        : in    std_logic; 
+          enable     : in    std_logic; 
+          rst        : in    std_logic; 
+          trig_0H    : in    std_logic; 
+          trig_0L    : in    std_logic; 
+          trig_1H    : in    std_logic; 
+          trig_1L    : in    std_logic; 
+          trig_2H    : in    std_logic; 
+          trig_2L    : in    std_logic; 
+          trig_3H    : in    std_logic; 
+          trig_3L    : in    std_logic; 
+          trig_ct_0H : out   std_logic_vector (31 downto 0); 
+          trig_ct_0L : out   std_logic_vector (31 downto 0); 
+          trig_ct_1H : out   std_logic_vector (31 downto 0); 
+          trig_ct_1L : out   std_logic_vector (31 downto 0); 
+          trig_ct_2H : out   std_logic_vector (31 downto 0); 
+          trig_ct_2L : out   std_logic_vector (31 downto 0); 
+          trig_ct_3H : out   std_logic_vector (31 downto 0); 
+          trig_ct_3L : out   std_logic_vector (31 downto 0));
+end top_trigg_MUSER_Firmware_Top;
+
+architecture BEHAVIORAL of top_trigg_MUSER_Firmware_Top is
+   component cntr_trigg
+      port ( rst     : in    std_logic; 
+             clk     : in    std_logic; 
+             trigger : in    std_logic; 
+             enable  : in    std_logic; 
+             q       : out   std_logic_vector (31 downto 0));
+   end component;
+   
+begin
+   XLXI_1 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_0H,
+                q(31 downto 0)=>trig_ct_0H(31 downto 0));
+   
+   XLXI_2 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_0L,
+                q(31 downto 0)=>trig_ct_0L(31 downto 0));
+   
+   XLXI_3 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_1H,
+                q(31 downto 0)=>trig_ct_1H(31 downto 0));
+   
+   XLXI_5 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_2H,
+                q(31 downto 0)=>trig_ct_2H(31 downto 0));
+   
+   XLXI_6 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_2L,
+                q(31 downto 0)=>trig_ct_2L(31 downto 0));
+   
+   XLXI_7 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_3H,
+                q(31 downto 0)=>trig_ct_3H(31 downto 0));
+   
+   XLXI_29 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_3L,
+                q(31 downto 0)=>trig_ct_3L(31 downto 0));
+   
+   XLXI_46 : cntr_trigg
+      port map (clk=>clk,
+                enable=>enable,
+                rst=>rst,
+                trigger=>trig_1L,
+                q(31 downto 0)=>trig_ct_1L(31 downto 0));
+   
+end BEHAVIORAL;
+
+
 
 library ieee;
 use ieee.std_logic_1164.ALL;
@@ -1175,7 +1273,6 @@ entity Firmware_Top is
           SPI_SCLK           : in    std_logic; 
           stop_data_in       : in    std_logic; 
           trigg_enable       : in    std_logic; 
-          trigg_rst          : in    std_logic; 
           trig_0H            : in    std_logic; 
           trig_0L            : in    std_logic; 
           trig_1H            : in    std_logic; 
@@ -1195,8 +1292,7 @@ entity Firmware_Top is
           reset_SST          : out   std_logic; 
           SPI_MISO           : out   std_logic; 
           SST_read_clk       : out   std_logic; 
-          stop_SST           : out   std_logic; 
-          trigg_cmp_flag     : out   std_logic_vector (1 downto 0));
+          stop_SST           : out   std_logic);
 end Firmware_Top;
 
 architecture BEHAVIORAL of Firmware_Top is
@@ -1205,11 +1301,9 @@ architecture BEHAVIORAL of Firmware_Top is
    attribute IOSTANDARD : string ;
    attribute SLEW       : string ;
    attribute DRIVE      : string ;
-   signal clk_test_mem       : std_logic;
    signal clk_test_stop      : std_logic;
    signal clk_1M             : std_logic;
    signal clk_20M            : std_logic;
-   signal clk_80M            : std_logic;
    signal data_0             : std_logic;
    signal data_1             : std_logic;
    signal data_2             : std_logic;
@@ -1218,6 +1312,7 @@ architecture BEHAVIORAL of Firmware_Top is
    signal or_data            : std_logic;
    signal RAM_sync           : std_logic;
    signal stop_data          : std_logic;
+   signal trigg_rst          : std_logic;
    signal tri_ctrl           : std_logic;
    signal XLXN_32            : std_logic;
    signal XLXN_33            : std_logic;
@@ -1227,15 +1322,44 @@ architecture BEHAVIORAL of Firmware_Top is
    signal XLXN_427           : std_logic;
    signal XLXN_429           : std_logic;
    signal XLXN_431           : std_logic;
-   signal XLXN_441           : std_logic;
    signal XLXN_442           : std_logic;
    signal XLXN_469           : std_logic;
    signal XLXN_487           : std_logic;
    signal XLXN_488           : std_logic;
-   signal XLXN_491           : std_logic_vector (31 downto 0);
-   signal XLXN_521           : std_logic;
    signal XLXN_522           : std_logic;
-   signal XLXN_524           : std_logic;
+   signal XLXN_658           : std_logic;
+   signal XLXN_710           : std_logic;
+   signal XLXN_711           : std_logic;
+   signal XLXN_712           : std_logic;
+   signal XLXN_713           : std_logic;
+   signal XLXN_714           : std_logic;
+   signal XLXN_715           : std_logic;
+   signal XLXN_716           : std_logic;
+   signal XLXN_717           : std_logic;
+   signal XLXN_718           : std_logic;
+   signal XLXN_719           : std_logic;
+   signal XLXN_720           : std_logic;
+   signal XLXN_721           : std_logic;
+   signal XLXN_722           : std_logic;
+   signal XLXN_723           : std_logic;
+   signal XLXN_724           : std_logic;
+   signal XLXN_725           : std_logic;
+   signal XLXN_726           : std_logic;
+   signal XLXN_727           : std_logic;
+   signal XLXN_728           : std_logic;
+   signal XLXN_729           : std_logic;
+   signal XLXN_730           : std_logic;
+   signal XLXN_731           : std_logic;
+   signal XLXN_763           : std_logic;
+   signal XLXN_781           : std_logic;
+   signal XLXN_782           : std_logic_vector (31 downto 0);
+   signal XLXN_784           : std_logic_vector (31 downto 0);
+   signal XLXN_785           : std_logic_vector (31 downto 0);
+   signal XLXN_786           : std_logic_vector (31 downto 0);
+   signal XLXN_787           : std_logic_vector (31 downto 0);
+   signal XLXN_788           : std_logic_vector (31 downto 0);
+   signal XLXN_789           : std_logic_vector (31 downto 0);
+   signal XLXN_790           : std_logic_vector (31 downto 0);
    signal stop_SST_DUMMY     : std_logic;
    signal ADC_clk_DUMMY      : std_logic;
    component dcm_clkgen
@@ -1406,28 +1530,69 @@ architecture BEHAVIORAL of Firmware_Top is
    end component;
    attribute BOX_TYPE of AND3 : component is "BLACK_BOX";
    
-   component cntr_trigg_comp
-      port ( clk      : in    std_logic; 
-             rst      : in    std_logic; 
-             enable   : in    std_logic; 
-             trigg    : in    std_logic; 
-             trigg_ct : out   std_logic_vector (31 downto 0); 
-             dac_flag : out   std_logic_vector (1 downto 0));
+   component top_psi_trigg
+      port ( rst        : in    std_logic; 
+             clk        : in    std_logic; 
+             enable     : in    std_logic; 
+             ser_start  : in    std_logic; 
+             prl_in_0H  : in    std_logic_vector (31 downto 0); 
+             prl_in_0L  : in    std_logic_vector (31 downto 0); 
+             prl_in_1H  : in    std_logic_vector (31 downto 0); 
+             prl_in_1L  : in    std_logic_vector (31 downto 0); 
+             prl_in_2H  : in    std_logic_vector (31 downto 0); 
+             prl_in_2L  : in    std_logic_vector (31 downto 0); 
+             prl_in_3H  : in    std_logic_vector (31 downto 0); 
+             prl_in_3L  : in    std_logic_vector (31 downto 0); 
+             eoc_0H     : out   std_logic; 
+             ser_out_0H : out   std_logic; 
+             eoc_0L     : out   std_logic; 
+             ser_out_0L : out   std_logic; 
+             eoc_1H     : out   std_logic; 
+             ser_out_1H : out   std_logic; 
+             eoc_1L     : out   std_logic; 
+             ser_out_1L : out   std_logic; 
+             eoc_2H     : out   std_logic; 
+             ser_out_2H : out   std_logic; 
+             eoc_2L     : out   std_logic; 
+             ser_out_2L : out   std_logic; 
+             eoc_3H     : out   std_logic; 
+             ser_out_3H : out   std_logic; 
+             eoc_3L     : out   std_logic; 
+             ser_out_3L : out   std_logic);
    end component;
    
-   component psi_trigg
-      port ( rst         : in    std_logic; 
-             clk         : in    std_logic; 
-             enable      : in    std_logic; 
-             parallel_in : in    std_logic_vector (31 downto 0); 
-             eoc         : out   std_logic; 
-             ser_out     : out   std_logic; 
-             ser_strt    : in    std_logic);
+   component top_trigg_MUSER_Firmware_Top
+      port ( rst        : in    std_logic; 
+             clk        : in    std_logic; 
+             enable     : in    std_logic; 
+             trig_0H    : in    std_logic; 
+             trig_0L    : in    std_logic; 
+             trig_1H    : in    std_logic; 
+             trig_1L    : in    std_logic; 
+             trig_2H    : in    std_logic; 
+             trig_2L    : in    std_logic; 
+             trig_3L    : in    std_logic; 
+             trig_3H    : in    std_logic; 
+             trig_ct_0H : out   std_logic_vector (31 downto 0); 
+             trig_ct_0L : out   std_logic_vector (31 downto 0); 
+             trig_ct_1H : out   std_logic_vector (31 downto 0); 
+             trig_ct_1L : out   std_logic_vector (31 downto 0); 
+             trig_ct_2H : out   std_logic_vector (31 downto 0); 
+             trig_ct_2L : out   std_logic_vector (31 downto 0); 
+             trig_ct_3H : out   std_logic_vector (31 downto 0); 
+             trig_ct_3L : out   std_logic_vector (31 downto 0));
    end component;
    
    attribute HU_SET of XLXI_11 : label is "XLXI_11_3";
    attribute HU_SET of XLXI_12 : label is "XLXI_12_2";
    attribute HU_SET of XLXI_103 : label is "XLXI_103_4";
+   attribute HU_SET of XLXI_132 : label is "XLXI_132_5";
+   attribute HU_SET of XLXI_133 : label is "XLXI_133_6";
+   attribute HU_SET of XLXI_134 : label is "XLXI_134_7";
+   attribute HU_SET of XLXI_135 : label is "XLXI_135_8";
+   attribute HU_SET of XLXI_136 : label is "XLXI_136_9";
+   attribute HU_SET of XLXI_137 : label is "XLXI_137_10";
+   attribute HU_SET of XLXI_138 : label is "XLXI_138_11";
 begin
    ADC_clk <= ADC_clk_DUMMY;
    stop_SST <= stop_SST_DUMMY;
@@ -1435,7 +1600,7 @@ begin
       port map (CLKIN_IN=>clk,
                 CLKDV_OUT=>clk_20M,
                 CLKIN_IBUFG_OUT=>open,
-                CLK0_OUT=>clk_80M,
+                CLK0_OUT=>XLXN_781,
                 CLK2X_OUT=>XLXN_442,
                 LOCKED_OUT=>open,
                 STATUS_OUT=>open);
@@ -1448,7 +1613,7 @@ begin
       port map (clk_1M=>XLXN_33,
                 clk_20M=>XLXN_32,
                 en=>stop_SST_DUMMY,
-                rst=>XLXN_441,
+                rst=>trigg_rst,
                 ADC_clk=>ADC_clk_DUMMY,
                 CS_n=>CS_n,
                 RAM_sync=>RAM_sync,
@@ -1458,7 +1623,7 @@ begin
       port map (D0=>XLXN_424,
                 D1=>SPI_SCLK,
                 S0=>re,
-                O=>clk_test_mem);
+                O=>XLXN_658);
    
    XLXI_12 : M2_1_HXILINX_Firmware_Top
       port map (D0=>XLXN_427,
@@ -1469,19 +1634,19 @@ begin
    XLXI_18 : Sync_MUSER_Firmware_Top
       port map (clk_1=>clk_1M,
                 clk_20=>clk_20M,
-                clk_80M=>clk_80M,
+                clk_80M=>XLXN_781,
                 clk_1M=>XLXN_33,
                 clk_20M=>XLXN_32);
    
    XLXI_21 : MEMORY_BLOCK_NEW_MUSER_Firmware_Top
-      port map (clk=>clk_test_mem,
+      port map (clk=>XLXN_658,
                 di_1=>di_ch0,
                 di_2=>di_ch1,
                 di_3=>di_ch2,
                 di_4=>di_ch3,
                 en=>stop_SST_DUMMY,
                 re=>re,
-                rst=>XLXN_441,
+                rst=>trigg_rst,
                 stop_clk=>clk_test_stop,
                 stop_data_in=>stop_data_in,
                 address_1=>open,
@@ -1502,7 +1667,7 @@ begin
                 full_4=>full_3,
                 stop_address=>open,
                 stop_data_out=>stop_data,
-                stop_done=>XLXN_524,
+                stop_done=>XLXN_763,
                 stop_full=>XLXN_429,
                 stop_wait=>open,
                 wait_sig_1=>open,
@@ -1529,7 +1694,7 @@ begin
                 O=>XLXN_522);
    
    XLXI_32 : OR2
-      port map (I0=>XLXN_524,
+      port map (I0=>XLXN_763,
                 I1=>XLXN_147,
                 O=>tri_ctrl);
    
@@ -1539,11 +1704,11 @@ begin
    
    XLXI_37 : BUFG
       port map (I=>rst,
-                O=>XLXN_441);
+                O=>trigg_rst);
    
    XLXI_38 : stop_gen_block_MUSER_Firmware_Top
       port map (and_or_sel_M=>and_or_sel_M,
-                clk=>clk_80M,
+                clk=>XLXN_781,
                 clk_160M=>XLXN_442,
                 diff_select_M=>diff_select_M,
                 enable_thermal_tri=>enable_thermal_tri,
@@ -1551,7 +1716,7 @@ begin
                 force_tri=>force_tri,
                 mbed_sel0=>mbed_sel0,
                 mbed_sel1=>mbed_sel1,
-                rst=>XLXN_441,
+                rst=>trigg_rst,
                 trig_0H=>trig_0H,
                 trig_0L=>trig_0L,
                 trig_1H=>trig_1H,
@@ -1609,28 +1774,104 @@ begin
       port map (I=>XLXN_487,
                 O=>XLXN_488);
    
-   XLXI_96 : cntr_trigg_comp
-      port map (clk=>clk_80M,
-                enable=>trigg_enable,
-                rst=>trigg_rst,
-                trigg=>trig_0H,
-                dac_flag(1 downto 0)=>trigg_cmp_flag(1 downto 0),
-                trigg_ct(31 downto 0)=>XLXN_491(31 downto 0));
-   
-   XLXI_97 : psi_trigg
-      port map (clk=>clk_test_mem,
-                enable=>trigg_enable,
-                parallel_in(31 downto 0)=>XLXN_491(31 downto 0),
-                rst=>trigg_rst,
-                ser_strt=>XLXN_524,
-                eoc=>done_stop,
-                ser_out=>XLXN_521);
-   
    XLXI_103 : M2_1_HXILINX_Firmware_Top
       port map (D0=>XLXN_522,
-                D1=>XLXN_521,
-                S0=>XLXN_524,
+                D1=>XLXN_716,
+                S0=>XLXN_763,
                 O=>SPI_MISO);
+   
+   XLXI_131 : top_psi_trigg
+      port map (clk=>XLXN_658,
+                enable=>trigg_enable,
+                prl_in_0H(31 downto 0)=>XLXN_782(31 downto 0),
+                prl_in_0L(31 downto 0)=>XLXN_784(31 downto 0),
+                prl_in_1H(31 downto 0)=>XLXN_785(31 downto 0),
+                prl_in_1L(31 downto 0)=>XLXN_786(31 downto 0),
+                prl_in_2H(31 downto 0)=>XLXN_787(31 downto 0),
+                prl_in_2L(31 downto 0)=>XLXN_788(31 downto 0),
+                prl_in_3H(31 downto 0)=>XLXN_789(31 downto 0),
+                prl_in_3L(31 downto 0)=>XLXN_790(31 downto 0),
+                rst=>trigg_rst,
+                ser_start=>XLXN_763,
+                eoc_0H=>XLXN_727,
+                eoc_0L=>XLXN_731,
+                eoc_1H=>XLXN_730,
+                eoc_1L=>XLXN_729,
+                eoc_2H=>XLXN_728,
+                eoc_2L=>XLXN_720,
+                eoc_3H=>XLXN_719,
+                eoc_3L=>done_stop,
+                ser_out_0H=>XLXN_726,
+                ser_out_0L=>XLXN_725,
+                ser_out_1H=>XLXN_724,
+                ser_out_1L=>XLXN_723,
+                ser_out_2H=>XLXN_722,
+                ser_out_2L=>XLXN_721,
+                ser_out_3H=>XLXN_718,
+                ser_out_3L=>XLXN_717);
+   
+   XLXI_132 : M2_1_HXILINX_Firmware_Top
+      port map (D0=>XLXN_726,
+                D1=>XLXN_715,
+                S0=>XLXN_727,
+                O=>XLXN_716);
+   
+   XLXI_133 : M2_1_HXILINX_Firmware_Top
+      port map (D0=>XLXN_725,
+                D1=>XLXN_714,
+                S0=>XLXN_731,
+                O=>XLXN_715);
+   
+   XLXI_134 : M2_1_HXILINX_Firmware_Top
+      port map (D0=>XLXN_724,
+                D1=>XLXN_713,
+                S0=>XLXN_730,
+                O=>XLXN_714);
+   
+   XLXI_135 : M2_1_HXILINX_Firmware_Top
+      port map (D0=>XLXN_723,
+                D1=>XLXN_712,
+                S0=>XLXN_729,
+                O=>XLXN_713);
+   
+   XLXI_136 : M2_1_HXILINX_Firmware_Top
+      port map (D0=>XLXN_722,
+                D1=>XLXN_711,
+                S0=>XLXN_728,
+                O=>XLXN_712);
+   
+   XLXI_137 : M2_1_HXILINX_Firmware_Top
+      port map (D0=>XLXN_721,
+                D1=>XLXN_710,
+                S0=>XLXN_720,
+                O=>XLXN_711);
+   
+   XLXI_138 : M2_1_HXILINX_Firmware_Top
+      port map (D0=>XLXN_718,
+                D1=>XLXN_717,
+                S0=>XLXN_719,
+                O=>XLXN_710);
+   
+   XLXI_139 : top_trigg_MUSER_Firmware_Top
+      port map (clk=>XLXN_781,
+                enable=>trigg_enable,
+                rst=>trigg_rst,
+                trig_0H=>trig_0H,
+                trig_0L=>trig_0L,
+                trig_1H=>trig_1H,
+                trig_1L=>trig_1L,
+                trig_2H=>trig_2H,
+                trig_2L=>trig_2L,
+                trig_3H=>trig_3H,
+                trig_3L=>trig_3L,
+                trig_ct_0H(31 downto 0)=>XLXN_782(31 downto 0),
+                trig_ct_0L(31 downto 0)=>XLXN_784(31 downto 0),
+                trig_ct_1H(31 downto 0)=>XLXN_785(31 downto 0),
+                trig_ct_1L(31 downto 0)=>XLXN_786(31 downto 0),
+                trig_ct_2H(31 downto 0)=>XLXN_787(31 downto 0),
+                trig_ct_2L(31 downto 0)=>XLXN_788(31 downto 0),
+                trig_ct_3H(31 downto 0)=>XLXN_789(31 downto 0),
+                trig_ct_3L(31 downto 0)=>XLXN_790(31 downto 0));
    
 end BEHAVIORAL;
 

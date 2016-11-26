@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Sync.vhf
--- /___/   /\     Timestamp : 03/12/2015 11:52:56
+-- /___/   /\     Timestamp : 11/25/2016 20:13:11
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl "C:/Xilinx Projects/Firmware/Sync.vhf" -w "C:/Xilinx Projects/Firmware/Sync.sch"
+--Command: sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl /home/ameya/Desktop/Indi_Research/Firmware/Sync.vhf -w /home/ameya/Desktop/Indi_Research/Firmware/Sync.sch
 --Design Name: Sync
 --Device: spartan3a
 --Purpose:

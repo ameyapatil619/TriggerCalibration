@@ -29,7 +29,6 @@
         <signal name="Trigger_out" />
         <signal name="and_or_sel_SST" />
         <signal name="diff_select_SST" />
-        <signal name="XLXN_55" />
         <port polarity="Input" name="and_or_sel_M" />
         <port polarity="Input" name="diff_select_M" />
         <port polarity="Input" name="Trigger_0_H" />

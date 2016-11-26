@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : trigger_ch.vhf
--- /___/   /\     Timestamp : 11/20/2016 00:23:39
+-- /___/   /\     Timestamp : 11/25/2016 20:13:11
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

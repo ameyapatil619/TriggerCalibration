@@ -5,14 +5,14 @@ Parameter TMPDIR set to /home/ameya/Desktop/Indi_Research/Firmware/xst/projnav.t
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> 
 Parameter xsthdpdir set to /home/ameya/Desktop/Indi_Research/Firmware/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> 
 WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
@@ -22,16 +22,16 @@ WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Onl
 =========================================================================
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd" in Library work.
 Entity <psi_trigg> compiled.
-Entity <psi_trigg> (Architecture <Behavioral>) compiled.
+Entity <psi_trigg> (Architecture <behavioral>) compiled.
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> 
 
 
-Total memory usage is 478284 kilobytes
+Total memory usage is 478292 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

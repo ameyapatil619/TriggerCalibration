@@ -1,13 +1,2 @@
-select figure at 4490 2478 8 -branches -sn=1
-select figure at 3231 4171 8 -branches -sn=1
-select figure at 4351 2789 8 -branches -sn=1
-select figure at 2961 4915 8 -branches -sn=1
-select figure at 4417 2601 8 -branches -sn=1
-select figure at 4384 2740 8 -branches -sn=1
-select figure at 4760 4564 8 -branches -sn=1
-select figure at 5054 4825 8 -branches -sn=1
-select figure at 5063 2658 8 -branches -sn=1
-select figure at 6281 3476 8 -branches -sn=1
-select figure at 6355 4752 8 -branches -sn=1
-select figure at 4016 4163 8 -branches -sn=1
-select figure at 4016 4163 8 -branches -sn=1
+update symbols top_trigg
+update symbols top_psi_trigg

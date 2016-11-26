@@ -4,14 +4,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> 
@@ -107,14 +107,15 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhd" in Library work.
-Architecture behavioural of Entity cntr_trigg is up to date.
-Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/trigg_comp.vhd" in Library work.
-Architecture behavioral of Entity trigg_comp is up to date.
+Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd" in Library work.
+Entity <psi_trigg> compiled.
+Entity <psi_trigg> (Architecture <behavioral>) compiled.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/demux.vhd" in Library work.
 Architecture behavioral of Entity demux is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/stop_latch.vhd" in Library work.
 Architecture behavioral of Entity stop_latch is up to date.
+Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhd" in Library work.
+Architecture behavioural of Entity cntr_trigg is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/mem_control_gen.vhd" in Library work.
 Architecture behavioral of Entity mem_control_gen is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/ram_fifo_1ch.vhd" in Library work.
@@ -129,34 +130,22 @@ Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/clkgen_1M.vhd" i
 Architecture behavioral of Entity clkgen_1m is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/CS_gen.vhd" in Library work.
 Architecture behavioral of Entity cs_gen is up to date.
-Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg_comp.vhd" in Library work.
-Architecture behavioral of Entity cntr_trigg_comp is up to date.
-Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd" in Library work.
-Architecture behavioral of Entity psi_trigg is up to date.
+Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/top_psi_trigg.vhd" in Library work.
+Architecture behavioral of Entity top_psi_trigg is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" in Library work.
-Entity <or6_hxilinx_firmware_top> compiled.
-Entity <or6_hxilinx_firmware_top> (Architecture <or6_hxilinx_firmware_top_v>) compiled.
-Entity <m2_1_hxilinx_firmware_top> compiled.
-Entity <m2_1_hxilinx_firmware_top> (Architecture <m2_1_hxilinx_firmware_top_v>) compiled.
-Entity <memory_block_new_muser_firmware_top> compiled.
-Entity <memory_block_new_muser_firmware_top> (Architecture <behavioral>) compiled.
-Entity <stoplatch_sch_muser_firmware_top> compiled.
-Entity <stoplatch_sch_muser_firmware_top> (Architecture <behavioral>) compiled.
-Entity <majority_logic_muser_firmware_top> compiled.
-Entity <majority_logic_muser_firmware_top> (Architecture <behavioral>) compiled.
-Entity <trigger_ch_muser_firmware_top> compiled.
-Entity <trigger_ch_muser_firmware_top> (Architecture <behavioral>) compiled.
-Entity <majority_sys_muser_firmware_top> compiled.
-Entity <majority_sys_muser_firmware_top> (Architecture <behavioral>) compiled.
-Entity <stop_gen_block_muser_firmware_top> compiled.
-Entity <stop_gen_block_muser_firmware_top> (Architecture <behavioral>) compiled.
-Entity <sync_muser_firmware_top> compiled.
-Entity <sync_muser_firmware_top> (Architecture <behavioral>) compiled.
-Entity <firmware_top> compiled.
-Entity <firmware_top> (Architecture <behavioral>) compiled.
+Architecture or6_hxilinx_firmware_top_v of Entity or6_hxilinx_firmware_top is up to date.
+Architecture m2_1_hxilinx_firmware_top_v of Entity m2_1_hxilinx_firmware_top is up to date.
+Architecture behavioral of Entity top_trigg_muser_firmware_top is up to date.
+Architecture behavioral of Entity memory_block_new_muser_firmware_top is up to date.
+Architecture behavioral of Entity stoplatch_sch_muser_firmware_top is up to date.
+Architecture behavioral of Entity majority_logic_muser_firmware_top is up to date.
+Architecture behavioral of Entity trigger_ch_muser_firmware_top is up to date.
+Architecture behavioral of Entity majority_sys_muser_firmware_top is up to date.
+Architecture behavioral of Entity stop_gen_block_muser_firmware_top is up to date.
+Architecture behavioral of Entity sync_muser_firmware_top is up to date.
+Architecture behavioral of Entity firmware_top is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/MEMORY_BLOCK_NEW.vhf" in Library work.
-Entity <memory_block_new> compiled.
-Entity <memory_block_new> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity memory_block_new is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf" in Library work.
 Architecture or6_hxilinx_stop_gen_block_v of Entity or6_hxilinx_stop_gen_block is up to date.
 Architecture behavioral of Entity stoplatch_sch_muser_stop_gen_block is up to date.
@@ -166,6 +155,8 @@ Architecture behavioral of Entity majority_sys_muser_stop_gen_block is up to dat
 Architecture behavioral of Entity stop_gen_block is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/Sync.vhf" in Library work.
 Architecture behavioral of Entity sync is up to date.
+Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/top_trigg.vhf" in Library work.
+Architecture behavioral of Entity top_trigg is up to date.
 Compiling vhdl file "/home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf" in Library work.
 Architecture or6_hxilinx_majority_sys_v of Entity or6_hxilinx_majority_sys is up to date.
 Architecture behavioral of Entity majority_logic_muser_majority_sys is up to date.
@@ -198,11 +189,10 @@ Analyzing hierarchy for entity <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> in library 
 
 Analyzing hierarchy for entity <stop_gen_block_MUSER_Firmware_Top> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <cntr_trigg_comp> in library <work> (architecture <behavioral>) with generics.
+Analyzing hierarchy for entity <top_psi_trigg> in library <work> (architecture <behavioral>) with generics.
 	N = 32
 
-Analyzing hierarchy for entity <psi_trigg> in library <work> (architecture <behavioral>) with generics.
-	N = 32
+Analyzing hierarchy for entity <top_trigg_MUSER_Firmware_Top> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <mem_control_gen> in library <work> (architecture <behavioral>).
 
@@ -216,10 +206,10 @@ Analyzing hierarchy for entity <majority_sys_MUSER_Firmware_Top> in library <wor
 
 Analyzing hierarchy for entity <stoplatch_SCH_MUSER_Firmware_Top> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <cntr_trigg> in library <work> (architecture <behavioural>) with generics.
+Analyzing hierarchy for entity <psi_trigg> in library <work> (architecture <behavioral>) with generics.
 	N = 32
 
-Analyzing hierarchy for entity <trigg_comp> in library <work> (architecture <behavioral>) with generics.
+Analyzing hierarchy for entity <cntr_trigg> in library <work> (architecture <behavioural>) with generics.
 	N = 32
 
 Analyzing hierarchy for entity <majority_logic_MUSER_Firmware_Top> in library <work> (architecture <behavioral>).
@@ -237,37 +227,44 @@ Analyzing hierarchy for entity <demux> in library <work> (architecture <behavior
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <Firmware_Top> in library <work> (Architecture <behavioral>).
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1434: Unconnected output port 'STATUS_OUT' of component 'dcm_clkgen'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1434: Unconnected output port 'LOCKED_OUT' of component 'dcm_clkgen'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1434: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm_clkgen'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1599: Unconnected output port 'STATUS_OUT' of component 'dcm_clkgen'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1599: Unconnected output port 'LOCKED_OUT' of component 'dcm_clkgen'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1599: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'dcm_clkgen'.
     Set user-defined property "HU_SET =  XLXI_11_3" for instance <XLXI_11> in unit <Firmware_Top>.
     Set user-defined property "HU_SET =  XLXI_12_2" for instance <XLXI_12> in unit <Firmware_Top>.
-WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected inout port 'start_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected inout port 'start_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected inout port 'start_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected inout port 'start_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected inout port 'stop_start' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'address_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'done_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'full_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'wait_sig_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'address_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'address_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'address_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'done_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'full_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'wait_sig_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'done_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'full_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'wait_sig_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'done_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'wait_sig_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'stop_address' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
-WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1476: Unconnected output port 'stop_wait' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected inout port 'start_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected inout port 'start_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected inout port 'start_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected inout port 'start_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:754 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected inout port 'stop_start' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'address_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'done_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'full_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'wait_sig_1' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'address_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'address_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'address_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'done_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'full_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'wait_sig_2' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'done_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'full_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'wait_sig_3' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'done_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'wait_sig_4' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'stop_address' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
+WARNING:Xst:753 - "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf" line 1641: Unconnected output port 'stop_wait' of component 'MEMORY_BLOCK_NEW_MUSER_Firmware_Top'.
     Set user-defined property "DRIVE =  12" for instance <XLXI_31> in unit <Firmware_Top>.
     Set user-defined property "IOSTANDARD =  DEFAULT" for instance <XLXI_31> in unit <Firmware_Top>.
     Set user-defined property "SLEW =  SLOW" for instance <XLXI_31> in unit <Firmware_Top>.
     Set user-defined property "HU_SET =  XLXI_103_4" for instance <XLXI_103> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_132_5" for instance <XLXI_132> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_133_6" for instance <XLXI_133> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_134_7" for instance <XLXI_134> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_135_8" for instance <XLXI_135> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_136_9" for instance <XLXI_136> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_137_10" for instance <XLXI_137> in unit <Firmware_Top>.
+    Set user-defined property "HU_SET =  XLXI_138_11" for instance <XLXI_138> in unit <Firmware_Top>.
 Entity <Firmware_Top> analyzed. Unit <Firmware_Top> generated.
 
 Analyzing Entity <dcm_clkgen> in library <work> (Architecture <behavioral>).
@@ -361,24 +358,20 @@ Entity <stoplatch_SCH_MUSER_Firmware_Top> analyzed. Unit <stoplatch_SCH_MUSER_Fi
 Analyzing Entity <stop_latch> in library <work> (Architecture <behavioral>).
 Entity <stop_latch> analyzed. Unit <stop_latch> generated.
 
-Analyzing generic Entity <cntr_trigg_comp> in library <work> (Architecture <behavioral>).
+Analyzing generic Entity <top_psi_trigg> in library <work> (Architecture <behavioral>).
 	N = 32
-Entity <cntr_trigg_comp> analyzed. Unit <cntr_trigg_comp> generated.
+Entity <top_psi_trigg> analyzed. Unit <top_psi_trigg> generated.
+
+Analyzing generic Entity <psi_trigg> in library <work> (Architecture <behavioral>).
+	N = 32
+Entity <psi_trigg> analyzed. Unit <psi_trigg> generated.
+
+Analyzing Entity <top_trigg_MUSER_Firmware_Top> in library <work> (Architecture <behavioral>).
+Entity <top_trigg_MUSER_Firmware_Top> analyzed. Unit <top_trigg_MUSER_Firmware_Top> generated.
 
 Analyzing generic Entity <cntr_trigg> in library <work> (Architecture <behavioural>).
 	N = 32
 Entity <cntr_trigg> analyzed. Unit <cntr_trigg> generated.
-
-Analyzing generic Entity <trigg_comp> in library <work> (Architecture <behavioral>).
-	N = 32
-Entity <trigg_comp> analyzed. Unit <trigg_comp> generated.
-
-Analyzing generic Entity <psi_trigg> in library <work> (Architecture <behavioral>).
-	N = 32
-WARNING:Xst:819 - "/home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd" line 61: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <ser_strt>
-INFO:Xst:2679 - Register <buffer_reg<0>> in unit <psi_trigg> has a constant value of 0 during circuit operation. The register is replaced by logic.
-Entity <psi_trigg> analyzed. Unit <psi_trigg> generated.
 
 
 =========================================================================
@@ -386,7 +379,6 @@ Entity <psi_trigg> analyzed. Unit <psi_trigg> generated.
 =========================================================================
 
 Performing bidirectional port resolution...
-INFO:Xst:2679 - Register <buffer_reg<1>> in unit <psi_trigg> has a constant value of 0 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <clkgen_1M>.
     Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/clkgen_1M.vhd".
@@ -410,19 +402,6 @@ Unit <CS_gen> synthesized.
 Synthesizing Unit <M2_1_HXILINX_Firmware_Top>.
     Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf".
 Unit <M2_1_HXILINX_Firmware_Top> synthesized.
-
-
-Synthesizing Unit <psi_trigg>.
-    Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd".
-WARNING:Xst:647 - Input <parallel_in> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 30-bit register for signal <buffer_reg<31:2>>.
-    Found 1-bit register for signal <conv_flag>.
-    Found 1-bit register for signal <data>.
-    Found 32-bit up counter for signal <i>.
-    Summary:
-	inferred   1 Counter(s).
-	inferred  32 D-type flip-flop(s).
-Unit <psi_trigg> synthesized.
 
 
 Synthesizing Unit <mem_control_gen>.
@@ -500,6 +479,20 @@ WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and lef
 Unit <stop_latch> synthesized.
 
 
+Synthesizing Unit <psi_trigg>.
+    Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd".
+    Found 32-bit register for signal <buffer_reg>.
+    Found 32-bit comparator greatequal for signal <buffer_reg_4$cmp_ge0000> created at line 83.
+    Found 1-bit register for signal <conv_flag>.
+    Found 1-bit register for signal <data>.
+    Found 32-bit up counter for signal <i>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <psi_trigg> synthesized.
+
+
 Synthesizing Unit <cntr_trigg>.
     Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhd".
     Found 32-bit register for signal <q>.
@@ -517,15 +510,6 @@ Synthesizing Unit <cntr_trigg>.
 Unit <cntr_trigg> synthesized.
 
 
-Synthesizing Unit <trigg_comp>.
-    Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/trigg_comp.vhd".
-    Found 32-bit comparator greater for signal <flag$cmp_gt0000> created at line 71.
-    Found 32-bit comparator less for signal <flag$cmp_lt0000> created at line 69.
-    Summary:
-	inferred   2 Comparator(s).
-Unit <trigg_comp> synthesized.
-
-
 Synthesizing Unit <dcm_clkgen>.
     Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/dcm_clkgen.vhd".
 Unit <dcm_clkgen> synthesized.
@@ -541,9 +525,14 @@ Synthesizing Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top>.
 Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> synthesized.
 
 
-Synthesizing Unit <cntr_trigg_comp>.
-    Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg_comp.vhd".
-Unit <cntr_trigg_comp> synthesized.
+Synthesizing Unit <top_psi_trigg>.
+    Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/top_psi_trigg.vhd".
+Unit <top_psi_trigg> synthesized.
+
+
+Synthesizing Unit <top_trigg_MUSER_Firmware_Top>.
+    Related source file is "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf".
+Unit <top_trigg_MUSER_Firmware_Top> synthesized.
 
 
 Synthesizing Unit <stoplatch_SCH_MUSER_Firmware_Top>.
@@ -583,25 +572,24 @@ Macro Statistics
 # RAMs                                                 : 5
  256x1-bit single-port RAM                             : 1
  4096x1-bit single-port RAM                            : 4
-# Adders/Subtractors                                   : 6
+# Adders/Subtractors                                   : 13
  12-bit adder                                          : 4
- 32-bit adder                                          : 1
+ 32-bit adder                                          : 8
  8-bit adder                                           : 1
-# Counters                                             : 3
- 27-bit up counter                                     : 1
- 32-bit up counter                                     : 1
+# Counters                                             : 17
+ 27-bit up counter                                     : 8
+ 32-bit up counter                                     : 8
  4-bit up counter                                      : 1
-# Registers                                            : 68
- 1-bit register                                        : 61
+# Registers                                            : 329
+ 1-bit register                                        : 308
  12-bit register                                       : 4
- 32-bit register                                       : 2
+ 32-bit register                                       : 16
  8-bit register                                        : 1
-# Comparators                                          : 9
+# Comparators                                          : 29
  12-bit comparator less                                : 4
- 27-bit comparator greatequal                          : 1
- 27-bit comparator less                                : 1
- 32-bit comparator greater                             : 1
- 32-bit comparator less                                : 1
+ 27-bit comparator greatequal                          : 8
+ 27-bit comparator less                                : 8
+ 32-bit comparator greatequal                          : 8
  8-bit comparator less                                 : 1
 
 =========================================================================
@@ -610,37 +598,6 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1710 - FF/Latch <buffer_reg_2> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_3> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_4> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_5> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_6> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_7> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_8> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_9> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_10> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_11> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_12> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_13> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_14> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_15> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_16> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_17> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_18> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_19> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_20> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_21> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_22> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_23> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_24> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_25> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_26> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_27> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_28> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_29> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_30> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_31> (without init value) has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <data> has a constant value of 0 in block <XLXI_97>. This FF/Latch will be trimmed during the optimization process.
 
 Synthesizing (advanced) Unit <ram_fifo_1ch>.
 INFO:Xst:3226 - The RAM <Mram_RAM> will be implemented as a BLOCK RAM, absorbing the following register(s): <do>
@@ -689,22 +646,21 @@ Macro Statistics
 # RAMs                                                 : 5
  256x1-bit single-port block RAM                       : 1
  4096x1-bit single-port block RAM                      : 4
-# Adders/Subtractors                                   : 6
+# Adders/Subtractors                                   : 13
  12-bit adder                                          : 4
- 32-bit adder                                          : 1
+ 32-bit adder                                          : 8
  8-bit adder                                           : 1
-# Counters                                             : 3
- 27-bit up counter                                     : 1
- 32-bit up counter                                     : 1
+# Counters                                             : 17
+ 27-bit up counter                                     : 8
+ 32-bit up counter                                     : 8
  4-bit up counter                                      : 1
-# Registers                                            : 183
- Flip-Flops                                            : 183
-# Comparators                                          : 9
+# Registers                                            : 878
+ Flip-Flops                                            : 878
+# Comparators                                          : 29
  12-bit comparator less                                : 4
- 27-bit comparator greatequal                          : 1
- 27-bit comparator less                                : 1
- 32-bit comparator greater                             : 1
- 32-bit comparator less                                : 1
+ 27-bit comparator greatequal                          : 8
+ 27-bit comparator less                                : 8
+ 32-bit comparator greatequal                          : 8
  8-bit comparator less                                 : 1
 
 =========================================================================
@@ -712,37 +668,6 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <buffer_reg_2> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_3> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_4> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_5> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_6> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_7> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_8> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_9> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_10> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_11> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_12> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_13> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_14> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_15> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_16> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_17> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_18> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_19> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_20> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_21> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_22> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_23> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_24> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_25> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_26> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_27> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_28> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_29> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_30> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buffer_reg_31> (without init value) has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <data> has a constant value of 0 in block <psi_trigg>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2697 - Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> : the RAMs <XLXI_2/Mram_RAM>, <XLXI_11/Mram_RAM> are packed into the single block RAM <XLXI_2/Mram_RAM1>
 INFO:Xst:2697 - Unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> : the RAMs <XLXI_14/Mram_RAM>, <XLXI_23/Mram_RAM> are packed into the single block RAM <XLXI_14/Mram_RAM1>
 
@@ -752,11 +677,11 @@ Optimizing unit <M2_1_HXILINX_Firmware_Top> ...
 
 Optimizing unit <OR6_HXILINX_Firmware_Top> ...
 
-Optimizing unit <psi_trigg> ...
-
 Optimizing unit <mem_control_gen> ...
 
 Optimizing unit <STOP_mem_control_gen> ...
+
+Optimizing unit <psi_trigg> ...
 
 Optimizing unit <cntr_trigg> ...
 
@@ -764,11 +689,17 @@ Optimizing unit <trigger_ch_MUSER_Firmware_Top> ...
 
 Optimizing unit <MEMORY_BLOCK_NEW_MUSER_Firmware_Top> ...
 
+Optimizing unit <top_psi_trigg> ...
+
+Optimizing unit <top_trigg_MUSER_Firmware_Top> ...
+
 Optimizing unit <majority_logic_MUSER_Firmware_Top> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Firmware_Top, actual ratio is 29.
+Found area constraint ratio of 100 (+ 5) on block Firmware_Top, actual ratio is 153.
+Optimizing block <Firmware_Top> to meet ratio 100 (+ 5) of 704 slices :
+WARNING:Xst:2254 - Area constraint could not be met for block <Firmware_Top>, final ratio is 152.
 
 Final Macro Processing ...
 
@@ -780,8 +711,8 @@ Unit <Firmware_Top> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 212
- Flip-Flops                                            : 212
+# Registers                                            : 1351
+ Flip-Flops                                            : 1351
 # Shift Registers                                      : 1
  3-bit shift register                                  : 1
 
@@ -809,36 +740,36 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 41
+# IOs                              : 38
 
 Cell Usage :
-# BELS                             : 702
+# BELS                             : 3514
 #      AND2                        : 1
 #      AND3                        : 4
 #      AND4                        : 1
 #      BUF                         : 3
 #      GND                         : 1
-#      INV                         : 15
-#      LUT1                        : 112
-#      LUT2                        : 60
-#      LUT2_L                      : 1
-#      LUT3                        : 100
+#      INV                         : 64
+#      LUT1                        : 580
+#      LUT2                        : 325
+#      LUT2_L                      : 8
+#      LUT3                        : 342
 #      LUT3_L                      : 1
-#      LUT4                        : 67
+#      LUT4                        : 426
 #      LUT4_D                      : 2
-#      MUXCY                       : 183
+#      MUXCY                       : 968
 #      MUXF5                       : 8
 #      OR4                         : 1
 #      OR5                         : 2
 #      VCC                         : 1
-#      XORCY                       : 139
-# FlipFlops/Latches                : 213
+#      XORCY                       : 776
+# FlipFlops/Latches                : 1352
 #      FD                          : 2
 #      FD_1                        : 3
 #      FDC                         : 3
-#      FDCE                        : 124
+#      FDCE                        : 1256
 #      FDCE_1                      : 71
-#      FDE                         : 2
+#      FDE                         : 9
 #      FDR                         : 8
 # RAMS                             : 3
 #      RAMB16BWE                   : 3
@@ -847,10 +778,10 @@ Cell Usage :
 #      SRL16_1                     : 1
 # Clock Buffers                    : 7
 #      BUFG                        : 7
-# IO Buffers                       : 42
-#      IBUF                        : 24
+# IO Buffers                       : 39
+#      IBUF                        : 23
 #      IBUFG                       : 3
-#      OBUF                        : 14
+#      OBUF                        : 12
 #      OBUFT                       : 1
 # DCMs                             : 1
 #      DCM_SP                      : 1
@@ -861,16 +792,18 @@ Device utilization summary:
 
 Selected Device : 3s50antqg144-4 
 
- Number of Slices:                      207  out of    704    29%  
- Number of Slice Flip Flops:            213  out of   1408    15%  
- Number of 4 input LUTs:                361  out of   1408    25%  
-    Number used as logic:               358
+ Number of Slices:                     1078  out of    704   153% (*) 
+ Number of Slice Flip Flops:           1352  out of   1408    96%  
+ Number of 4 input LUTs:               1751  out of   1408   124% (*) 
+    Number used as logic:              1748
     Number used as Shift registers:       3
- Number of IOs:                          41
- Number of bonded IOBs:                  41  out of    108    37%  
+ Number of IOs:                          38
+ Number of bonded IOBs:                  38  out of    108    35%  
  Number of BRAMs:                         3  out of      3   100%  
  Number of GCLKs:                         7  out of     24    29%  
  Number of DCMs:                          1  out of      2    50%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
 
 ---------------------------
 Partition Resource Summary:
@@ -894,12 +827,12 @@ Clock Information:
 Clock Signal                       | Clock buffer(FF name)                   | Load  |
 -----------------------------------+-----------------------------------------+-------+
 clk                                | XLXI_2/DCM_SP_INST:CLKDV                | 5     |
-clk                                | XLXI_2/DCM_SP_INST:CLK0                 | 100   |
+clk                                | XLXI_2/DCM_SP_INST:CLK0                 | 744   |
 XLXI_38/XLXN_121                   | NONE(XLXI_38/XLXI_27/XLXI_1/enable_stop)| 1     |
 clk                                | XLXI_2/DCM_SP_INST:CLK2X                | 2     |
 XLXI_18/XLXI_19                    | NONE(XLXI_5/enable2)                    | 2     |
-XLXI_11/O1(XLXI_11/O1:O)           | BUFG(*)(XLXI_97/i_31)                   | 95    |
 XLXI_12/O(XLXI_12/O1:O)            | NONE(*)(XLXI_21/XLXI_25/wait_f)         | 12    |
+XLXI_11/O1(XLXI_11/O1:O)           | BUFG(*)(XLXI_21/XLXI_1/wait_f)          | 590   |
 XLXI_18/XLXI_8                     | NONE(XLXI_18/Mshreg_XLXI_19)            | 2     |
 -----------------------------------+-----------------------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
@@ -909,22 +842,28 @@ INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered
 
 Asynchronous Control Signals Information:
 ----------------------------------------
------------------------------------------------------------+-----------------------------------------+-------+
-Control Signal                                             | Buffer(FF name)                         | Load  |
------------------------------------------------------------+-----------------------------------------+-------+
-trigg_rst                                                  | IBUF                                    | 91    |
-rst                                                        | IBUFG+BUFG                              | 71    |
-XLXI_97/buffer_reg_4_or0000(XLXI_97/buffer_reg_4_or00001:O)| NONE(XLXI_97/conv_flag)                 | 33    |
-XLXI_38/XLXI_27/XLXI_49(XLXI_38/XLXI_27/XLXI_49:Q)         | NONE(XLXI_38/XLXI_27/XLXI_1/enable_stop)| 1     |
-XLXI_5/enable1_or0000(XLXI_5/enable1_or00001:O)            | NONE(XLXI_5/enable1)                    | 1     |
-XLXI_5/enable2_or0000(XLXI_5/enable2_or00001:O)            | NONE(XLXI_5/enable2)                    | 1     |
------------------------------------------------------------+-----------------------------------------+-------+
+-----------------------------------------------------------------------+-----------------------------------------+-------+
+Control Signal                                                         | Buffer(FF name)                         | Load  |
+-----------------------------------------------------------------------+-----------------------------------------+-------+
+rst                                                                    | IBUFG+BUFG                              | 799   |
+XLXI_131/psi1/buffer_reg_4_or0000(XLXI_131/psi1/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi1/buffer_reg_0)        | 66    |
+XLXI_131/psi2/buffer_reg_4_or0000(XLXI_131/psi2/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi2/buffer_reg_0)        | 66    |
+XLXI_131/psi3/buffer_reg_4_or0000(XLXI_131/psi3/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi3/buffer_reg_0)        | 66    |
+XLXI_131/psi4/buffer_reg_4_or0000(XLXI_131/psi4/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi4/buffer_reg_0)        | 66    |
+XLXI_131/psi5/buffer_reg_4_or0000(XLXI_131/psi5/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi5/buffer_reg_0)        | 66    |
+XLXI_131/psi6/buffer_reg_4_or0000(XLXI_131/psi6/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi6/buffer_reg_0)        | 66    |
+XLXI_131/psi7/buffer_reg_4_or0000(XLXI_131/psi7/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi7/buffer_reg_0)        | 66    |
+XLXI_131/psi8/buffer_reg_4_or0000(XLXI_131/psi8/buffer_reg_4_or00001:O)| NONE(XLXI_131/psi8/buffer_reg_0)        | 66    |
+XLXI_38/XLXI_27/XLXI_49(XLXI_38/XLXI_27/XLXI_49:Q)                     | NONE(XLXI_38/XLXI_27/XLXI_1/enable_stop)| 1     |
+XLXI_5/enable1_or0000(XLXI_5/enable1_or00001:O)                        | NONE(XLXI_5/enable1)                    | 1     |
+XLXI_5/enable2_or0000(XLXI_5/enable2_or00001:O)                        | NONE(XLXI_5/enable2)                    | 1     |
+-----------------------------------------------------------------------+-----------------------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 9.589ns (Maximum Frequency: 104.282MHz)
+   Minimum period: 9.590ns (Maximum Frequency: 104.275MHz)
    Minimum input arrival time before clock: 8.386ns
    Maximum output required time after clock: 14.580ns
    Maximum combinational path delay: 13.146ns
@@ -935,85 +874,63 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 9.589ns (frequency: 104.282MHz)
-  Total number of paths / destination ports: 9578 / 171
+  Clock period: 9.590ns (frequency: 104.275MHz)
+  Total number of paths / destination ports: 76358 / 1270
 -------------------------------------------------------------------------
-Delay:               9.589ns (Levels of Logic = 39)
-  Source:            XLXI_96/counter/count_local_10 (FF)
-  Destination:       XLXI_96/counter/count_local_26 (FF)
+Delay:               9.590ns (Levels of Logic = 39)
+  Source:            XLXI_139/XLXI_1/count_local_10 (FF)
+  Destination:       XLXI_139/XLXI_1/count_local_26 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: XLXI_96/counter/count_local_10 to XLXI_96/counter/count_local_26
+  Data Path: XLXI_139/XLXI_1/count_local_10 to XLXI_139/XLXI_1/count_local_26
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.591   0.590  XLXI_96/counter/count_local_10 (XLXI_96/counter/count_local_10)
-     LUT1:I0->O            1   0.648   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<0>_rt (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<0>_rt)
-     MUXCY:S->O            1   0.632   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<0> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<0>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<1> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<1>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<2> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<2>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<3> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<3>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<4> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<4>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<5> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<5>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<6> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<6>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<7> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<7>)
-     MUXCY:CI->O           1   0.269   0.452  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<8> (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<8>)
-     LUT3:I2->O           61   0.648   1.303  XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<10>1 (XLXI_96/counter/Mcompar_count_trigg_cmp_lt0000_cy<10>)
-     LUT3:I2->O            1   0.648   0.000  XLXI_96/counter/Mcount_count_local_lut<0> (XLXI_96/counter/Mcount_count_local_lut<0>)
-     MUXCY:S->O            1   0.632   0.000  XLXI_96/counter/Mcount_count_local_cy<0> (XLXI_96/counter/Mcount_count_local_cy<0>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<1> (XLXI_96/counter/Mcount_count_local_cy<1>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<2> (XLXI_96/counter/Mcount_count_local_cy<2>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<3> (XLXI_96/counter/Mcount_count_local_cy<3>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<4> (XLXI_96/counter/Mcount_count_local_cy<4>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<5> (XLXI_96/counter/Mcount_count_local_cy<5>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<6> (XLXI_96/counter/Mcount_count_local_cy<6>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<7> (XLXI_96/counter/Mcount_count_local_cy<7>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<8> (XLXI_96/counter/Mcount_count_local_cy<8>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<9> (XLXI_96/counter/Mcount_count_local_cy<9>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<10> (XLXI_96/counter/Mcount_count_local_cy<10>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<11> (XLXI_96/counter/Mcount_count_local_cy<11>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<12> (XLXI_96/counter/Mcount_count_local_cy<12>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<13> (XLXI_96/counter/Mcount_count_local_cy<13>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<14> (XLXI_96/counter/Mcount_count_local_cy<14>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<15> (XLXI_96/counter/Mcount_count_local_cy<15>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<16> (XLXI_96/counter/Mcount_count_local_cy<16>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<17> (XLXI_96/counter/Mcount_count_local_cy<17>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<18> (XLXI_96/counter/Mcount_count_local_cy<18>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<19> (XLXI_96/counter/Mcount_count_local_cy<19>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<20> (XLXI_96/counter/Mcount_count_local_cy<20>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<21> (XLXI_96/counter/Mcount_count_local_cy<21>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<22> (XLXI_96/counter/Mcount_count_local_cy<22>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<23> (XLXI_96/counter/Mcount_count_local_cy<23>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<24> (XLXI_96/counter/Mcount_count_local_cy<24>)
-     MUXCY:CI->O           0   0.065   0.000  XLXI_96/counter/Mcount_count_local_cy<25> (XLXI_96/counter/Mcount_count_local_cy<25>)
-     XORCY:CI->O           1   0.844   0.000  XLXI_96/counter/Mcount_count_local_xor<26> (XLXI_96/counter/Mcount_count_local26)
-     FDCE:D                    0.252          XLXI_96/counter/count_local_26
+     FDCE:C->Q             2   0.591   0.590  XLXI_139/XLXI_1/count_local_10 (XLXI_139/XLXI_1/count_local_10)
+     LUT1:I0->O            1   0.648   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<0>_rt (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.632   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<0> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<1> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<2> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<3> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<4> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<5> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<6> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<7> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.269   0.452  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<8> (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<8>)
+     LUT3:I2->O           63   0.648   1.304  XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<10>1 (XLXI_139/XLXI_1/Mcompar_count_trigg_cmp_lt0000_cy<10>)
+     LUT3:I2->O            1   0.648   0.000  XLXI_139/XLXI_1/Mcount_count_local_lut<0> (XLXI_139/XLXI_1/Mcount_count_local_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<0> (XLXI_139/XLXI_1/Mcount_count_local_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<1> (XLXI_139/XLXI_1/Mcount_count_local_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<2> (XLXI_139/XLXI_1/Mcount_count_local_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<3> (XLXI_139/XLXI_1/Mcount_count_local_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<4> (XLXI_139/XLXI_1/Mcount_count_local_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<5> (XLXI_139/XLXI_1/Mcount_count_local_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<6> (XLXI_139/XLXI_1/Mcount_count_local_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<7> (XLXI_139/XLXI_1/Mcount_count_local_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<8> (XLXI_139/XLXI_1/Mcount_count_local_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<9> (XLXI_139/XLXI_1/Mcount_count_local_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<10> (XLXI_139/XLXI_1/Mcount_count_local_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<11> (XLXI_139/XLXI_1/Mcount_count_local_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<12> (XLXI_139/XLXI_1/Mcount_count_local_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<13> (XLXI_139/XLXI_1/Mcount_count_local_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<14> (XLXI_139/XLXI_1/Mcount_count_local_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<15> (XLXI_139/XLXI_1/Mcount_count_local_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<16> (XLXI_139/XLXI_1/Mcount_count_local_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<17> (XLXI_139/XLXI_1/Mcount_count_local_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<18> (XLXI_139/XLXI_1/Mcount_count_local_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<19> (XLXI_139/XLXI_1/Mcount_count_local_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<20> (XLXI_139/XLXI_1/Mcount_count_local_cy<20>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<21> (XLXI_139/XLXI_1/Mcount_count_local_cy<21>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<22> (XLXI_139/XLXI_1/Mcount_count_local_cy<22>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<23> (XLXI_139/XLXI_1/Mcount_count_local_cy<23>)
+     MUXCY:CI->O           1   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<24> (XLXI_139/XLXI_1/Mcount_count_local_cy<24>)
+     MUXCY:CI->O           0   0.065   0.000  XLXI_139/XLXI_1/Mcount_count_local_cy<25> (XLXI_139/XLXI_1/Mcount_count_local_cy<25>)
+     XORCY:CI->O           1   0.844   0.000  XLXI_139/XLXI_1/Mcount_count_local_xor<26> (XLXI_139/XLXI_1/Mcount_count_local26)
+     FDCE:D                    0.252          XLXI_139/XLXI_1/count_local_26
     ----------------------------------------
-    Total                      9.589ns (7.244ns logic, 2.345ns route)
+    Total                      9.590ns (7.244ns logic, 2.346ns route)
                                        (75.5% logic, 24.5% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_11/O1'
-  Clock period: 8.442ns (frequency: 118.455MHz)
-  Total number of paths / destination ports: 2777 / 197
--------------------------------------------------------------------------
-Delay:               4.221ns (Levels of Logic = 1)
-  Source:            XLXI_21/XLXI_22/wait_f (FF)
-  Destination:       XLXI_21/XLXI_14/Mram_RAM1 (RAM)
-  Source Clock:      XLXI_11/O1 falling
-  Destination Clock: XLXI_11/O1 rising
-
-  Data Path: XLXI_21/XLXI_22/wait_f to XLXI_21/XLXI_14/Mram_RAM1
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDCE_1:C->Q          18   0.591   1.148  XLXI_21/XLXI_22/wait_f (XLXI_21/XLXI_22/wait_f)
-     LUT2:I1->O            4   0.643   0.587  XLXI_21/XLXI_23/we1 (XLXI_21/XLXI_23/we_0)
-     RAMB16BWE:WEB0            1.252          XLXI_21/XLXI_14/Mram_RAM1
-    ----------------------------------------
-    Total                      4.221ns (2.486ns logic, 1.735ns route)
-                                       (58.9% logic, 41.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_12/O'
@@ -1038,6 +955,28 @@ Delay:               3.781ns (Levels of Logic = 1)
                                        (56.4% logic, 43.6% route)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_11/O1'
+  Clock period: 8.442ns (frequency: 118.455MHz)
+  Total number of paths / destination ports: 36609 / 1180
+-------------------------------------------------------------------------
+Delay:               4.221ns (Levels of Logic = 1)
+  Source:            XLXI_21/XLXI_22/wait_f (FF)
+  Destination:       XLXI_21/XLXI_14/Mram_RAM1 (RAM)
+  Source Clock:      XLXI_11/O1 falling
+  Destination Clock: XLXI_11/O1 rising
+
+  Data Path: XLXI_21/XLXI_22/wait_f to XLXI_21/XLXI_14/Mram_RAM1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q          18   0.591   1.148  XLXI_21/XLXI_22/wait_f (XLXI_21/XLXI_22/wait_f)
+     LUT2:I1->O            4   0.643   0.587  XLXI_21/XLXI_23/we1 (XLXI_21/XLXI_23/we_0)
+     RAMB16BWE:WEB0            1.252          XLXI_21/XLXI_14/Mram_RAM1
+    ----------------------------------------
+    Total                      4.221ns (2.486ns logic, 1.735ns route)
+                                       (58.9% logic, 41.1% route)
+
+=========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_18/XLXI_8'
   Clock period: 3.781ns (frequency: 264.480MHz)
   Total number of paths / destination ports: 1 / 1
@@ -1060,7 +999,7 @@ Delay:               3.781ns (Levels of Logic = 0)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 248 / 103
+  Total number of paths / destination ports: 1137 / 754
 -------------------------------------------------------------------------
 Offset:              8.386ns (Levels of Logic = 9)
   Source:            diff_select_M (PAD)
@@ -1088,32 +1027,10 @@ Offset:              8.386ns (Levels of Logic = 9)
                                        (56.5% logic, 43.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_11/O1'
-  Total number of paths / destination ports: 108 / 105
--------------------------------------------------------------------------
-Offset:              6.325ns (Levels of Logic = 4)
-  Source:            rst (PAD)
-  Destination:       XLXI_21/XLXI_1/wait_f (FF)
-  Destination Clock: XLXI_11/O1 falling
-
-  Data Path: rst to XLXI_21/XLXI_1/wait_f
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUFG:I->O            1   1.070   0.420  rst_IBUFG (rst_IBUFG)
-     BUFG:I->O            80   0.221   1.277  XLXI_37 (XLXN_441)
-     OR5:I4->O            77   0.648   1.308  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
-     LUT4:I2->O            1   0.648   0.420  XLXI_21/XLXI_22/done_f_not00011 (XLXI_21/XLXI_22/done_f_not0001)
-     FDCE_1:CE                 0.312          XLXI_21/XLXI_22/done_f
-    ----------------------------------------
-    Total                      6.325ns (2.899ns logic, 3.426ns route)
-                                       (45.8% logic, 54.2% route)
-
-=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_12/O'
   Total number of paths / destination ports: 13 / 13
 -------------------------------------------------------------------------
-Offset:              7.468ns (Levels of Logic = 5)
+Offset:              7.600ns (Levels of Logic = 5)
   Source:            rst (PAD)
   Destination:       XLXI_21/XLXI_25/done_f (FF)
   Destination Clock: XLXI_12/O falling
@@ -1123,14 +1040,36 @@ Offset:              7.468ns (Levels of Logic = 5)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUFG:I->O            1   1.070   0.420  rst_IBUFG (rst_IBUFG)
-     BUFG:I->O            80   0.221   1.277  XLXI_37 (XLXN_441)
+     BUFG:I->O           824   0.221   1.410  XLXI_37 (trigg_rst)
      OR5:I4->O            77   0.648   1.308  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
      LUT4_D:I2->O          1   0.648   0.500  XLXI_21/XLXI_25/done_f_not000111 (XLXI_21/XLXI_25/N13)
      LUT2:I1->O            1   0.643   0.420  XLXI_21/XLXI_25/done_f_not00012 (XLXI_21/XLXI_25/done_f_not0001)
      FDCE_1:CE                 0.312          XLXI_21/XLXI_25/done_f
     ----------------------------------------
-    Total                      7.468ns (3.542ns logic, 3.926ns route)
-                                       (47.4% logic, 52.6% route)
+    Total                      7.600ns (3.542ns logic, 4.058ns route)
+                                       (46.6% logic, 53.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_11/O1'
+  Total number of paths / destination ports: 603 / 600
+-------------------------------------------------------------------------
+Offset:              6.500ns (Levels of Logic = 4)
+  Source:            rst (PAD)
+  Destination:       XLXI_21/XLXI_1/full_f (FF)
+  Destination Clock: XLXI_11/O1 falling
+
+  Data Path: rst to XLXI_21/XLXI_1/full_f
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            1   1.070   0.420  rst_IBUFG (rst_IBUFG)
+     BUFG:I->O           824   0.221   1.410  XLXI_37 (trigg_rst)
+     OR5:I4->O            77   0.648   1.356  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
+     LUT4:I1->O            1   0.643   0.420  XLXI_21/XLXI_22/full_f_not00011 (XLXI_21/XLXI_22/full_f_not0001)
+     FDCE_1:CE                 0.312          XLXI_21/XLXI_22/full_f
+    ----------------------------------------
+    Total                      6.500ns (2.894ns logic, 3.606ns route)
+                                       (44.5% logic, 55.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_12/O'
@@ -1149,7 +1088,7 @@ Offset:              14.580ns (Levels of Logic = 5)
      OR5:I0->O             1   0.648   0.420  XLXI_23 (or_data)
      OBUFT:I->O                4.520          XLXI_31 (XLXN_522)
      begin scope: 'XLXI_103'
-     LUT2:I1->O            1   0.643   0.420  O1 (O)
+     LUT3:I1->O            1   0.643   0.420  O1 (O)
      end scope: 'XLXI_103'
      OBUF:I->O                 4.520          SPI_MISO_OBUF (SPI_MISO)
     ----------------------------------------
@@ -1158,7 +1097,7 @@ Offset:              14.580ns (Levels of Logic = 5)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_11/O1'
-  Total number of paths / destination ports: 6 / 3
+  Total number of paths / destination ports: 21 / 3
 -------------------------------------------------------------------------
 Offset:              14.580ns (Levels of Logic = 5)
   Source:            XLXI_21/XLXI_14/Mram_RAM1 (RAM)
@@ -1173,7 +1112,7 @@ Offset:              14.580ns (Levels of Logic = 5)
      OR5:I2->O             1   0.648   0.420  XLXI_23 (or_data)
      OBUFT:I->O                4.520          XLXI_31 (XLXN_522)
      begin scope: 'XLXI_103'
-     LUT2:I1->O            1   0.643   0.420  O1 (O)
+     LUT3:I1->O            1   0.643   0.420  O1 (O)
      end scope: 'XLXI_103'
      OBUF:I->O                 4.520          SPI_MISO_OBUF (SPI_MISO)
     ----------------------------------------
@@ -1242,40 +1181,27 @@ Offset:              7.455ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 120 / 4
+  Total number of paths / destination ports: 4 / 2
 -------------------------------------------------------------------------
-Offset:              9.531ns (Levels of Logic = 15)
-  Source:            XLXI_96/counter/q_0 (FF)
-  Destination:       trigg_cmp_flag<1> (PAD)
-  Source Clock:      clk rising
+Offset:              7.482ns (Levels of Logic = 2)
+  Source:            XLXI_38/XLXI_27/XLXI_49 (FF)
+  Destination:       stop_SST (PAD)
+  Source Clock:      clk falling
 
-  Data Path: XLXI_96/counter/q_0 to trigg_cmp_flag<1>
+  Data Path: XLXI_38/XLXI_27/XLXI_49 to stop_SST
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             1   0.591   0.563  XLXI_96/counter/q_0 (XLXI_96/counter/q_0)
-     LUT4:I0->O            1   0.648   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_lut<0> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_lut<0>)
-     MUXCY:S->O            1   0.632   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<0> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<0>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<1> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<1>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<2> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<2>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<3> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<3>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<4> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<4>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<5> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<5>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<6> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<6>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<7> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<7>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<8> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<8>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<9> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<9>)
-     MUXCY:CI->O           1   0.065   0.000  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<10> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<10>)
-     MUXCY:CI->O           2   0.269   0.590  XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<11> (XLXI_96/comp/Mcompar_flag_cmp_gt0000_cy<11>)
-     LUT4:I0->O            1   0.648   0.420  XLXI_96/comp/flag<1>1 (trigg_cmp_flag_1_OBUF)
-     OBUF:I->O                 4.520          trigg_cmp_flag_1_OBUF (trigg_cmp_flag<1>)
+     FD_1:C->Q             2   0.591   0.447  XLXI_38/XLXI_27/XLXI_49 (XLXI_38/XLXI_27/XLXI_49)
+     OR5:I1->O            77   0.648   1.276  XLXI_38/XLXI_27/XLXI_48 (stop_SST_OBUF)
+     OBUF:I->O                 4.520          stop_SST_OBUF (stop_SST)
     ----------------------------------------
-    Total                      9.531ns (7.958ns logic, 1.573ns route)
-                                       (83.5% logic, 16.5% route)
+    Total                      7.482ns (5.759ns logic, 1.723ns route)
+                                       (77.0% logic, 23.0% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 14 / 11
+  Total number of paths / destination ports: 10 / 9
 -------------------------------------------------------------------------
 Delay:               13.146ns (Levels of Logic = 6)
   Source:            re (PAD)
@@ -1289,7 +1215,7 @@ Delay:               13.146ns (Levels of Logic = 6)
      LUT2:I0->O            1   0.648   0.420  XLXI_32 (tri_ctrl)
      OBUFT:T->O                4.295          XLXI_31 (XLXN_522)
      begin scope: 'XLXI_103'
-     LUT2:I1->O            1   0.643   0.420  O1 (O)
+     LUT3:I1->O            1   0.643   0.420  O1 (O)
      end scope: 'XLXI_103'
      OBUF:I->O                 4.520          SPI_MISO_OBUF (SPI_MISO)
     ----------------------------------------
@@ -1299,15 +1225,15 @@ Delay:               13.146ns (Levels of Logic = 6)
 =========================================================================
 
 
-Total REAL time to Xst completion: 25.00 secs
-Total CPU time to Xst completion: 9.99 secs
+Total REAL time to Xst completion: 46.00 secs
+Total CPU time to Xst completion: 19.96 secs
  
 --> 
 
 
-Total memory usage is 555932 kilobytes
+Total memory usage is 568620 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   92 (   0 filtered)
-Number of infos    :    8 (   0 filtered)
+Number of warnings :   30 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
 

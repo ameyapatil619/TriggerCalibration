@@ -9,37 +9,10 @@
         <signal name="trigger" />
         <signal name="clk" />
         <signal name="reset" />
-        <signal name="XLXN_101" />
-        <signal name="XLXN_103" />
-        <signal name="XLXN_106" />
-        <signal name="XLXN_107" />
-        <signal name="XLXN_110" />
-        <signal name="XLXN_105" />
-        <signal name="XLXN_104" />
-        <signal name="XLXN_120" />
-        <signal name="XLXN_124" />
-        <signal name="XLXN_125" />
-        <signal name="XLXN_126" />
-        <signal name="XLXN_127" />
-        <signal name="XLXN_128" />
-        <signal name="XLXN_129" />
-        <signal name="XLXN_130" />
-        <signal name="XLXN_134" />
-        <signal name="XLXN_136" />
-        <signal name="XLXN_137" />
-        <signal name="XLXN_138" />
-        <signal name="XLXN_147" />
-        <signal name="XLXN_152" />
-        <signal name="XLXN_156" />
-        <signal name="XLXN_158" />
-        <signal name="XLXN_159" />
         <signal name="stop" />
         <signal name="XLXN_161" />
-        <signal name="XLXN_162" />
         <signal name="XLXN_163" />
         <signal name="XLXN_164" />
-        <signal name="XLXN_165" />
-        <signal name="XLXN_166" />
         <signal name="XLXN_167" />
         <port polarity="Input" name="trigger" />
         <port polarity="Input" name="clk" />

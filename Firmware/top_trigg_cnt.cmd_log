@@ -1,0 +1,4 @@
+vhdtdtfi -lib work trigg_comp.vhd -lib work cntr_trigg.vhd -lib work cntr_trigg_comp.vhd -lib work top_trigg_cnt.vhd -prj Firmware -o top_trigg_cnt.spl -module top_trigg_cnt -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w top_trigg_cnt.spl /home/ameya/Desktop/Indi_Research/Firmware/top_trigg_cnt.sym 
+vhdtdtfi -lib work trigg_comp.vhd -lib work cntr_trigg.vhd -lib work cntr_trigg_comp.vhd -lib work top_trigg_cnt.vhd -prj Firmware -o top_trigg_cnt.spl -module top_trigg_cnt -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w top_trigg_cnt.spl /home/ameya/Desktop/Indi_Research/Firmware/top_trigg_cnt.sym 

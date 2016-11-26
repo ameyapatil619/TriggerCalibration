@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="top_psi_trigg">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-11-26T3:5:49</timestamp>
+    <pin polarity="Input" x="0" y="-1184" name="rst" />
+    <pin polarity="Input" x="0" y="-1120" name="clk" />
+    <pin polarity="Input" x="0" y="-1056" name="enable" />
+    <pin polarity="Input" x="0" y="608" name="ser_start" />
+    <pin polarity="Input" x="0" y="-480" name="prl_in_0H(31:0)" />
+    <pin polarity="Input" x="0" y="-416" name="prl_in_0L(31:0)" />
+    <pin polarity="Input" x="0" y="-352" name="prl_in_1H(31:0)" />
+    <pin polarity="Input" x="0" y="-288" name="prl_in_1L(31:0)" />
+    <pin polarity="Input" x="0" y="-224" name="prl_in_2H(31:0)" />
+    <pin polarity="Input" x="0" y="-160" name="prl_in_2L(31:0)" />
+    <pin polarity="Input" x="0" y="-96" name="prl_in_3H(31:0)" />
+    <pin polarity="Input" x="0" y="-32" name="prl_in_3L(31:0)" />
+    <pin polarity="Output" x="432" y="96" name="eoc_0H" />
+    <pin polarity="Output" x="432" y="-1120" name="ser_out_0H" />
+    <pin polarity="Output" x="432" y="160" name="eoc_0L" />
+    <pin polarity="Output" x="432" y="-992" name="ser_out_0L" />
+    <pin polarity="Output" x="432" y="224" name="eoc_1H" />
+    <pin polarity="Output" x="432" y="-864" name="ser_out_1H" />
+    <pin polarity="Output" x="432" y="288" name="eoc_1L" />
+    <pin polarity="Output" x="432" y="-736" name="ser_out_1L" />
+    <pin polarity="Output" x="432" y="352" name="eoc_2H" />
+    <pin polarity="Output" x="432" y="-608" name="ser_out_2H" />
+    <pin polarity="Output" x="432" y="416" name="eoc_2L" />
+    <pin polarity="Output" x="432" y="-480" name="ser_out_2L" />
+    <pin polarity="Output" x="432" y="480" name="eoc_3H" />
+    <pin polarity="Output" x="432" y="-352" name="ser_out_3H" />
+    <pin polarity="Output" x="432" y="544" name="eoc_3L" />
+    <pin polarity="Output" x="432" y="-224" name="ser_out_3L" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="216" y="-1224" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1184" type="pin rst" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1120" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1056" type="pin enable" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="608" type="pin ser_start" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin prl_in_0H(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin prl_in_0L(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin prl_in_1H(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin prl_in_1L(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin prl_in_2H(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin prl_in_2L(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin prl_in_3H(31:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin prl_in_3L(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="96" type="pin eoc_0H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-1120" type="pin ser_out_0H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="160" type="pin eoc_0L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-992" type="pin ser_out_0L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="224" type="pin eoc_1H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-864" type="pin ser_out_1H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="288" type="pin eoc_1L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-736" type="pin ser_out_1L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="352" type="pin eoc_2H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-608" type="pin ser_out_2H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="416" type="pin eoc_2L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-480" type="pin ser_out_2L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="480" type="pin eoc_3H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-352" type="pin ser_out_3H" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="544" type="pin eoc_3L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-224" type="pin ser_out_3L" />
+        <line x2="0" y1="608" y2="608" x1="64" />
+        <line x2="432" y1="96" y2="96" x1="368" />
+        <line x2="432" y1="160" y2="160" x1="368" />
+        <line x2="432" y1="224" y2="224" x1="368" />
+        <line x2="432" y1="288" y2="288" x1="368" />
+        <line x2="432" y1="352" y2="352" x1="368" />
+        <line x2="432" y1="416" y2="416" x1="368" />
+        <line x2="432" y1="480" y2="480" x1="368" />
+        <line x2="432" y1="544" y2="544" x1="368" />
+        <line x2="0" y1="-1184" y2="-1184" x1="64" />
+        <line x2="0" y1="-1120" y2="-1120" x1="64" />
+        <line x2="0" y1="-1056" y2="-1056" x1="64" />
+        <rect width="64" x="0" y="-492" height="24" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <rect width="64" x="0" y="-428" height="24" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <rect width="64" x="0" y="-364" height="24" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <rect width="64" x="0" y="-300" height="24" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="432" y1="-1120" y2="-1120" x1="368" />
+        <line x2="432" y1="-992" y2="-992" x1="368" />
+        <line x2="432" y1="-864" y2="-864" x1="368" />
+        <line x2="432" y1="-736" y2="-736" x1="368" />
+        <line x2="432" y1="-608" y2="-608" x1="368" />
+        <line x2="432" y1="-480" y2="-480" x1="368" />
+        <line x2="432" y1="-352" y2="-352" x1="368" />
+        <line x2="432" y1="-224" y2="-224" x1="368" />
+        <rect width="304" x="64" y="-1216" height="1856" />
+    </graph>
+</symbol>

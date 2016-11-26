@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : majority_sys.vhf
--- /___/   /\     Timestamp : 11/20/2016 00:23:40
+-- /___/   /\     Timestamp : 11/25/2016 20:13:11
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -140,8 +140,8 @@ architecture BEHAVIORAL of majority_logic_MUSER_majority_sys is
              cout3 : out   std_logic);
    end component;
    
-   attribute HU_SET of XLXI_13 : label is "XLXI_13_16";
-   attribute HU_SET of XLXI_26 : label is "XLXI_26_17";
+   attribute HU_SET of XLXI_13 : label is "XLXI_13_14";
+   attribute HU_SET of XLXI_26 : label is "XLXI_26_15";
 begin
    XLXI_1 : AND2
       port map (I0=>tri_in2,

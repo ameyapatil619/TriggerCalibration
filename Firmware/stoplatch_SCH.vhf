@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : stoplatch_SCH.vhf
--- /___/   /\     Timestamp : 11/20/2016 00:23:40
+-- /___/   /\     Timestamp : 11/25/2016 20:13:12
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

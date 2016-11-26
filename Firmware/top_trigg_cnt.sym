@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="top_trigg_cnt">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-11-25T3:52:16</timestamp>
+    <pin polarity="Input" x="0" y="-992" name="clk" />
+    <pin polarity="Input" x="0" y="-896" name="rst" />
+    <pin polarity="Input" x="0" y="-800" name="enable" />
+    <pin polarity="Input" x="0" y="-704" name="trig_0H" />
+    <pin polarity="Input" x="0" y="-608" name="trig_0L" />
+    <pin polarity="Input" x="0" y="-512" name="trig_1H" />
+    <pin polarity="Input" x="0" y="-416" name="trig_1L" />
+    <pin polarity="Input" x="0" y="-320" name="trig_2H" />
+    <pin polarity="Input" x="0" y="-224" name="trig_2L" />
+    <pin polarity="Input" x="0" y="-128" name="trig_3H" />
+    <pin polarity="Input" x="0" y="-32" name="trig_3L" />
+    <pin polarity="Output" x="384" y="-992" name="trig_ct_0H(31:0)" />
+    <pin polarity="Output" x="384" y="-928" name="trig_ct_0L(31:0)" />
+    <pin polarity="Output" x="384" y="-864" name="trig_ct_1H(31:0)" />
+    <pin polarity="Output" x="384" y="-800" name="trig_ct_1L(31:0)" />
+    <pin polarity="Output" x="384" y="-736" name="trig_ct_2H(31:0)" />
+    <pin polarity="Output" x="384" y="-672" name="trig_ct_2L(31:0)" />
+    <pin polarity="Output" x="384" y="-608" name="trig_ct_3H(31:0)" />
+    <pin polarity="Output" x="384" y="-544" name="trig_ct_3L(31:0)" />
+    <pin polarity="Output" x="384" y="-480" name="dac_flag_0H(1:0)" />
+    <pin polarity="Output" x="384" y="-416" name="dac_flag_0L(1:0)" />
+    <pin polarity="Output" x="384" y="-352" name="dac_flag_1H(1:0)" />
+    <pin polarity="Output" x="384" y="-288" name="dac_flag_1L(1:0)" />
+    <pin polarity="Output" x="384" y="-224" name="dac_flag_2H(1:0)" />
+    <pin polarity="Output" x="384" y="-160" name="dac_flag_2L(1:0)" />
+    <pin polarity="Output" x="384" y="-96" name="dac_flag_3H(1:0)" />
+    <pin polarity="Output" x="384" y="-32" name="dac_flag_3L(1:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-1032" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-992" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-896" type="pin rst" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-800" type="pin enable" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-704" type="pin trig_0H" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin trig_0L" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-512" type="pin trig_1H" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin trig_1L" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-320" type="pin trig_2H" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin trig_2L" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-128" type="pin trig_3H" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin trig_3L" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-992" type="pin trig_ct_0H(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-928" type="pin trig_ct_0L(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-864" type="pin trig_ct_1H(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-800" type="pin trig_ct_1L(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-736" type="pin trig_ct_2H(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-672" type="pin trig_ct_2L(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-608" type="pin trig_ct_3H(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-544" type="pin trig_ct_3L(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin dac_flag_0H(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-416" type="pin dac_flag_0L(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-352" type="pin dac_flag_1H(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-288" type="pin dac_flag_1L(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin dac_flag_2H(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-160" type="pin dac_flag_2L(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-96" type="pin dac_flag_3H(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin dac_flag_3L(1:0)" />
+        <rect width="256" x="64" y="-1024" height="1024" />
+        <line x2="0" y1="-992" y2="-992" x1="64" />
+        <line x2="0" y1="-896" y2="-896" x1="64" />
+        <line x2="0" y1="-800" y2="-800" x1="64" />
+        <line x2="0" y1="-704" y2="-704" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="0" y1="-512" y2="-512" x1="64" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-320" y2="-320" x1="64" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <line x2="0" y1="-128" y2="-128" x1="64" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <rect width="64" x="320" y="-1004" height="24" />
+        <line x2="384" y1="-992" y2="-992" x1="320" />
+        <rect width="64" x="320" y="-940" height="24" />
+        <line x2="384" y1="-928" y2="-928" x1="320" />
+        <rect width="64" x="320" y="-876" height="24" />
+        <line x2="384" y1="-864" y2="-864" x1="320" />
+        <rect width="64" x="320" y="-812" height="24" />
+        <line x2="384" y1="-800" y2="-800" x1="320" />
+        <rect width="64" x="320" y="-748" height="24" />
+        <line x2="384" y1="-736" y2="-736" x1="320" />
+        <rect width="64" x="320" y="-684" height="24" />
+        <line x2="384" y1="-672" y2="-672" x1="320" />
+        <rect width="64" x="320" y="-620" height="24" />
+        <line x2="384" y1="-608" y2="-608" x1="320" />
+        <rect width="64" x="320" y="-556" height="24" />
+        <line x2="384" y1="-544" y2="-544" x1="320" />
+        <rect width="64" x="320" y="-492" height="24" />
+        <line x2="384" y1="-480" y2="-480" x1="320" />
+        <rect width="64" x="320" y="-428" height="24" />
+        <line x2="384" y1="-416" y2="-416" x1="320" />
+        <rect width="64" x="320" y="-364" height="24" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+        <rect width="64" x="320" y="-300" height="24" />
+        <line x2="384" y1="-288" y2="-288" x1="320" />
+        <rect width="64" x="320" y="-236" height="24" />
+        <line x2="384" y1="-224" y2="-224" x1="320" />
+        <rect width="64" x="320" y="-172" height="24" />
+        <line x2="384" y1="-160" y2="-160" x1="320" />
+        <rect width="64" x="320" y="-108" height="24" />
+        <line x2="384" y1="-96" y2="-96" x1="320" />
+        <rect width="64" x="320" y="-44" height="24" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+    </graph>
+</symbol>

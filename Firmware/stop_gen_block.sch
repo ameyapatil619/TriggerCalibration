@@ -32,7 +32,6 @@
         <signal name="XLXN_184" />
         <signal name="XLXN_185" />
         <signal name="clk_160M" />
-        <signal name="XLXN_188" />
         <signal name="reset_SST" />
         <port polarity="Input" name="force_tri" />
         <port polarity="Input" name="enable_thermal_tri" />

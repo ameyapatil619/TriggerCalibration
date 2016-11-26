@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : majority_logic.vhf
--- /___/   /\     Timestamp : 11/20/2016 00:23:39
+-- /___/   /\     Timestamp : 11/25/2016 20:13:11
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -140,8 +140,8 @@ architecture BEHAVIORAL of majority_logic is
              cout3 : out   std_logic);
    end component;
    
-   attribute HU_SET of XLXI_13 : label is "XLXI_13_5";
-   attribute HU_SET of XLXI_26 : label is "XLXI_26_6";
+   attribute HU_SET of XLXI_13 : label is "XLXI_13_12";
+   attribute HU_SET of XLXI_26 : label is "XLXI_26_13";
 begin
    XLXI_1 : AND2
       port map (I0=>tri_in2,

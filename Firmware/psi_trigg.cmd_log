@@ -2,3 +2,7 @@ vhdtdtfi -lib work psi_trigg.vhd -prj Firmware -o psi_trigg.spl -module psi_trig
 spl2sym -intstyle ise -family spartan3a -w psi_trigg.spl /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.sym 
 vhdtdtfi -lib work psi_trigg.vhd -prj Firmware -o psi_trigg.spl -module psi_trigg -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3a -w psi_trigg.spl /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.sym 
+vhdtdtfi -lib work psi_trigg.vhd -prj Firmware -o psi_trigg.spl -module psi_trigg -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w psi_trigg.spl /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.sym 
+vhdtdtfi -lib work psi_trigg.vhd -prj Firmware -o psi_trigg.spl -module psi_trigg -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w psi_trigg.spl /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.sym 

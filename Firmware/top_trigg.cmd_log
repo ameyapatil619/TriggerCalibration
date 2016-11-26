@@ -1,0 +1,9 @@
+vhdtdtfi -lib work top_trigg.vhd -prj Firmware -o top_trigg.spl -module top_trigg -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w top_trigg.spl /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sym 
+vhdtdtfi -lib work cntr_trigg.vhd -lib work top_trigg.vhd -prj Firmware -o top_trigg.spl -module top_trigg -template /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w top_trigg.spl /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sym 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl top_trigg_drc.vhf -w /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sch 
+sch2sym -intstyle ise -family spartan3a -w -refsym top_trigg /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sch /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sym 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl top_trigg.vhf -w /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sch 
+sch2sym -intstyle ise -family spartan3a -w -refsym top_trigg /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sch /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sym 
+sch2sym -intstyle ise -family spartan3a -w -refsym top_trigg /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sch /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sym 

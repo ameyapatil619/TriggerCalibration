@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : stop_gen_block.vhf
--- /___/   /\     Timestamp : 11/20/2016 00:23:41
+-- /___/   /\     Timestamp : 11/25/2016 20:13:12
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -226,8 +226,8 @@ architecture BEHAVIORAL of majority_logic_MUSER_stop_gen_block is
              cout3 : out   std_logic);
    end component;
    
-   attribute HU_SET of XLXI_13 : label is "XLXI_13_18";
-   attribute HU_SET of XLXI_26 : label is "XLXI_26_19";
+   attribute HU_SET of XLXI_13 : label is "XLXI_13_16";
+   attribute HU_SET of XLXI_26 : label is "XLXI_26_17";
 begin
    XLXI_1 : AND2
       port map (I0=>tri_in2,

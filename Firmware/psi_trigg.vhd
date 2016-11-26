@@ -58,12 +58,11 @@ signal conv_flag: STD_LOGIC := '0';
 
 begin
 
-process(clk,rst,enable)
+process(clk, rst, enable, ser_strt, parallel_in)
 
 variable i : integer := 0;
 
 begin
-
 
 
 if rst = '1' or ser_strt ='0' then
@@ -76,10 +75,14 @@ i := 0;
 elsif ser_strt ='1' then
 
 if enable = '1' and clk'event and clk = '1' then
-
+--if enable = '1' and rising_edge(clk) then
 --	if load_val = '1' then
 
-	if i /= N then
+	if i = 0 then
+	
+	buffer_reg(N-1 downto 0) <= parallel_in(N-1 downto 0);
+	
+	elsif i /= 0 and i < N then
 
 		data <= buffer_reg(N-1);
 		
