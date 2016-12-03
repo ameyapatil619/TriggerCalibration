@@ -1,0 +1,29 @@
+Command line:
+   psi_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  41135
+
+Sat Dec  3 01:58:51 2016
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 195.92 Meg
+
+ Total Signals          : 17
+ Total Nets             : 72
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 434
+Total Line Count : 34
+
+ Total Simulation Time: 34.44 sec
+
+ Current Memory Usage: 271.421 Meg
+
+Sat Dec  3 02:00:59 2016
+

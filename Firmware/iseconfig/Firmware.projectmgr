@@ -39,7 +39,7 @@
       <SelectedItems>
          <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000145000000010000000100000000000000000000000064ffffffff000000810000000000000001000001450000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
@@ -73,13 +73,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000145000000010000000100000000000000000000000064ffffffff000000810000000000000001000001450000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -112,6 +112,45 @@
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XAW" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000154000000010000000100000000000000000000000064ffffffff000000810000000000000001000001540000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Firmware_Top |home|ameya|Desktop|Indi_Research|Firmware|Firmware_Top.sch</ClosedNode>
+         <ClosedNode>/MEMORY_BLOCK_NEW_MEMORY_BLOCK_NEW_sch_tb - behavioral |home|ameya|Desktop|Indi_Research|Firmware|test_MEMORY_BLOCK_NEW.vhd</ClosedNode>
+         <ClosedNode>/Sync_Sync_sch_tb - behavioral |home|ameya|Desktop|Indi_Research|Firmware|test_sync.vhd</ClosedNode>
+         <ClosedNode>/TEST_rst_gen_code - behavior |home|ameya|Desktop|Indi_Research|Firmware|TEST_rst_gen_code.vhd</ClosedNode>
+         <ClosedNode>/TEST_stop_latch - behavior |home|ameya|Desktop|Indi_Research|Firmware|TEST_stop_latch.vhd</ClosedNode>
+         <ClosedNode>/mem_control_mem_control_sch_tb - behavioral |home|ameya|Desktop|Indi_Research|Firmware|test_mem_control.vhd</ClosedNode>
+         <ClosedNode>/stop_block_stop_block_sch_tb - behavioral |home|ameya|Desktop|Indi_Research|Firmware|test2_stop_block.vhd</ClosedNode>
+         <ClosedNode>/stoplatch_SCH_stoplatch_SCH_sch_tb - behavioral |home|ameya|Desktop|Indi_Research|Firmware|TEST_SCH_stoplatch.vhd</ClosedNode>
+         <ClosedNode>/test_CS_gen - behavior |home|ameya|Desktop|Indi_Research|Firmware|test_CS_gen.vhd</ClosedNode>
+         <ClosedNode>/test_MEM_CONTROL_GEN - behavior |home|ameya|Desktop|Indi_Research|Firmware|test_MEM_CONTROL_GEN.vhd</ClosedNode>
+         <ClosedNode>/test_clkgen1M - behavior |home|ameya|Desktop|Indi_Research|Firmware|test_clkgen1M.vhd</ClosedNode>
+         <ClosedNode>/top_trigg_cnt - Behavioral |home|ameya|Desktop|Indi_Research|Firmware|top_trigg_cnt.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002ca000000020000000000000000000000000200000064ffffffff000000810000000300000002000002ca0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>

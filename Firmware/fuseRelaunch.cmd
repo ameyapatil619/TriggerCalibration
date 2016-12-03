@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Xilinx Projects/Firmware/TEST_rst_gen_code_isim_beh.exe" -prj "C:/Xilinx Projects/Firmware/TEST_rst_gen_code_beh.prj" "work.TEST_rst_gen_code" 
+-intstyle "ise" -incremental -o "/home/ameya/Desktop/Indi_Research/Firmware/psi_tb_isim_beh.exe" -prj "/home/ameya/Desktop/Indi_Research/Firmware/psi_tb_beh.prj" "work.psi_tb" 

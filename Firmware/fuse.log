@@ -1,0 +1,21 @@
+Running: /home/ameya/Desktop/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ameya/Desktop/Indi_Research/Firmware/psi_tb_isim_beh.exe -prj /home/ameya/Desktop/Indi_Research/Firmware/psi_tb_beh.prj work.psi_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd" into library work
+Parsing VHDL file "/home/ameya/Desktop/Indi_Research/Firmware/psi_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95060 KB
+Fuse CPU Usage: 1750 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity psi_trigg [\psi_trigg(32)\]
+Compiling architecture behavior of entity psi_tb
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable /home/ameya/Desktop/Indi_Research/Firmware/psi_tb_isim_beh.exe
+Fuse Memory Usage: 103724 KB
+Fuse CPU Usage: 1800 ms
+GCC CPU Usage: 400 ms

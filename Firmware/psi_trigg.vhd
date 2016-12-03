@@ -42,8 +42,8 @@ architecture Behavioral of psi_trigg is
 
 
 signal buffer_reg: STD_LOGIC_VECTOR (N-1 downto 0);
-signal data: STD_LOGIC := '0';
-signal conv_flag: STD_LOGIC := '0';
+signal data: STD_LOGIC := '0' ;
+signal conv_flag: STD_LOGIC := '0' ;
 --signal count_local: integer range 0 to 80e6;
 
 
@@ -51,7 +51,7 @@ begin
 
 process(clk, rst, enable, ser_strt, parallel_in)
 
-variable i : integer := 0;
+variable i : integer;
 
 begin
 
@@ -72,9 +72,10 @@ if enable = '1' and clk'event and clk = '1' then
 	if i = 0 then
 	
 	buffer_reg(N-1 downto 0) <= parallel_in(N-1 downto 0);
-	
-	elsif i /= 0 and i < N then
+	i:= i+1;
+	elsif i /= 0 and i < N-1 then
 
+		data <= buffer_reg(N-1);
 		data <= buffer_reg(N-1);
 		
 		buffer_reg(N-1 downto 1)<= buffer_reg(N-2 downto 0);
@@ -83,9 +84,9 @@ if enable = '1' and clk'event and clk = '1' then
 
 		i := i+1;
 
-	elsif i = N then 
+	elsif i = N-1 then 
 		conv_flag <= '1';
-		
+		--eoc <= '1';
 	end if;
 
 end if;

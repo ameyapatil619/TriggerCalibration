@@ -50,7 +50,7 @@ architecture Behavioural of cntr_trigg is
 --signal counter_local: STD_LOGIC_VECTOR (N-1 downto 0):= (others => '0');
 signal count_trigg: STD_LOGIC_VECTOR (N-1 downto 0):= (others => '0');
 signal flag: STD_LOGIC:= '0';
-signal count_local: integer range 0 to 80e6:=0;
+signal count_local: integer range 0 to 80e3:=0;
 
 begin
 
@@ -75,7 +75,7 @@ elsif enable = '1' and clk'event and clk = '1' and rst /= '1' then
 
 	
 
-		if (count_local < 80e6)  then
+		if (count_local < 80e3)  then
 	
 			if trigger = '1' and flag = '1' and (count_trigg(N-1) /= '1') then
 					

@@ -1,0 +1,2 @@
+vhdl isim_temp "psi_trigg.vhd"
+vhdl isim_temp "psi_tb.vhd"
