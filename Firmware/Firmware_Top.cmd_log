@@ -9,3 +9,4 @@ xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.
 xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
 xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
 xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 
+xst -intstyle ise -ifn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.xst" -ofn "/home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.syr" 

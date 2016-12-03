@@ -1,305 +1,305 @@
 V3 151
 FL /home/ameya/Desktop/Indi_Research/Firmware/clkgen_1M.vhd 2016/11/18.13:20:40 P.20131013
-EN work/clkgen_1M 1480136117 \
+EN work/clkgen_1M 1480752624 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/clkgen_1M.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/clkgen_1M/Behavioral 1480136118 \
+AR work/clkgen_1M/Behavioral 1480752625 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/clkgen_1M.vhd \
-      EN work/clkgen_1M 1480136117
-FL /home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhd 2016/11/25.19:52:50 P.20131013
-EN work/cntr_trigg 1480136105 \
+      EN work/clkgen_1M 1480752624
+FL /home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhd 2016/12/02.22:59:55 P.20131013
+EN work/cntr_trigg 1480752612 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/NUMERIC_STD 1381692181
-AR work/cntr_trigg/Behavioural 1480136106 \
+AR work/cntr_trigg/Behavioural 1480752613 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/cntr_trigg.vhd \
-      EN work/cntr_trigg 1480136105
+      EN work/cntr_trigg 1480752612
 FL /home/ameya/Desktop/Indi_Research/Firmware/CS_gen.vhd 2016/11/18.13:20:40 P.20131013
-EN work/CS_gen 1480136119 \
+EN work/CS_gen 1480752626 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/CS_gen.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/CS_gen/Behavioral 1480136120 \
-      FL /home/ameya/Desktop/Indi_Research/Firmware/CS_gen.vhd EN work/CS_gen 1480136119
+AR work/CS_gen/Behavioral 1480752627 \
+      FL /home/ameya/Desktop/Indi_Research/Firmware/CS_gen.vhd EN work/CS_gen 1480752626
 FL /home/ameya/Desktop/Indi_Research/Firmware/dcm_clkgen.vhd 2016/11/25.20:13:16 P.20131013
-EN work/dcm_clkgen 1480136115 \
+EN work/dcm_clkgen 1480752622 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/dcm_clkgen.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/dcm_clkgen/BEHAVIORAL 1480136116 \
+AR work/dcm_clkgen/BEHAVIORAL 1480752623 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/dcm_clkgen.vhd \
-      EN work/dcm_clkgen 1480136115 CP BUFG CP IBUFG CP DCM_SP
+      EN work/dcm_clkgen 1480752622 CP BUFG CP IBUFG CP DCM_SP
 FL /home/ameya/Desktop/Indi_Research/Firmware/demux.vhd 2016/11/18.13:20:46 P.20131013
-EN work/demux 1480136101 FL /home/ameya/Desktop/Indi_Research/Firmware/demux.vhd \
+EN work/demux 1480752608 FL /home/ameya/Desktop/Indi_Research/Firmware/demux.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/demux/Behavioral 1480136102 \
-      FL /home/ameya/Desktop/Indi_Research/Firmware/demux.vhd EN work/demux 1480136101
+AR work/demux/Behavioral 1480752609 \
+      FL /home/ameya/Desktop/Indi_Research/Firmware/demux.vhd EN work/demux 1480752608
 FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf 2016/11/25.20:17:08 P.20131013
-EN work/OR6_HXILINX_Firmware_Top 1480136123 \
+EN work/OR6_HXILINX_Firmware_Top 1480752630 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176
-AR work/OR6_HXILINX_Firmware_Top/OR6_HXILINX_Firmware_Top_V 1480136124 \
+AR work/OR6_HXILINX_Firmware_Top/OR6_HXILINX_Firmware_Top_V 1480752631 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/OR6_HXILINX_Firmware_Top 1480136123
-EN work/M2_1_HXILINX_Firmware_Top 1480136125 \
+      EN work/OR6_HXILINX_Firmware_Top 1480752630
+EN work/M2_1_HXILINX_Firmware_Top 1480752632 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176
-AR work/M2_1_HXILINX_Firmware_Top/M2_1_HXILINX_Firmware_Top_V 1480136126 \
+AR work/M2_1_HXILINX_Firmware_Top/M2_1_HXILINX_Firmware_Top_V 1480752633 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/M2_1_HXILINX_Firmware_Top 1480136125
-EN work/top_trigg_MUSER_Firmware_Top 1480136127 \
+      EN work/M2_1_HXILINX_Firmware_Top 1480752632
+EN work/top_trigg_MUSER_Firmware_Top 1480752634 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/top_trigg_MUSER_Firmware_Top/BEHAVIORAL 1480136128 \
+AR work/top_trigg_MUSER_Firmware_Top/BEHAVIORAL 1480752635 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/top_trigg_MUSER_Firmware_Top 1480136127 CP cntr_trigg
-EN work/MEMORY_BLOCK_NEW_MUSER_Firmware_Top 1480136129 \
+      EN work/top_trigg_MUSER_Firmware_Top 1480752634 CP cntr_trigg
+EN work/MEMORY_BLOCK_NEW_MUSER_Firmware_Top 1480752636 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/MEMORY_BLOCK_NEW_MUSER_Firmware_Top/BEHAVIORAL 1480136130 \
+AR work/MEMORY_BLOCK_NEW_MUSER_Firmware_Top/BEHAVIORAL 1480752637 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/MEMORY_BLOCK_NEW_MUSER_Firmware_Top 1480136129 CP mem_control_gen \
+      EN work/MEMORY_BLOCK_NEW_MUSER_Firmware_Top 1480752636 CP mem_control_gen \
       CP ram_fifo_1ch CP STOP_mem_control_gen CP stop_ram_fifo_1ch
-EN work/stoplatch_SCH_MUSER_Firmware_Top 1480136131 \
+EN work/stoplatch_SCH_MUSER_Firmware_Top 1480752638 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/stoplatch_SCH_MUSER_Firmware_Top/BEHAVIORAL 1480136132 \
+AR work/stoplatch_SCH_MUSER_Firmware_Top/BEHAVIORAL 1480752639 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/stoplatch_SCH_MUSER_Firmware_Top 1480136131 CP stop_latch CP FD \
+      EN work/stoplatch_SCH_MUSER_Firmware_Top 1480752638 CP stop_latch CP FD \
       CP OR5 CP FD_1
-EN work/majority_logic_MUSER_Firmware_Top 1480136133 \
+EN work/majority_logic_MUSER_Firmware_Top 1480752640 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/majority_logic_MUSER_Firmware_Top/BEHAVIORAL 1480136134 \
+AR work/majority_logic_MUSER_Firmware_Top/BEHAVIORAL 1480752641 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/majority_logic_MUSER_Firmware_Top 1480136133 CP AND2 CP AND3 CP AND4 \
+      EN work/majority_logic_MUSER_Firmware_Top 1480752640 CP AND2 CP AND3 CP AND4 \
       CP OR4 CP OR6_HXILINX_Firmware_Top CP demux
-EN work/trigger_ch_MUSER_Firmware_Top 1480136135 \
+EN work/trigger_ch_MUSER_Firmware_Top 1480752642 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/trigger_ch_MUSER_Firmware_Top/BEHAVIORAL 1480136136 \
+AR work/trigger_ch_MUSER_Firmware_Top/BEHAVIORAL 1480752643 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/trigger_ch_MUSER_Firmware_Top 1480136135 CP OR2 CP AND3 CP AND4 CP INV \
+      EN work/trigger_ch_MUSER_Firmware_Top 1480752642 CP OR2 CP AND3 CP AND4 CP INV \
       CP AND2 CP OR3
-EN work/majority_sys_MUSER_Firmware_Top 1480136137 \
+EN work/majority_sys_MUSER_Firmware_Top 1480752644 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/majority_sys_MUSER_Firmware_Top/BEHAVIORAL 1480136138 \
+AR work/majority_sys_MUSER_Firmware_Top/BEHAVIORAL 1480752645 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/majority_sys_MUSER_Firmware_Top 1480136137 \
+      EN work/majority_sys_MUSER_Firmware_Top 1480752644 \
       CP majority_logic_MUSER_Firmware_Top CP trigger_ch_MUSER_Firmware_Top CP BUF
-EN work/stop_gen_block_MUSER_Firmware_Top 1480136139 \
+EN work/stop_gen_block_MUSER_Firmware_Top 1480752646 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/stop_gen_block_MUSER_Firmware_Top/BEHAVIORAL 1480136140 \
+AR work/stop_gen_block_MUSER_Firmware_Top/BEHAVIORAL 1480752647 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/stop_gen_block_MUSER_Firmware_Top 1480136139 \
+      EN work/stop_gen_block_MUSER_Firmware_Top 1480752646 \
       CP majority_sys_MUSER_Firmware_Top CP SRL16 CP VCC CP GND \
       CP stoplatch_SCH_MUSER_Firmware_Top CP BUF
-EN work/Sync_MUSER_Firmware_Top 1480136141 \
+EN work/Sync_MUSER_Firmware_Top 1480752648 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/Sync_MUSER_Firmware_Top/BEHAVIORAL 1480136142 \
+AR work/Sync_MUSER_Firmware_Top/BEHAVIORAL 1480752649 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/Sync_MUSER_Firmware_Top 1480136141 CP FD_1
-EN work/Firmware_Top 1480136143 \
+      EN work/Sync_MUSER_Firmware_Top 1480752648 CP FD_1
+EN work/Firmware_Top 1480752650 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/Firmware_Top/BEHAVIORAL 1480136144 \
+AR work/Firmware_Top/BEHAVIORAL 1480752651 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf \
-      EN work/Firmware_Top 1480136143 CP dcm_clkgen CP clkgen_1M CP CS_gen \
+      EN work/Firmware_Top 1480752650 CP dcm_clkgen CP clkgen_1M CP CS_gen \
       CP M2_1_HXILINX_Firmware_Top CP Sync_MUSER_Firmware_Top \
       CP MEMORY_BLOCK_NEW_MUSER_Firmware_Top CP OR5 CP OBUFT CP OR2 CP INV CP BUFG \
       CP stop_gen_block_MUSER_Firmware_Top CP AND2 CP VCC CP AND3 CP top_psi_trigg \
       CP top_trigg_MUSER_Firmware_Top
 FL /home/ameya/Desktop/Indi_Research/Firmware/majority_logic.vhf 2016/11/25.20:13:11 P.20131013
-EN work/OR6_HXILINX_majority_logic 1480136173 \
+EN work/OR6_HXILINX_majority_logic 1480752680 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_logic.vhf \
       PB ieee/std_logic_1164 1381692176
-AR work/OR6_HXILINX_majority_logic/OR6_HXILINX_majority_logic_V 1480136174 \
+AR work/OR6_HXILINX_majority_logic/OR6_HXILINX_majority_logic_V 1480752681 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_logic.vhf \
-      EN work/OR6_HXILINX_majority_logic 1480136173
-EN work/majority_logic 1480136175 \
+      EN work/OR6_HXILINX_majority_logic 1480752680
+EN work/majority_logic 1480752682 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_logic.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/majority_logic/BEHAVIORAL 1480136176 \
+AR work/majority_logic/BEHAVIORAL 1480752683 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_logic.vhf \
-      EN work/majority_logic 1480136175 CP AND2 CP AND3 CP AND4 CP OR4 \
+      EN work/majority_logic 1480752682 CP AND2 CP AND3 CP AND4 CP OR4 \
       CP OR6_HXILINX_majority_logic CP demux
 FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf 2016/11/25.20:13:11 P.20131013
-EN work/OR6_HXILINX_majority_sys 1480136163 \
+EN work/OR6_HXILINX_majority_sys 1480752670 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
       PB ieee/std_logic_1164 1381692176
-AR work/OR6_HXILINX_majority_sys/OR6_HXILINX_majority_sys_V 1480136164 \
+AR work/OR6_HXILINX_majority_sys/OR6_HXILINX_majority_sys_V 1480752671 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
-      EN work/OR6_HXILINX_majority_sys 1480136163
-EN work/majority_logic_MUSER_majority_sys 1480136165 \
+      EN work/OR6_HXILINX_majority_sys 1480752670
+EN work/majority_logic_MUSER_majority_sys 1480752672 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/majority_logic_MUSER_majority_sys/BEHAVIORAL 1480136166 \
+AR work/majority_logic_MUSER_majority_sys/BEHAVIORAL 1480752673 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
-      EN work/majority_logic_MUSER_majority_sys 1480136165 CP AND2 CP AND3 CP AND4 \
+      EN work/majority_logic_MUSER_majority_sys 1480752672 CP AND2 CP AND3 CP AND4 \
       CP OR4 CP OR6_HXILINX_majority_sys CP demux
-EN work/trigger_ch_MUSER_majority_sys 1480136167 \
+EN work/trigger_ch_MUSER_majority_sys 1480752674 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/trigger_ch_MUSER_majority_sys/BEHAVIORAL 1480136168 \
+AR work/trigger_ch_MUSER_majority_sys/BEHAVIORAL 1480752675 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
-      EN work/trigger_ch_MUSER_majority_sys 1480136167 CP OR2 CP AND3 CP AND4 CP INV \
+      EN work/trigger_ch_MUSER_majority_sys 1480752674 CP OR2 CP AND3 CP AND4 CP INV \
       CP AND2 CP OR3
-EN work/majority_sys 1480136169 \
+EN work/majority_sys 1480752676 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/majority_sys/BEHAVIORAL 1480136170 \
+AR work/majority_sys/BEHAVIORAL 1480752677 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/majority_sys.vhf \
-      EN work/majority_sys 1480136169 CP majority_logic_MUSER_majority_sys \
+      EN work/majority_sys 1480752676 CP majority_logic_MUSER_majority_sys \
       CP trigger_ch_MUSER_majority_sys CP BUF
 FL /home/ameya/Desktop/Indi_Research/Firmware/MEMORY_BLOCK_NEW.vhf 2016/11/25.20:13:11 P.20131013
-EN work/MEMORY_BLOCK_NEW 1480136145 \
+EN work/MEMORY_BLOCK_NEW 1480752652 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/MEMORY_BLOCK_NEW.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/MEMORY_BLOCK_NEW/BEHAVIORAL 1480136146 \
+AR work/MEMORY_BLOCK_NEW/BEHAVIORAL 1480752653 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/MEMORY_BLOCK_NEW.vhf \
-      EN work/MEMORY_BLOCK_NEW 1480136145 CP mem_control_gen CP ram_fifo_1ch \
+      EN work/MEMORY_BLOCK_NEW 1480752652 CP mem_control_gen CP ram_fifo_1ch \
       CP STOP_mem_control_gen CP stop_ram_fifo_1ch
 FL /home/ameya/Desktop/Indi_Research/Firmware/mem_control_gen.vhd 2016/11/18.13:21:30 P.20131013
-EN work/mem_control_gen 1480136107 \
+EN work/mem_control_gen 1480752614 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/mem_control_gen.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/mem_control_gen/Behavioral 1480136108 \
+AR work/mem_control_gen/Behavioral 1480752615 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/mem_control_gen.vhd \
-      EN work/mem_control_gen 1480136107
-FL /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd 2016/11/25.20:54:42 P.20131013
-EN work/psi_trigg 1480136099 \
+      EN work/mem_control_gen 1480752614
+FL /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd 2016/12/02.23:03:58 P.20131013
+EN work/psi_trigg 1480752606 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/psi_trigg/Behavioral 1480136100 \
+AR work/psi_trigg/Behavioral 1480752607 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/psi_trigg.vhd \
-      EN work/psi_trigg 1480136099
+      EN work/psi_trigg 1480752606
 FL /home/ameya/Desktop/Indi_Research/Firmware/ram_fifo_1ch.vhd 2016/11/18.13:21:48 P.20131013
-EN work/ram_fifo_1ch 1480136109 \
+EN work/ram_fifo_1ch 1480752616 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/ram_fifo_1ch.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ram_fifo_1ch/Behavioral 1480136110 \
+AR work/ram_fifo_1ch/Behavioral 1480752617 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/ram_fifo_1ch.vhd \
-      EN work/ram_fifo_1ch 1480136109
+      EN work/ram_fifo_1ch 1480752616
 FL /home/ameya/Desktop/Indi_Research/Firmware/stoplatch_SCH.vhf 2016/11/25.20:13:12 P.20131013
-EN work/stoplatch_SCH 1480136171 \
+EN work/stoplatch_SCH 1480752678 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stoplatch_SCH.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/stoplatch_SCH/BEHAVIORAL 1480136172 \
+AR work/stoplatch_SCH/BEHAVIORAL 1480752679 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stoplatch_SCH.vhf \
-      EN work/stoplatch_SCH 1480136171 CP stop_latch CP FD CP OR5 CP FD_1
+      EN work/stoplatch_SCH 1480752678 CP stop_latch CP FD CP OR5 CP FD_1
 FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf 2016/11/25.20:13:12 P.20131013
-EN work/OR6_HXILINX_stop_gen_block 1480136147 \
+EN work/OR6_HXILINX_stop_gen_block 1480752654 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
       PB ieee/std_logic_1164 1381692176
-AR work/OR6_HXILINX_stop_gen_block/OR6_HXILINX_stop_gen_block_V 1480136148 \
+AR work/OR6_HXILINX_stop_gen_block/OR6_HXILINX_stop_gen_block_V 1480752655 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
-      EN work/OR6_HXILINX_stop_gen_block 1480136147
-EN work/stoplatch_SCH_MUSER_stop_gen_block 1480136149 \
+      EN work/OR6_HXILINX_stop_gen_block 1480752654
+EN work/stoplatch_SCH_MUSER_stop_gen_block 1480752656 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/stoplatch_SCH_MUSER_stop_gen_block/BEHAVIORAL 1480136150 \
+AR work/stoplatch_SCH_MUSER_stop_gen_block/BEHAVIORAL 1480752657 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
-      EN work/stoplatch_SCH_MUSER_stop_gen_block 1480136149 CP stop_latch CP FD \
+      EN work/stoplatch_SCH_MUSER_stop_gen_block 1480752656 CP stop_latch CP FD \
       CP OR5 CP FD_1
-EN work/majority_logic_MUSER_stop_gen_block 1480136151 \
+EN work/majority_logic_MUSER_stop_gen_block 1480752658 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/majority_logic_MUSER_stop_gen_block/BEHAVIORAL 1480136152 \
+AR work/majority_logic_MUSER_stop_gen_block/BEHAVIORAL 1480752659 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
-      EN work/majority_logic_MUSER_stop_gen_block 1480136151 CP AND2 CP AND3 \
+      EN work/majority_logic_MUSER_stop_gen_block 1480752658 CP AND2 CP AND3 \
       CP AND4 CP OR4 CP OR6_HXILINX_stop_gen_block CP demux
-EN work/trigger_ch_MUSER_stop_gen_block 1480136153 \
+EN work/trigger_ch_MUSER_stop_gen_block 1480752660 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/trigger_ch_MUSER_stop_gen_block/BEHAVIORAL 1480136154 \
+AR work/trigger_ch_MUSER_stop_gen_block/BEHAVIORAL 1480752661 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
-      EN work/trigger_ch_MUSER_stop_gen_block 1480136153 CP OR2 CP AND3 CP AND4 \
+      EN work/trigger_ch_MUSER_stop_gen_block 1480752660 CP OR2 CP AND3 CP AND4 \
       CP INV CP AND2 CP OR3
-EN work/majority_sys_MUSER_stop_gen_block 1480136155 \
+EN work/majority_sys_MUSER_stop_gen_block 1480752662 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/majority_sys_MUSER_stop_gen_block/BEHAVIORAL 1480136156 \
+AR work/majority_sys_MUSER_stop_gen_block/BEHAVIORAL 1480752663 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
-      EN work/majority_sys_MUSER_stop_gen_block 1480136155 \
+      EN work/majority_sys_MUSER_stop_gen_block 1480752662 \
       CP majority_logic_MUSER_stop_gen_block CP trigger_ch_MUSER_stop_gen_block \
       CP BUF
-EN work/stop_gen_block 1480136157 \
+EN work/stop_gen_block 1480752664 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/stop_gen_block/BEHAVIORAL 1480136158 \
+AR work/stop_gen_block/BEHAVIORAL 1480752665 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_gen_block.vhf \
-      EN work/stop_gen_block 1480136157 CP majority_sys_MUSER_stop_gen_block \
+      EN work/stop_gen_block 1480752664 CP majority_sys_MUSER_stop_gen_block \
       CP SRL16 CP VCC CP GND CP stoplatch_SCH_MUSER_stop_gen_block CP BUF
 FL /home/ameya/Desktop/Indi_Research/Firmware/stop_latch.vhd 2016/11/18.13:22:00 P.20131013
-EN work/stop_latch 1480136103 \
+EN work/stop_latch 1480752610 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_latch.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/stop_latch/Behavioral 1480136104 \
+AR work/stop_latch/Behavioral 1480752611 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_latch.vhd \
-      EN work/stop_latch 1480136103
+      EN work/stop_latch 1480752610
 FL /home/ameya/Desktop/Indi_Research/Firmware/stop_mem_control_gen.vhd 2016/11/18.13:22:04 P.20131013
-EN work/STOP_mem_control_gen 1480136111 \
+EN work/STOP_mem_control_gen 1480752618 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_mem_control_gen.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/STOP_mem_control_gen/Behavioral 1480136112 \
+AR work/STOP_mem_control_gen/Behavioral 1480752619 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_mem_control_gen.vhd \
-      EN work/STOP_mem_control_gen 1480136111
+      EN work/STOP_mem_control_gen 1480752618
 FL /home/ameya/Desktop/Indi_Research/Firmware/stop_ram_fifo_1ch.vhd 2016/11/18.13:22:06 P.20131013
-EN work/stop_ram_fifo_1ch 1480136113 \
+EN work/stop_ram_fifo_1ch 1480752620 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_ram_fifo_1ch.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/stop_ram_fifo_1ch/Behavioral 1480136114 \
+AR work/stop_ram_fifo_1ch/Behavioral 1480752621 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/stop_ram_fifo_1ch.vhd \
-      EN work/stop_ram_fifo_1ch 1480136113
+      EN work/stop_ram_fifo_1ch 1480752620
 FL /home/ameya/Desktop/Indi_Research/Firmware/Sync.vhf 2016/11/25.20:13:11 P.20131013
-EN work/Sync 1480136159 FL /home/ameya/Desktop/Indi_Research/Firmware/Sync.vhf \
+EN work/Sync 1480752666 FL /home/ameya/Desktop/Indi_Research/Firmware/Sync.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/Sync/BEHAVIORAL 1480136160 \
-      FL /home/ameya/Desktop/Indi_Research/Firmware/Sync.vhf EN work/Sync 1480136159 \
+AR work/Sync/BEHAVIORAL 1480752667 \
+      FL /home/ameya/Desktop/Indi_Research/Firmware/Sync.vhf EN work/Sync 1480752666 \
       CP FD_1
 FL /home/ameya/Desktop/Indi_Research/Firmware/top_psi_trigg.vhd 2016/11/25.19:22:42 P.20131013
-EN work/top_psi_trigg 1480136121 \
+EN work/top_psi_trigg 1480752628 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/top_psi_trigg.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/top_psi_trigg/Behavioral 1480136122 \
+AR work/top_psi_trigg/Behavioral 1480752629 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/top_psi_trigg.vhd \
-      EN work/top_psi_trigg 1480136121 CP psi_trigg
+      EN work/top_psi_trigg 1480752628 CP psi_trigg
 FL /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.vhf 2016/11/25.20:13:12 P.20131013
-EN work/top_trigg 1480136161 \
+EN work/top_trigg 1480752668 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/top_trigg/BEHAVIORAL 1480136162 \
+AR work/top_trigg/BEHAVIORAL 1480752669 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.vhf \
-      EN work/top_trigg 1480136161 CP cntr_trigg
+      EN work/top_trigg 1480752668 CP cntr_trigg
 FL /home/ameya/Desktop/Indi_Research/Firmware/trigger_ch.vhf 2016/11/25.20:13:11 P.20131013
-EN work/trigger_ch 1480136177 \
+EN work/trigger_ch 1480752684 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/trigger_ch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/trigger_ch/BEHAVIORAL 1480136178 \
+AR work/trigger_ch/BEHAVIORAL 1480752685 \
       FL /home/ameya/Desktop/Indi_Research/Firmware/trigger_ch.vhf \
-      EN work/trigger_ch 1480136177 CP OR2 CP AND3 CP AND4 CP INV CP AND2 CP OR3
+      EN work/trigger_ch 1480752684 CP OR2 CP AND3 CP AND4 CP INV CP AND2 CP OR3
