@@ -1,0 +1,13 @@
+	--should use ieee.math_real.all and ieee.numeric_std.all;
+   trigger_process :process
+    variable seed1 :positive ;
+    variable seed2 :positive ;
+	 variable rand: REAL;
+    begin 
+        UNIFORM(seed1, seed2, rand);  --change seed1 and seed2 and int_rand to other variables to generate new random signal
+        int_rand <= INTEGER(TRUNC(rand*10.0)); --should declare signal "int_rand" in the inputs area
+        if(int_rand>5) then trigger<='1';
+		  else trigger<='0';
+		  end if;
+    wait for 10ns;
+    end process;
