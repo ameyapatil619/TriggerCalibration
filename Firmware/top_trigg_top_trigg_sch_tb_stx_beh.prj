@@ -1,0 +1,2 @@
+vhdl isim_temp "cntr_trigg.vhd"
+vhdl isim_temp "top_trigger_tb.vhd"

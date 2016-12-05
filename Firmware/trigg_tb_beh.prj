@@ -1,0 +1,2 @@
+vhdl work "cntr_trigg.vhd"
+vhdl work "trigg_tb.vhd"

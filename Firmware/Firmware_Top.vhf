@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Firmware_Top.vhf
--- /___/   /\     Timestamp : 11/25/2016 20:17:08
+-- /___/   /\     Timestamp : 12/04/2016 21:04:02
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.vhf -w /home/ameya/Desktop/Indi_Research/Firmware/Firmware_Top.sch
+--Command: sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/Firmware_Top.vhf" -w "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/Firmware_Top.sch"
 --Design Name: Firmware_Top
 --Device: spartan3a
 --Purpose:

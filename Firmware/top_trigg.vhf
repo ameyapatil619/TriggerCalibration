@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : top_trigg.vhf
--- /___/   /\     Timestamp : 11/25/2016 20:13:12
+-- /___/   /\     Timestamp : 12/04/2016 21:04:01
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.vhf -w /home/ameya/Desktop/Indi_Research/Firmware/top_trigg.sch
+--Command: sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg.vhf" -w "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg.sch"
 --Design Name: top_trigg
 --Device: spartan3a
 --Purpose:

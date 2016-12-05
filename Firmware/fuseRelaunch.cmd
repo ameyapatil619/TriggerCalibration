@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/ameya/Desktop/Indi_Research/Firmware/psi_tb_isim_beh.exe" -prj "/home/ameya/Desktop/Indi_Research/Firmware/psi_tb_beh.prj" "work.psi_tb" 
+-intstyle "ise" -incremental -o "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_tb_isim_beh.exe" -prj "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_tb_beh.prj" "work.trigg_tb" 

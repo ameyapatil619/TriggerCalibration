@@ -34,7 +34,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Firmware_Top.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Firmware_Top.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Firmware_Top.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Firmware_Top.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Firmware_Top.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Firmware_Top.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Firmware_Top_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Firmware_Top_guide.ncd" xil_pn:origination="imported"/>
@@ -52,6 +55,7 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clkgen_1M.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="cntr_trigg.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="cntr_trigg_comp.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cntr_trigg_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="dcm_clkgen.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="dcm_clkgen.vhd"/>
     <file xil_pn:fileType="FILE_UCF" xil_pn:name="dcm_clkgen_arwz.ucf" xil_pn:origination="imported"/>
@@ -67,9 +71,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="majority_sys.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="mem_control_gen.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="periodic_rst_gen_code.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="psi_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="psi_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="psi_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="psi_trigg.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="psi_trigg.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="psi_trigg.stx"/>
@@ -82,13 +84,23 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="stop_ram_fifo_1ch.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="stoplatch_SCH.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="stoplatch_SCH.vhf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="top_psi_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_psi_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_psi_trigg.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="top_psi_trigg.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="top_psi_trigg.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="top_psi_trigg.xst"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="top_trigg.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="top_trigg.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="top_trigg.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="top_trigg_cnt.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="top_trigg_top_trigg_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_trigg_top_trigg_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="trigg_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="trigg_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="trigg_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="trigger_ch.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="trigger_ch.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="tristate_out.sym" xil_pn:origination="imported"/>
@@ -100,11 +112,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1480757873" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1480757873">
+    <transform xil_pn:end_ts="1480917269" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1480917269">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1480759120" xil_pn:in_ck="-443554120344781705" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1480759120">
+    <transform xil_pn:end_ts="1480917269" xil_pn:in_ck="-6033126135120804027" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1480917269">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CS_gen.vhd"/>
@@ -130,78 +142,103 @@
       <outfile xil_pn:name="test_clkgen1M.vhd"/>
       <outfile xil_pn:name="test_mem_control.vhd"/>
       <outfile xil_pn:name="test_sync.vhd"/>
+      <outfile xil_pn:name="top_psi_tb.vhd"/>
       <outfile xil_pn:name="top_psi_trigg.vhd"/>
       <outfile xil_pn:name="top_trigg_cnt.vhd"/>
+      <outfile xil_pn:name="top_trigger_tb.vhd"/>
       <outfile xil_pn:name="trigg_comp.vhd"/>
       <outfile xil_pn:name="trigg_tb.vhd"/>
       <outfile xil_pn:name="tristate_out.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1480757873" xil_pn:in_ck="-1853060561579612428" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6080092975838466448" xil_pn:start_ts="1480757873">
+    <transform xil_pn:end_ts="1480916924" xil_pn:in_ck="-1853060561579612428" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7877514603803518945" xil_pn:start_ts="1480916924">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1480916926" xil_pn:in_ck="2780426254916248338" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8666416649589620393" xil_pn:start_ts="1480916924">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <outfile xil_pn:name="Firmware_Top.vhf"/>
+      <outfile xil_pn:name="top_trigg.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1480915780" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1283321289369327011" xil_pn:start_ts="1480915780">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1480757879" xil_pn:in_ck="2780426254916248338" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="57185650083664664" xil_pn:start_ts="1480757873">
+    <transform xil_pn:end_ts="1480915973" xil_pn:in_ck="3102979605661511751" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1480915973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1480757879" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1283321289369327011" xil_pn:start_ts="1480757879">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1480759120" xil_pn:in_ck="-443554120344781705" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1480759120">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="CS_gen.vhd"/>
-      <outfile xil_pn:name="TEST_SCH_stoplatch.vhd"/>
-      <outfile xil_pn:name="TEST_rst_gen_code.vhd"/>
-      <outfile xil_pn:name="TEST_stop_latch.vhd"/>
-      <outfile xil_pn:name="clkgen_1M.vhd"/>
-      <outfile xil_pn:name="cntr_trigg.vhd"/>
-      <outfile xil_pn:name="cntr_trigg_comp.vhd"/>
-      <outfile xil_pn:name="demux.vhd"/>
-      <outfile xil_pn:name="mem_control_gen.vhd"/>
-      <outfile xil_pn:name="periodic_rst_gen_code.vhd"/>
-      <outfile xil_pn:name="psi_tb.vhd"/>
-      <outfile xil_pn:name="psi_trigg.vhd"/>
-      <outfile xil_pn:name="ram_fifo_1ch.vhd"/>
-      <outfile xil_pn:name="stop_latch.vhd"/>
-      <outfile xil_pn:name="stop_mem_control_gen.vhd"/>
-      <outfile xil_pn:name="stop_ram_fifo_1ch.vhd"/>
-      <outfile xil_pn:name="test2_stop_block.vhd"/>
-      <outfile xil_pn:name="test_CS_gen.vhd"/>
-      <outfile xil_pn:name="test_MEMORY_BLOCK_NEW.vhd"/>
-      <outfile xil_pn:name="test_MEM_CONTROL_GEN.vhd"/>
-      <outfile xil_pn:name="test_clkgen1M.vhd"/>
-      <outfile xil_pn:name="test_mem_control.vhd"/>
-      <outfile xil_pn:name="test_sync.vhd"/>
-      <outfile xil_pn:name="top_psi_trigg.vhd"/>
-      <outfile xil_pn:name="top_trigg_cnt.vhd"/>
-      <outfile xil_pn:name="trigg_comp.vhd"/>
-      <outfile xil_pn:name="trigg_tb.vhd"/>
-      <outfile xil_pn:name="tristate_out.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1480759128" xil_pn:in_ck="-443554120344781705" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3820391588876585915" xil_pn:start_ts="1480759120">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CS_gen.vhd"/>
+      <outfile xil_pn:name="Firmware_Top.vhf"/>
+      <outfile xil_pn:name="TEST_SCH_stoplatch.vhd"/>
+      <outfile xil_pn:name="TEST_rst_gen_code.vhd"/>
+      <outfile xil_pn:name="TEST_stop_latch.vhd"/>
+      <outfile xil_pn:name="clkgen_1M.vhd"/>
+      <outfile xil_pn:name="cntr_trigg.vhd"/>
+      <outfile xil_pn:name="cntr_trigg_comp.vhd"/>
+      <outfile xil_pn:name="demux.vhd"/>
+      <outfile xil_pn:name="mem_control_gen.vhd"/>
+      <outfile xil_pn:name="periodic_rst_gen_code.vhd"/>
+      <outfile xil_pn:name="psi_tb.vhd"/>
+      <outfile xil_pn:name="psi_trigg.vhd"/>
+      <outfile xil_pn:name="ram_fifo_1ch.vhd"/>
+      <outfile xil_pn:name="stop_latch.vhd"/>
+      <outfile xil_pn:name="stop_mem_control_gen.vhd"/>
+      <outfile xil_pn:name="stop_ram_fifo_1ch.vhd"/>
+      <outfile xil_pn:name="test2_stop_block.vhd"/>
+      <outfile xil_pn:name="test_CS_gen.vhd"/>
+      <outfile xil_pn:name="test_MEMORY_BLOCK_NEW.vhd"/>
+      <outfile xil_pn:name="test_MEM_CONTROL_GEN.vhd"/>
+      <outfile xil_pn:name="test_clkgen1M.vhd"/>
+      <outfile xil_pn:name="test_mem_control.vhd"/>
+      <outfile xil_pn:name="test_sync.vhd"/>
+      <outfile xil_pn:name="top_psi_tb.vhd"/>
+      <outfile xil_pn:name="top_psi_trigg.vhd"/>
+      <outfile xil_pn:name="top_trigg.vhf"/>
+      <outfile xil_pn:name="top_trigg_cnt.vhd"/>
+      <outfile xil_pn:name="top_trigger_tb.vhd"/>
+      <outfile xil_pn:name="trigg_comp.vhd"/>
+      <outfile xil_pn:name="trigg_tb.vhd"/>
+      <outfile xil_pn:name="tristate_out.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1480916930" xil_pn:in_ck="3102979605661511751" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6911220686593041657" xil_pn:start_ts="1480916926">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="psi_tb_beh.prj"/>
-      <outfile xil_pn:name="psi_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="trigg_tb_beh.prj"/>
+      <outfile xil_pn:name="trigg_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1480759128" xil_pn:in_ck="-3347411518632446640" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5774700152312405763" xil_pn:start_ts="1480759128">
+    <transform xil_pn:end_ts="1480916930" xil_pn:in_ck="-5761261190688566639" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8041780808736766117" xil_pn:start_ts="1480916930">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="psi_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="trigg_tb_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1480133829" xil_pn:in_ck="2780426254916248338" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1592315133774141341" xil_pn:start_ts="1480133825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Firmware_Top.vhf"/>
       <outfile xil_pn:name="MEMORY_BLOCK_NEW.vhf"/>
       <outfile xil_pn:name="Sync.vhf"/>
@@ -238,7 +275,9 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="Firmware_Top.jhd"/>
       <outfile xil_pn:name="Firmware_Top.lso"/>
