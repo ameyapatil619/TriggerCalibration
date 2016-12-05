@@ -1,2 +1,4 @@
-work	"psi_trigg.vhd"
-work	"top_psi_trigg.vhd"
+work	"cntr_trigg.vhd"
+work	"cntr_trigg_comp.vhd"
+work	"top_trigg_cnt.vhd"
+work	"trigg_comp.vhd"

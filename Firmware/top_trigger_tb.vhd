@@ -44,11 +44,8 @@ ARCHITECTURE behavioral OF top_trigg_top_trigg_sch_tb IS
           trig_ct_3H	:	OUT	STD_LOGIC_VECTOR (31 DOWNTO 0); 
           trig_ct_3L	:	OUT	STD_LOGIC_VECTOR (31 DOWNTO 0));
    END COMPONENT;
-	
-	signal int_rand: INTEGER;
-	signal int_rand1: INTEGER;
 
-   SIGNAL rst	:	STD_LOGIC;
+   SIGNAL rst	:	STD_LOGIC:= '0';
    SIGNAL clk	:	STD_LOGIC;
    SIGNAL enable	:	STD_LOGIC;
    SIGNAL trig_0H	:	STD_LOGIC;
@@ -92,14 +89,7 @@ BEGIN
 		trig_ct_3L => trig_ct_3L
    );
 
--- *** Test Bench - User Defined Section ***
-   tb : PROCESS
-   BEGIN
-      WAIT; -- will wait forever
-   END PROCESS;
--- *** End Test Bench - User Defined Section ***
-
-   -- Clock process definitions
+  -- Clock process definitions
    clk_process :process
    begin
 		clk <= '0';
@@ -122,53 +112,34 @@ BEGIN
       wait;
    end process;
 	
-	rst_process: process
-	begin
-	rst <= '1';
-	wait for 20ns;
-	rst <= '0';
-	wait for 3400ns;
-	end process;
-	
 	enable_process: process
 	begin
 	wait for 20ns;
 	enable <= '1';
-	wait for 3400ns;
-	enable <= '0';
 	end process;
 	
-	 trig_0H_process :process
-    variable seed1 :positive ;
-    variable seed2 :positive ;
-	 variable rand: REAL;
-    begin 
-        UNIFORM(seed1, seed2, rand);
-        int_rand <= INTEGER(TRUNC(rand*10.0));
-        if(int_rand>5) then trig_0H<='1';
-		  else trig_0H<='0';
-		  end if;
-    wait for 10ns;
-    end process;
+		trig_0H_process :process
+   	begin
+		wait for 30ns;
+		trig_0H <= '1';
+		wait for 25ns;
+		trig_0H <= '0';
+	  end process;
 	 
-	  trig_0L_process :process
-    variable seed1 :positive ;
-    variable seed2 :positive ;
-	 variable rand1: REAL;
-    begin 
-        UNIFORM(seed1, seed2, rand1);
-        int_rand1 <= INTEGER(TRUNC(rand1*5.0));
-        if(int_rand1>3) then trig_0L<='1';
-		  else trig_0L<='0';
-		  end if;
-    wait for 10ns;
-    end process;
+
+		trig_0L_process :process
+   	begin
+		wait for 40ns;
+		trig_0L <= '1';
+		wait for 30ns;
+		trig_0L <= '0';
+	  end process;
 
 		trig_1H_process :process
    	begin
-		wait for 10ns;
+		wait for 35ns;
 		trig_1H <= '1';
-		wait for 15ns;
+		wait for 25ns;
 		trig_1H <= '0';
 	  end process;
 	 
@@ -176,40 +147,40 @@ BEGIN
    	begin
 		wait for 30ns;
 		trig_1L <= '1';
-		wait for 50ns;
+		wait for 30ns;
 		trig_1L <= '0';
 		   end process;
 
 		trig_2H_process :process
    	begin
-		wait for 100ns;
+		wait for 30ns;
 		trig_2H <= '1';
-		wait for 70ns;
+		wait for 35ns;
 		trig_2H <= '0';
 		   end process;
 
 		trig_2L_process :process
    	begin
-		wait for 100ns;
+		wait for 45ns;
 		trig_2L <= '1';
-		wait for 70ns;
+		wait for 25ns;
 		trig_2L <= '0';
 		   end process;
 
 		
 		trig_3H_process :process
    	begin
-		wait for 55ns;
+		wait for 45ns;
 		trig_3H <= '1';
-		wait for 85ns;
+		wait for 30ns;
 		trig_3H <= '0';
 		end process;
 		
 	   trig_3L_process :process
    	begin
-		wait for 100ns;
+		wait for 10ns;
 		trig_3L <= '1';
-		wait for 150ns;
+		wait for 15ns;
 		trig_3L <= '0';
 		end process;
 END;

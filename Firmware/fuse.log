@@ -1,10 +1,13 @@
-Running: D:\program\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_tb_isim_beh.exe -prj C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_tb_beh.prj work.trigg_tb 
+Running: D:\program\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg_cnt_tb_isim_beh.exe -prj C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg_cnt_tb_beh.prj work.top_trigg_cnt_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_comp.vhd" into library work
 Parsing VHDL file "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/cntr_trigg.vhd" into library work
-Parsing VHDL file "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_tb.vhd" into library work
+Parsing VHDL file "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/cntr_trigg_comp.vhd" into library work
+Parsing VHDL file "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg_cnt.vhd" into library work
+Parsing VHDL file "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg_cnt_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -13,9 +16,13 @@ Compiling package std_logic_arith
 Compiling package std_logic_unsigned
 Compiling package numeric_std
 Compiling architecture behavioural of entity cntr_trigg [\cntr_trigg(32)\]
-Compiling architecture behavior of entity trigg_tb
+Compiling architecture behavioral of entity trigg_comp [\trigg_comp(32)\]
+Compiling architecture behavioral of entity cntr_trigg_comp [\cntr_trigg_comp(32)\]
+Compiling architecture behavioral of entity top_trigg_cnt [\top_trigg_cnt(32)\]
+Compiling architecture behavior of entity top_trigg_cnt_tb
 Time Resolution for simulation is 1ps.
-Compiled 8 VHDL Units
-Built simulation executable C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_tb_isim_beh.exe
-Fuse Memory Usage: 37288 KB
-Fuse CPU Usage: 577 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Built simulation executable C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg_cnt_tb_isim_beh.exe
+Fuse Memory Usage: 37508 KB
+Fuse CPU Usage: 671 ms

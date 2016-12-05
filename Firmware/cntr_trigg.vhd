@@ -73,9 +73,7 @@ if rst = '1' then
 
 elsif enable = '1' and clk'event and clk = '1' and rst /= '1' then
 
-	
-
-		if (count_local < 80e3)  then
+		if (count_local < 80e3)  then   
 	
 			if trigger = '1' and flag = '1' and (count_trigg(N-1) /= '1') then
 					

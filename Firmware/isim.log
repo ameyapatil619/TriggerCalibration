@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\yorkL\Desktop\EECS 199Individual study\TriggerCalibration-master\Firmware\trigg_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/trigg_tb_isim_beh.wdb 
+Running: C:\Users\yorkL\Desktop\EECS 199Individual study\TriggerCalibration-master\Firmware\top_trigg_cnt_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/top_trigg_cnt_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -25,5 +25,23 @@ Time resolution is 1 ps
 # wave add /
 # run 300 ms
 Simulator is doing circuit initialization process.
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter1/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter2/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter3/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter4/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter5/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter6/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter7/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /top_trigg_cnt_tb/uut/counter8/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 Finished circuit initialization process.
-Stopped at time : 64579643750 ps : File "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/cntr_trigg.vhd" Line 83
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter1/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter2/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter3/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter4/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter5/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter6/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter7/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 20 ns(1), Instance /top_trigg_cnt_tb/uut/counter8/comp/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Stopped at time : 36272015 ns : File "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/cntr_trigg.vhd" Line 81
+# run all
+Stopped at time : 83685465 ns : File "C:/Users/yorkL/Desktop/EECS 199Individual study/TriggerCalibration-master/Firmware/cntr_trigg.vhd" Line 63
